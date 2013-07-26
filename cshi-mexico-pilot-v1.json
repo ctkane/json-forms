@@ -1,4 +1,4 @@
-[{
+Ôªø[{
 	"meta": {
 		"label": {
 			"es": "0. Reporte Desabasto"
@@ -9,7 +9,7 @@
 		"q1": {
 			"labels": {
 				"short": {
-					"es": "Tuvo un desabaÖ"
+					"es": "Tuvo un desaba‚Ä¶"
 				}
 			},
 			"position": 1,
@@ -82,7 +82,7 @@
 {
 	"meta": {
 		"label": {
-			"es": "HipertensiÛn"
+			"es": "Hipertensi√≥n"
 		},
 		"code": "CSAB"
 	},
@@ -91,7 +91,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -190,7 +190,7 @@
 					"es": "0103 disp acido acet sal"
 				},
 				"description": {
-					"es": "0103 disponible (acido acetil salicÌlico)"
+					"es": "0103 disponible (acido acetil salic√≠lico)"
 				}
 			},
 			"length": [1,
@@ -204,7 +204,7 @@
 					"es": "0103 cons acido acet sal"
 				},
 				"description": {
-					"es": "0103 consumo (acido acetil salicÌlico)"
+					"es": "0103 consumo (acido acetil salic√≠lico)"
 				}
 			},
 			"length": [1,
@@ -386,7 +386,7 @@
 					"es": "2540 disp telmis"
 				},
 				"description": {
-					"es": "2540 disponible (telmisart·n)"
+					"es": "2540 disponible (telmisart√°n)"
 				}
 			},
 			"length": [1,
@@ -400,7 +400,7 @@
 					"es": "2540 cons telmis"
 				},
 				"description": {
-					"es": "2540 consumo (telmisart·n)"
+					"es": "2540 consumo (telmisart√°n)"
 				}
 			},
 			"length": [1,
@@ -414,7 +414,7 @@
 					"es": "2520 disp losart"
 				},
 				"description": {
-					"es": "2520 disponible (losart·n)"
+					"es": "2520 disponible (losart√°n)"
 				}
 			},
 			"length": [1,
@@ -428,7 +428,7 @@
 					"es": "2520 cons losart"
 				},
 				"description": {
-					"es": "2520 consumo (losart·n)"
+					"es": "2520 consumo (losart√°n)"
 				}
 			},
 			"length": [1,
@@ -589,7 +589,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -744,7 +744,7 @@
 					"es": "1050 disp ins NPH"
 				},
 				"description": {
-					"es": "1050 disponible (insulina humana acciÛn intermedia nph)"
+					"es": "1050 disponible (insulina humana acci√≥n intermedia nph)"
 				}
 			},
 			"length": [1,
@@ -758,7 +758,7 @@
 					"es": "1050 cons ins NPH"
 				},
 				"description": {
-					"es": "1050 consumo (insulina humana acciÛn intermedia nph)"
+					"es": "1050 consumo (insulina humana acci√≥n intermedia nph)"
 				}
 			},
 			"length": [1,
@@ -769,10 +769,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"es": "1051 disp ins r·pida"
+					"es": "1051 disp ins r√°pida"
 				},
 				"description": {
-					"es": "1051 disponible (insulina humana acciÛn r·pida regular)"
+					"es": "1051 disponible (insulina humana acci√≥n r√°pida regular)"
 				}
 			},
 			"length": [1,
@@ -783,10 +783,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"es": "1051 cons ins r·pida"
+					"es": "1051 cons ins r√°pida"
 				},
 				"description": {
-					"es": "1051 consumo (insulina humana acciÛn r·pida regular)"
+					"es": "1051 consumo (insulina humana acci√≥n r√°pida regular)"
 				}
 			},
 			"length": [1,
@@ -800,7 +800,7 @@
 					"es": "4157 disp ins lenta"
 				},
 				"description": {
-					"es": "4157 disponible (insulina humana acciÛn intermedia lenta)"
+					"es": "4157 disponible (insulina humana acci√≥n intermedia lenta)"
 				}
 			},
 			"length": [1,
@@ -814,7 +814,7 @@
 					"es": "4157 cons ins lenta"
 				},
 				"description": {
-					"es": "4157 consumo (insulina humana acciÛn intermedia lenta)"
+					"es": "4157 consumo (insulina humana acci√≥n intermedia lenta)"
 				}
 			},
 			"length": [1,
@@ -975,7 +975,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -1305,7 +1305,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -1467,7 +1467,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -1566,7 +1566,7 @@
 					"es": "0177 disp condon"
 				},
 				"description": {
-					"es": "0177 disponible (condÛn masculino)"
+					"es": "0177 disponible (cond√≥n masculino)"
 				}
 			},
 			"length": [1,
@@ -1580,7 +1580,7 @@
 					"es": "0177 cons condon"
 				},
 				"description": {
-					"es": "0177 consumo (condÛn masculino)"
+					"es": "0177 consumo (cond√≥n masculino)"
 				}
 			},
 			"length": [1,
@@ -1853,7 +1853,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -2008,7 +2008,7 @@
 					"es": "2129 disp amox-cla sus"
 				},
 				"description": {
-					"es": "2129 disponible (amoxicilina trihidratada - ·cido clavul·nico (clavulanato de potasio) - suspension oral)"
+					"es": "2129 disponible (amoxicilina trihidratada - √°cido clavul√°nico (clavulanato de potasio) - suspension oral)"
 				}
 			},
 			"length": [1,
@@ -2022,7 +2022,7 @@
 					"es": "2129 cons amox-cla sus"
 				},
 				"description": {
-					"es": "2129 consumo (amoxicilina trihidratada - ·cido clavul·nico (clavulanato de potasio) - suspension oral)"
+					"es": "2129 consumo (amoxicilina trihidratada - √°cido clavul√°nico (clavulanato de potasio) - suspension oral)"
 				}
 			},
 			"length": [1,
@@ -2036,7 +2036,7 @@
 					"es": "2230 disp amox-cla tab"
 				},
 				"description": {
-					"es": "2230 disponible (amoxicilina trihidratada - ·cido clavul·nico (clavulanato de potasio) - tableta)"
+					"es": "2230 disponible (amoxicilina trihidratada - √°cido clavul√°nico (clavulanato de potasio) - tableta)"
 				}
 			},
 			"length": [1,
@@ -2050,7 +2050,7 @@
 					"es": "2230 cons amox-cla tab"
 				},
 				"description": {
-					"es": "2230 consumo (amoxicilina trihidratada - ·cido clavul·nico (clavulanato de potasio) - tableta)"
+					"es": "2230 consumo (amoxicilina trihidratada - √°cido clavul√°nico (clavulanato de potasio) - tableta)"
 				}
 			},
 			"length": [1,
@@ -2092,7 +2092,7 @@
 					"es": "1923 disp pencil 300"
 				},
 				"description": {
-					"es": "1923 disponible (bencilpenicilina procaÌnica con bencilpenicilina cristalina - 300 000ui)"
+					"es": "1923 disponible (bencilpenicilina proca√≠nica con bencilpenicilina cristalina - 300 000ui)"
 				}
 			},
 			"length": [1,
@@ -2106,7 +2106,7 @@
 					"es": "1923 cons pencil 300"
 				},
 				"description": {
-					"es": "1923 consumo (bencilpenicilina procaÌnica con bencilpenicilina cristalina - 300 000ui)"
+					"es": "1923 consumo (bencilpenicilina proca√≠nica con bencilpenicilina cristalina - 300 000ui)"
 				}
 			},
 			"length": [1,
@@ -2120,7 +2120,7 @@
 					"es": "1924 disp pencil 600"
 				},
 				"description": {
-					"es": "1924 disponible (bencilpenicilina procaÌnica con bencilpenicilina cristalina - 600 000ui)"
+					"es": "1924 disponible (bencilpenicilina proca√≠nica con bencilpenicilina cristalina - 600 000ui)"
 				}
 			},
 			"length": [1,
@@ -2134,7 +2134,7 @@
 					"es": "1924 cons pencil 600"
 				},
 				"description": {
-					"es": "1924 consumo (bencilpenicilina procaÌnica con bencilpenicilina cristalina - 600 000ui)"
+					"es": "1924 consumo (bencilpenicilina proca√≠nica con bencilpenicilina cristalina - 600 000ui)"
 				}
 			},
 			"length": [1,
@@ -2239,7 +2239,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -2394,7 +2394,7 @@
 					"es": "1926 disp diclox cap"
 				},
 				"description": {
-					"es": "1926 disponible (dicloxacilina sÛdica - capsula)"
+					"es": "1926 disponible (dicloxacilina s√≥dica - capsula)"
 				}
 			},
 			"length": [1,
@@ -2408,7 +2408,7 @@
 					"es": "1926 cons diclox cap"
 				},
 				"description": {
-					"es": "1926 consumo (dicloxacilina sÛdica - capsula)"
+					"es": "1926 consumo (dicloxacilina s√≥dica - capsula)"
 				}
 			},
 			"length": [1,
@@ -2422,7 +2422,7 @@
 					"es": "1927 disp diclox oral"
 				},
 				"description": {
-					"es": "1927 disponible (dicloxacilina sÛdica - suspension oral)"
+					"es": "1927 disponible (dicloxacilina s√≥dica - suspension oral)"
 				}
 			},
 			"length": [1,
@@ -2436,7 +2436,7 @@
 					"es": "1927 cons diclox oral"
 				},
 				"description": {
-					"es": "1927 consumo (dicloxacilina sÛdica - suspension oral)"
+					"es": "1927 consumo (dicloxacilina s√≥dica - suspension oral)"
 				}
 			},
 			"length": [1,
@@ -2534,7 +2534,7 @@
 					"es": "1911 disp nitrof"
 				},
 				"description": {
-					"es": "1911 disponible (nitrofurantoÌna)"
+					"es": "1911 disponible (nitrofuranto√≠na)"
 				}
 			},
 			"length": [1,
@@ -2548,7 +2548,7 @@
 					"es": "1911 cons nitrof"
 				},
 				"description": {
-					"es": "1911 consumo (nitrofurantoÌna)"
+					"es": "1911 consumo (nitrofuranto√≠na)"
 				}
 			},
 			"length": [1,
@@ -2625,7 +2625,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -2983,7 +2983,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -3082,7 +3082,7 @@
 					"es": "3623 disp electro"
 				},
 				"description": {
-					"es": "3623 disponible (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisÛdico dihidratado))"
+					"es": "3623 disponible (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato tris√≥dico dihidratado))"
 				}
 			},
 			"length": [1,
@@ -3096,7 +3096,7 @@
 					"es": "3623 cons electro"
 				},
 				"description": {
-					"es": "3623 consumo (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisÛdico dihidratado))"
+					"es": "3623 consumo (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato tris√≥dico dihidratado))"
 				}
 			},
 			"length": [1,
@@ -3222,7 +3222,7 @@
 					"es": "1271 disp plantg"
 				},
 				"description": {
-					"es": "1271 disponible (pl·ntago psyllium)"
+					"es": "1271 disponible (pl√°ntago psyllium)"
 				}
 			},
 			"length": [1,
@@ -3236,7 +3236,7 @@
 					"es": "1271 cons plantg"
 				},
 				"description": {
-					"es": "1271 consumo (pl·ntago psyllium)"
+					"es": "1271 consumo (pl√°ntago psyllium)"
 				}
 			},
 			"length": [1,
@@ -3250,7 +3250,7 @@
 					"es": "1224 disp alumin"
 				},
 				"description": {
-					"es": "1224 disponible (aluminio, hidrÛxido de - hidrÛxido de magnesio)"
+					"es": "1224 disponible (aluminio, hidr√≥xido de - hidr√≥xido de magnesio)"
 				}
 			},
 			"length": [1,
@@ -3264,7 +3264,7 @@
 					"es": "1224 cons alumin"
 				},
 				"description": {
-					"es": "1224 consumo (aluminio, hidrÛxido de - hidrÛxido de magnesio)"
+					"es": "1224 consumo (aluminio, hidr√≥xido de - hidr√≥xido de magnesio)"
 				}
 			},
 			"length": [1,
@@ -3313,7 +3313,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -3412,7 +3412,7 @@
 					"es": "0101 disp acido as tab"
 				},
 				"description": {
-					"es": "0101 disponible (·cido acetilsalicÌlico - tableta 500mg)"
+					"es": "0101 disponible (√°cido acetilsalic√≠lico - tableta 500mg)"
 				}
 			},
 			"length": [1,
@@ -3426,7 +3426,7 @@
 					"es": "0101 cons acido as tab"
 				},
 				"description": {
-					"es": "0101 consumo (·cido acetilsalicÌlico - tableta 500mg)"
+					"es": "0101 consumo (√°cido acetilsalic√≠lico - tableta 500mg)"
 				}
 			},
 			"length": [1,
@@ -3440,7 +3440,7 @@
 					"es": "0103 disp acido as sol"
 				},
 				"description": {
-					"es": "0103 disponible (·cido acetilsalicÌlico - tableta soluble o efervescente)"
+					"es": "0103 disponible (√°cido acetilsalic√≠lico - tableta soluble o efervescente)"
 				}
 			},
 			"length": [1,
@@ -3454,7 +3454,7 @@
 					"es": "0103 cons acido as sol"
 				},
 				"description": {
-					"es": "0103 consumo (·cido acetilsalicÌlico - tableta soluble o efervescente)"
+					"es": "0103 consumo (√°cido acetilsalic√≠lico - tableta soluble o efervescente)"
 				}
 			},
 			"length": [1,
@@ -3552,7 +3552,7 @@
 					"es": "0108 disp metam comp"
 				},
 				"description": {
-					"es": "0108 disponible (metamizol sÛdico - comprimido)"
+					"es": "0108 disponible (metamizol s√≥dico - comprimido)"
 				}
 			},
 			"length": [1,
@@ -3566,7 +3566,7 @@
 					"es": "0108 cons metam comp"
 				},
 				"description": {
-					"es": "0108 consumo (metamizol sÛdico - comprimido)"
+					"es": "0108 consumo (metamizol s√≥dico - comprimido)"
 				}
 			},
 			"length": [1,
@@ -3580,7 +3580,7 @@
 					"es": "0109 disp metam iny"
 				},
 				"description": {
-					"es": "0109 disponible (metamizol sÛdico - solucion inyectable)"
+					"es": "0109 disponible (metamizol s√≥dico - solucion inyectable)"
 				}
 			},
 			"length": [1,
@@ -3594,7 +3594,7 @@
 					"es": "0109 cons metam iny"
 				},
 				"description": {
-					"es": "0109 consumo (metamizol sÛdico - solucion inyectable)"
+					"es": "0109 consumo (metamizol s√≥dico - solucion inyectable)"
 				}
 			},
 			"length": [1,
@@ -3608,7 +3608,7 @@
 					"es": "5501 disp diclofen"
 				},
 				"description": {
-					"es": "5501 disponible (diclofenaco sÛdico)"
+					"es": "5501 disponible (diclofenaco s√≥dico)"
 				}
 			},
 			"length": [1,
@@ -3622,7 +3622,7 @@
 					"es": "5501 cons diclofen"
 				},
 				"description": {
-					"es": "5501 consumo (diclofenaco sÛdico)"
+					"es": "5501 consumo (diclofenaco s√≥dico)"
 				}
 			},
 			"length": [1,
@@ -3671,7 +3671,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -3798,7 +3798,7 @@
 					"es": "3417 disp diclof"
 				},
 				"description": {
-					"es": "3417 disponible (diclofenaco sÛdico)"
+					"es": "3417 disponible (diclofenaco s√≥dico)"
 				}
 			},
 			"length": [1,
@@ -3812,7 +3812,7 @@
 					"es": "3417 cons diclof"
 				},
 				"description": {
-					"es": "3417 consumo (diclofenaco sÛdico)"
+					"es": "3417 consumo (diclofenaco s√≥dico)"
 				}
 			},
 			"length": [1,
@@ -3889,7 +3889,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -4128,7 +4128,7 @@
 					"es": "2707 disp ac absorb"
 				},
 				"description": {
-					"es": "2707 disponible (·cido ascÛrbico)"
+					"es": "2707 disponible (√°cido asc√≥rbico)"
 				}
 			},
 			"length": [1,
@@ -4142,7 +4142,7 @@
 					"es": "2707 cons ac absorb"
 				},
 				"description": {
-					"es": "2707 consumo (·cido ascÛrbico)"
+					"es": "2707 consumo (√°cido asc√≥rbico)"
 				}
 			},
 			"length": [1,
@@ -4212,7 +4212,7 @@
 					"es": "0804 disp ox zinc"
 				},
 				"description": {
-					"es": "0804 disponible (Ûxido de zinc )"
+					"es": "0804 disponible (√≥xido de zinc )"
 				}
 			},
 			"length": [1,
@@ -4226,7 +4226,7 @@
 					"es": "0804 cons ox zinc"
 				},
 				"description": {
-					"es": "0804 consumo (Ûxido de zinc )"
+					"es": "0804 consumo (√≥xido de zinc )"
 				}
 			},
 			"length": [1,
@@ -4240,7 +4240,7 @@
 					"es": "3616 disp hartmann"
 				},
 				"description": {
-					"es": "3616 disponible (soluciÛn hartmann)"
+					"es": "3616 disponible (soluci√≥n hartmann)"
 				}
 			},
 			"length": [1,
@@ -4254,7 +4254,7 @@
 					"es": "3616 cons hartmann"
 				},
 				"description": {
-					"es": "3616 consumo (soluciÛn hartmann)"
+					"es": "3616 consumo (soluci√≥n hartmann)"
 				}
 			},
 			"length": [1,
@@ -4275,7 +4275,7 @@
 			"labels": {
 				"short": {
 					"en": "Year",
-					"es": "AÒo de reporte"
+					"es": "A√±o de reporte"
 				}
 			},
 			"position": 0,
@@ -4458,7 +4458,7 @@
 					"es": "Solucion disp"
 				},
 				"description": {
-					"es": "SoluciÛn disponible"
+					"es": "Soluci√≥n disponible"
 				}
 			},
 			"length": [1,
@@ -4472,7 +4472,7 @@
 					"es": "Solucion cons"
 				},
 				"description": {
-					"es": "SoluciÛn usada"
+					"es": "Soluci√≥n usada"
 				}
 			},
 			"length": [1,
@@ -4486,7 +4486,7 @@
 					"es": "Jabones disp"
 				},
 				"description": {
-					"es": "JabÛn disponible"
+					"es": "Jab√≥n disponible"
 				}
 			},
 			"length": [1,
@@ -4500,7 +4500,7 @@
 					"es": "Jabones cons"
 				},
 				"description": {
-					"es": "JabÛn usado"
+					"es": "Jab√≥n usado"
 				}
 			},
 			"length": [1,
