@@ -2,7 +2,7 @@
    {
       "meta": {
          "label": {
-            "fr": "Planification familiale"
+            "fr": "PF"
          },
          "code": "ISPF"
       },
@@ -49,6 +49,18 @@
                   5,
                   {
                      "fr": "2016"
+                  }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
                   }
                ]
             ]
@@ -143,52 +155,52 @@
             ],
             "validations": {"is_numeric_month": true}
          },
-         "microgynon_cycle": {
+         "microgynon": {
             "position": 2,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Microgynon (cycle)"
+                  "fr": "Microgynon cycle"
                },
                "description": {
-                  "fr": "Microgynon (cycle)"
+                  "fr": "Microgynon cycle"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "microlut_cycle": {
+         "microlut": {
             "position": 3,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Microlut (cycle)"
+                  "fr": "Microlut cycle"
                },
                "description": {
-                  "fr": "Microlut (cycle)"
+                  "fr": "Microlut cycle"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "due_cycle": {
+         "duet": {
             "position": 4,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Duet (cycle)"
+                  "fr": "Duet cycle"
                },
                "description": {
-                  "fr": "Duet (cycle)"
+                  "fr": "Duet cycle"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "tcu_380a": {
+         "tcu380a": {
             "position": 5,
             "type": "integer",
             "labels": {
@@ -203,112 +215,111 @@
                 1, 3
             ]
          },
-         "preservatif_m": {
+         "preserv_m": {
             "position": 6,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Préservatif Masc. (unit)"
+                  "fr": "Préservatif M. unit"
                },
                "description": {
-                  "fr": "Préservatif masculin (unit)"
+                  "fr": "Préservatif M. unit"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "preservatif_f": {
+         "preserv_f": {
             "position": 7,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Préservatif Fem. (unit)"
+                  "fr": "Préservatif F. unit"
                },
                "description": {
-                  "fr": "Préservatif féminin (unit)"
+                  "fr": "Préservatif F. unit"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "depo_prov_unit": {
+         "depo_prov": {
             "position": 8,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Dépo-prov. (unit)"
+                  "fr": "Dépo-prov. unit"
                },
                "description": {
-                  "fr": "Dépo-prov. (unit)"
+                  "fr": "Dépo-prov. unit"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "norplant_jeu": {
+         "norplant": {
             "position": 9,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Norplant (jeu)"
+                  "fr": "Norplant jeu"
                },
                "description": {
-                  "fr": "Norplant (jeu)"
+                  "fr": "Norplant jeu"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "jadelle_jeu": {
+         "jadelle": {
             "position": 10,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Jadelle (jeu)"
+                  "fr": "Jadelle jeu"
                },
                "description": {
-                  "fr": "Jadelle (jeu)"
+                  "fr": "Jadelle jeu"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "implanon_unit": {
+         "implanon": {
             "position": 11,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Implanon (unit)"
+                  "fr": "Implanon unit"
                },
                "description": {
-                  "fr": "Implanon (unit)"
+                  "fr": "Implanon unit"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "collier_cycle_unit": {
+         "collier": {
             "position": 12,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Collier cycle (unit)"
+                  "fr": "Collier cycle unit"
                },
                "description": {
-                  "fr": "Collier du cycle (unit)"
+                  "fr": "Collier cycle (unit)"
                }
             },
             "length": [
                 1, 3
             ]
          }
-
       },
       "use-sentinel": true
    },
@@ -363,6 +374,18 @@
                   5,
                   {
                      "fr": "2016"
+                  }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
                   }
                ]
             ]
@@ -522,10 +545,10 @@
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb TPi1 pour femmes enceintes"
+                  "fr": "Nb TPi1 pour fem. enceinte"
                },
                "description": {
-                  "fr": "Nb femmes enceintes recu TPI1"
+                  "fr": "Nb TPi1 pour fem. enceinte"
                }
             },
             "length": [
@@ -555,7 +578,7 @@
                   "fr": "Nb TPi3 pour femmes enceintes"
                },
                "description": {
-                  "fr": "Nb femmes enceintes recu TPI3"
+                  "fr": "Nb femm. enc. recu TPI3"
                }
             },
             "length": [
@@ -570,22 +593,22 @@
                   "fr": "Nb CPoN1 J1-J3"
                },
                "description": {
-                  "fr": "Nb de CPoN1 (J1-J3)"
+                  "fr": "Nb CPoN1 (J1-J3)"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_cpon1_j1j8": {
+         "nbr_cpon1_j4j8": {
             "position": 10,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb CPoN1 J1-J8"
+                  "fr": "Nb CPoN2 J4-J8"
                },
                "description": {
-                  "fr": "Nb CPoN1 (J1-J8)"
+                  "fr": "Nb CPoN1 (J4-J8)"
                }
             },
             "length": [
@@ -600,7 +623,7 @@
                   "fr": "Nb CPoN2 J9-J15"
                },
                "description": {
-                  "fr": "Nb de CPoN2 (J9-J15)"
+                  "fr": "Nb CPoN2 (J9-J15)"
                }
             },
             "length": [
@@ -615,7 +638,7 @@
                   "fr": "Nb CPoN3 J16-J42"
                },
                "description": {
-                  "fr": "Nb de CPoN3 (J16-J42)"
+                  "fr": "Nb CPoN3 (J16-J42)"
                }
             },
             "length": [
@@ -630,7 +653,7 @@
                   "fr": "Nb accht A./PQ"
                },
                "description": {
-                  "fr": "Total accouchements assistés par personnel qualifié"
+                  "fr": "Nb accht A./PQ"
                }
             },
             "length": [
@@ -645,7 +668,7 @@
                   "fr": "Nb accht GATPA"
                },
                "description": {
-                  "fr": "Nb accouchements GATPA"
+                  "fr": "Nb GATPA"
                }
             },
             "length": [
@@ -657,10 +680,10 @@
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb accht Partogramme"
+                  "fr": "Nb accht Partogr."
                },
                "description": {
-                  "fr": "Nb accouchements Partogramme"
+                  "fr": "Nb Parto"
                }
             },
             "length": [
@@ -675,7 +698,7 @@
                   "fr": "Nb Nne avec PSI"
                },
                "description": {
-                  "fr": "Nb Enfants avec Paquet de Soins immédiats à la naissance"
+                  "fr": "Nb Nne avec PSI"
                }
             },
             "length": [
@@ -687,26 +710,25 @@
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb Nne recu MT/MSP/SC des SI" 
+                  "fr": "Nb Nne recu MT/MSP/SC des SI"
                },
                "description": {
-                  "fr": "Nb enfs ayant recu 3 éléments des soins immédiats"
+                  "fr": "Nb Nne recu MT/MSP/SC des SI"
                }
             },
             "length": [
                 1, 3
             ]
          }
-
       },
       "use-sentinel": true
    },
-   {
+    {
       "meta": {
          "label": {
-            "fr": "Paludisme"
+            "fr": "PALU/PTME"
          },
-         "code": "ISLP"
+         "code": "ISLM"
       },
       "fields": {
          "year": {
@@ -752,6 +774,18 @@
                   5,
                   {
                      "fr": "2016"
+                  }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
                   }
                ]
             ]
@@ -846,612 +880,90 @@
             ],
             "validations": {"is_numeric_month": true}
          },
-         "nbr_palu_moins5ans": {
+		    "palu_moins5": {
             "position": 2,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb cas palu enft -5ans"
+                  "fr": "Nb Palu enft -5ans"
                },
                "description": {
-                  "fr": "Nb cas palu traités chez l'enfant -5 ans"
+                  "fr": "Nb Palu enft -5ans"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_palu_femmes_enceinte": {
+         "palu_fem_enc": {
             "position": 3,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb cas palu fem. enceinte"
+                  "fr": "Nb Palu Fem. enceinte"
                },
                "description": {
-                  "fr": "Nb cas de palu traités femme enceinte"
+                  "fr": "Nb Palu Fem. enceinte"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_palu_autres_populations": {
+         "palu_reste_pop": {
             "position": 4,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb cas palu reste population"
+                  "fr": "Nb Palu reste population"
                },
                "description": {
-                  "fr": "Nb cas palu traités reste de la population"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-
-      },
-      "use-sentinel": true
-   },
-   {
-      "meta": {
-         "label": {
-            "fr": "Dhiarree"
-         },
-         "code": "ISLD"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "nbr_dhiarre_moins5ans_poste": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb dhiarree -5ans tt au PS"
-               },
-               "description": {
-                  "fr": "nb diarrhée -5ans traités au poste"
+                  "fr": "Nb Palu reste population"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_dhiarre_moins5ans_sro": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb dhiarree -5ans tt SRO"
-               },
-               "description": {
-                  "fr": "Nb dhiarree -5ans traité avec du SRO"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-
-      },
-      "use-sentinel": true
-   },
-   {
-      "meta": {
-         "label": {
-            "fr": "Vaccination (PEV)"
-         },
-         "code": "ISLPV"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "nbr_total_enfant_penta3": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb enft PENTA3"
-               },
-               "description": {
-                  "fr": "Nb Enfants recus PENTA3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_enfant_0_11_penta3": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb 0-11mois recus PENTA3"
-               },
-               "description": {
-                  "fr": "Nb 0-11 mois recus PENTA3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_pop_cible_0_11_attendue": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Pop. cible 0-11 mois attendue"
-               },
-               "description": {
-                  "fr": "Population cible 0-11 mois attendue dans la période"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-
-      },
-      "use-sentinel": true
-   },
-   {
-      "meta": {
-         "label": {
-            "fr": "Données sur la PTME"
-         },
-         "code": "ISPT"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "nbr_f_enceintes_test_vih": {
-            "position": 2,
+         "fem_enc_test_vih": {
+            "position": 5,
             "type": "integer",
             "labels": {
                "short": {
                   "fr": "Nb fem. enc. test VIH"
                },
                "description": {
-                  "fr": "Nb femm. enceintes ayant fait test VIH"
+                  "fr": "Nb fem. enc. test VIH"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_f_enceintes_positif_test_vih": {
-            "position": 3,
+         "fem_enc_positif_test_vih": {
+            "position": 6,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb fem. enc. test VIH positif"
+                  "fr": "Nb fem. enc. positif VIH"
                },
                "description": {
-                  "fr": "Nb femm. enceintes avec test VIH positif"
+                  "fr": "Nb fem. enc. positif VIH"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_f_enceintes_sous_prophylaxietest_vih_positif": {
-            "position": 4,
+         "fem_enc_ss_prophylaxie": {
+            "position": 7,
             "type": "integer",
             "labels": {
                "short": {
                   "fr": "Nb. fem. ss prophylaxie"
                },
                "description": {
-                  "fr": "Nb de femm. sous prophylaxie"
+                  "fr": "Nb. fem. ss prophylaxie"
                }
             },
             "length": [
@@ -1461,12 +973,12 @@
       },
       "use-sentinel": true
    },
-   {
+      {
       "meta": {
          "label": {
-            "fr": "Supervision"
+            "fr": "DIARRHEE/PEV"
          },
-         "code": "ISSV"
+         "code": "ISSE"
       },
       "fields": {
          "year": {
@@ -1512,6 +1024,18 @@
                   5,
                   {
                      "fr": "2016"
+                  }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
                   }
                ]
             ]
@@ -1606,89 +1130,88 @@
             ],
             "validations": {"is_numeric_month": true}
          },
-         "nbr_visites_supervis": {
+         "total_diarrhee_moins5ans": {
             "position": 2,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb superv. recues"
+                  "fr": "Nb diarrhee -5ans tt au PS"
                },
                "description": {
-                  "fr": "Nb visites supervision recu"
+                  "fr": "Nb diarrhee -5ans tt au PS"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_superv_cases": {
+         "dhiarre_sro": {
             "position": 3,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb superv. des cases"
+                  "fr": "Nb diarrhee -5ans tt SRO"
                },
                "description": {
-                  "fr": "Nb supervision des cases effectuées"
+                  "fr": "Nb diarrhee -5ans tt SRO"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_superv_dsdom": {
+         "total_enft_penta3": {
             "position": 4,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb superv. DSDOM"
+                  "fr": "Nb enft 0-23m PENTA3"
                },
                "description": {
-                  "fr": "Nb supervisions DSDOM effectuées"
+                  "fr": "Nb enft 0-23m PENTA3"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_cases_aumoins_une_superv": {
+         "enft_0_11_penta3": {
             "position": 5,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb cases au moins 1 superv."
+                  "fr": "Nb 0-11m recus PENTA3"
                },
                "description": {
-                  "fr": "Nb cases recues au moins 1 supervision"
+                  "fr": "Nb 0-11 m recus PENTA3"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_dsdom_aumoins_une_superv": {
+         "pop_cible_0_11": {
             "position": 6,
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb DSDOM au moins 1 superv."
+                  "fr": "Pop. cible 0-11m attendue"
                },
                "description": {
-                  "fr": "Nb DSDOM recu au moins 1 supervision"
+                  "fr": "Pop. cible 0-11m attendue"
                }
             },
             "length": [
                 1, 3
             ]
          }
-
       },
       "use-sentinel": true
    },
-   {
+      {
       "meta": {
          "label": {
-            "fr": "Stratégie avancée"
+            "fr": "S.A/SUPERVISION"
          },
          "code": "ISSA"
       },
@@ -1737,6 +1260,18 @@
                   {
                      "fr": "2016"
                   }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
+                  }
                ]
             ]
          },
@@ -1830,23 +1365,98 @@
             ],
             "validations": {"is_numeric_month": true}
          },
-         "nbr_cases_zone": {
+         "spv_recu": {
             "position": 2,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb superv. recues"
+               },
+               "description": {
+                  "fr": "Nb superv recues"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+         "spv_cases": {
+            "position": 3,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb superv. des cases"
+               },
+               "description": {
+                  "fr": "Nb superv des cases"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+         "spv_dsdom": {
+            "position": 4,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb superv. DSDOM"
+               },
+               "description": {
+                  "fr": "Nb superv DSDOM"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+         "cases_aumoins_une_spv": {
+            "position": 5,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb cases au moins 1 superv."
+               },
+               "description": {
+                  "fr": "Nb cases au moins 1 superv."
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+         "dsdom_aumoins_une_spv": {
+            "position": 6,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb DSDOM au moins 1 superv."
+               },
+               "description": {
+                  "fr": "Nb DSDOM au moins 1 superv."
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+         "nb_cases_zone": {
+            "position": 7,
             "type": "integer",
             "labels": {
                "short": {
                   "fr": "Nb cases zone responsabilité"
                },
                "description": {
-                  "fr": "Nb cases zone de responsabilité"
+                  "fr": "Nb cases zone responsabilité"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_strategies_avancees": {
-            "position": 3,
+         "nbr_sa": {
+            "position": 8,
             "type": "integer",
             "labels": {
                "short": {
@@ -1860,8 +1470,8 @@
                 1, 3
             ]
          },
-         "nbr_cases_couvertes": {
-            "position": 4,
+         "nb_cases_couvertes": {
+            "position": 9,
             "type": "integer",
             "labels": {
                "short": {
@@ -1875,7 +1485,6 @@
                 1, 3
             ]
          }
-
       },
       "use-sentinel": true
    },
@@ -1931,6 +1540,18 @@
                   {
                      "fr": "2016"
                   }
+               ],
+			   [
+                  6,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+			   [
+                  7,
+                  {
+                     "fr": "2018"
+                  }
                ]
             ]
          },
@@ -2024,7 +1645,7 @@
             ],
             "validations": {"is_numeric_month": true}
          },
-         "nbr_evacuation_vers_struc": {
+         "evac_vers_struc": {
             "position": 2,
             "type": "integer",
             "labels": {
@@ -2032,14 +1653,14 @@
                   "fr": "Nb évac. vers la struct."
                },
                "description": {
-                  "fr": "Nb d'evacuations vers la structure"
+                  "fr": "Nb evac vers la structure"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_grossess_risque": {
+         "nbr_gross_risque": {
             "position": 3,
             "type": "integer",
             "labels": {
@@ -2047,14 +1668,14 @@
                   "fr": "Nb gross. risque référées"
                },
                "description": {
-                  "fr": "Nb de grossesse à risque referees"
+                  "fr": "Nb de gross. à risque referees"
                }
             },
             "length": [
                 1, 3
             ]
          },
-         "nbr_cas_malnutri_0_5_risque": {
+         "cas_malnut_0_5_risque": {
             "position": 4,
             "type": "integer",
             "labels": {
@@ -2062,7 +1683,7 @@
                   "fr": "Nb MAS 0-5ans référés"
                },
                "description": {
-                  "fr": "Nb malnut. aigue severe 0-5ans référés"
+                  "fr": "Nb MAS 0-5ans référés"
                }
             },
             "length": [
