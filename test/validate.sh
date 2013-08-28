@@ -1,6 +1,6 @@
 #!/bin/sh
 
-JSONTOOL=node_modules/jsontool/lib/jsontool.js
+JSONTOOL=node_modules/.bin/json
 
 for i in ../*.json; do
     cat $i | node $JSONTOOL -n;
