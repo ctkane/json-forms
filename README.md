@@ -2,6 +2,8 @@
 JSON based form definitions for use with Kujua and Muvuku.
 
 
+[![Build Status](https://travis-ci.org/medic/json-forms.png?branch=master)](https://travis-ci.org/medic/json-forms)
+
 ## License & Copyright
 
 Copyright 2013 Medic Mobile, 501(c)(3)  <hello@medicmobile.org>
