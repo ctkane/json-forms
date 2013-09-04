@@ -1,0 +1,4557 @@
+﻿[{
+	"meta": {
+		"label": {
+			"es": "Reporte Desabasto"
+		},
+		"code": "CSAA"
+	},
+	"fields": {
+		"q2": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Clave del medicamento"
+				},
+				"description": {
+					"es": "Clave del medicamento"
+				}
+			},
+			"length": [3,
+			4]
+		},
+		"q3": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Cajas no provistas"
+				},
+				"description": {
+					"es": "Cajas no provistas"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Pacientes afectados"
+				},
+				"description": {
+					"es": "Pacientes afectados"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Diabetes y lipidos"
+		},
+		"code": "CSAC"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1042 disp (glibenclamida)"
+				},
+				"description": {
+					"es": "1042 disp (glibenclamida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1042 cons (glibenclamida)"
+				},
+				"description": {
+					"es": "1042 cons (glibenclamida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5165 disp (metformina)"
+				},
+				"description": {
+					"es": "5165 disp (metformina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5165 cons (metformina)"
+				},
+				"description": {
+					"es": "5165 cons (metformina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1050 disp (insulina humana acción intermedia nph)"
+				},
+				"description": {
+					"es": "1050 disp (insulina humana acción intermedia nph)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1050 cons (insulina humana acción intermedia nph)"
+				},
+				"description": {
+					"es": "1050 cons (insulina humana acción intermedia nph)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1051 disp (insulina humana acción rápida regular)"
+				},
+				"description": {
+					"es": "1051 disp (insulina humana acción rápida regular)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1051 cons (insulina humana acción rápida regular)"
+				},
+				"description": {
+					"es": "1051 cons (insulina humana acción rápida regular)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4157 disp (insulina humana acción intermedia lenta)"
+				},
+				"description": {
+					"es": "4157 disp (insulina humana acción intermedia lenta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4157 cons (insulina humana acción intermedia lenta)"
+				},
+				"description": {
+					"es": "4157 cons (insulina humana acción intermedia lenta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4158 disp (insulina glargina)"
+				},
+				"description": {
+					"es": "4158 disp (insulina glargina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4158 cons (insulina glargina)"
+				},
+				"description": {
+					"es": "4158 cons (insulina glargina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4162 disp (insulina lispro)"
+				},
+				"description": {
+					"es": "4162 disp (insulina lispro)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4162 cons (insulina lispro)"
+				},
+				"description": {
+					"es": "4162 cons (insulina lispro)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4148 disp (insulina mix)"
+				},
+				"description": {
+					"es": "4148 disp (insulina mix)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4148 cons (insulina mix)"
+				},
+				"description": {
+					"es": "4148 cons (insulina mix)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0657 disp (pravastatina)"
+				},
+				"description": {
+					"es": "0657 disp (pravastatina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0657 cons (pravastatina)"
+				},
+				"description": {
+					"es": "0657 cons (pravastatina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0655 disp (bezafibrato)"
+				},
+				"description": {
+					"es": "0655 disp (bezafibrato)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0655 cons (bezafibrato)"
+				},
+				"description": {
+					"es": "0655 cons (bezafibrato)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Hipertensión"
+		},
+		"code": "CSAB"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 disp (acido acetil salicílico)"
+				},
+				"description": {
+					"es": "0103 disp (acido acetil salicílico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 cons (acido acetil salicílico)"
+				},
+				"description": {
+					"es": "0103 cons (acido acetil salicílico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0574 disp (captopril)"
+				},
+				"description": {
+					"es": "0574 disp (captopril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0574 cons (captopril)"
+				},
+				"description": {
+					"es": "0574 cons (captopril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2501 disp (enalapril o lisinopril o ramipril)"
+				},
+				"description": {
+					"es": "2501 disp (enalapril o lisinopril o ramipril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2501 cons (enalapril o lisinopril o ramipril)"
+				},
+				"description": {
+					"es": "2501 cons (enalapril o lisinopril o ramipril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0572 disp (metoprolol)"
+				},
+				"description": {
+					"es": "0572 disp (metoprolol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0572 cons (metoprolol)"
+				},
+				"description": {
+					"es": "0572 cons (metoprolol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0599 disp (nifedipino)"
+				},
+				"description": {
+					"es": "0599 disp (nifedipino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0599 cons (nifedipino)"
+				},
+				"description": {
+					"es": "0599 cons (nifedipino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4095 disp (irbesartan - tableta 150mg)"
+				},
+				"description": {
+					"es": "4095 disp (irbesartan - tableta 150mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4095 cons (irbesartan - tableta 150mg)"
+				},
+				"description": {
+					"es": "4095 cons (irbesartan - tableta 150mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4096 disp (irbesartan - tableta 300mg)"
+				},
+				"description": {
+					"es": "4096 disp (irbesartan - tableta 300mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4096 cons (irbesartan - tableta 300mg)"
+				},
+				"description": {
+					"es": "4096 cons (irbesartan - tableta 300mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2540 disp (telmisartán)"
+				},
+				"description": {
+					"es": "2540 disp (telmisartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2540 cons (telmisartán)"
+				},
+				"description": {
+					"es": "2540 cons (telmisartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2520 disp (losartán)"
+				},
+				"description": {
+					"es": "2520 disp (losartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2520 cons (losartán)"
+				},
+				"description": {
+					"es": "2520 cons (losartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0561 disp (clortalidona)"
+				},
+				"description": {
+					"es": "0561 disp (clortalidona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0561 cons (clortalidona)"
+				},
+				"description": {
+					"es": "0561 cons (clortalidona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q11a": {
+			"position": 23,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2301 disp (hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2301 disp (hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q11b": {
+			"position": 24,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2301 cons (hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2301 cons (hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q12a": {
+			"position": 25,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2542 disp (telmisartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2542 disp (telmisartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q12b": {
+			"position": 26,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2542 cons (telmisartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2542 cons (telmisartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q13a": {
+			"position": 27,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4097 disp (irbesartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "4097 disp (irbesartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q13b": {
+			"position": 28,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4097 cons (irbesartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "4097 cons (irbesartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q14a": {
+			"position": 29,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2521 disp (losartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2521 disp (losartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q14b": {
+			"position": 30,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2521 cons (losartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2521 cons (losartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Salud Materna"
+		},
+		"code": "CSAD"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1711 disp (acido folico)"
+				},
+				"description": {
+					"es": "1711 disp (acido folico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1711 cons (acido folico)"
+				},
+				"description": {
+					"es": "1711 cons (acido folico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4376 disp (vitaminas y minerales)"
+				},
+				"description": {
+					"es": "4376 disp (vitaminas y minerales)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4376 cons (vitaminas y minerales)"
+				},
+				"description": {
+					"es": "4376 cons (vitaminas y minerales)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1703 disp (sulfato ferroso)"
+				},
+				"description": {
+					"es": "1703 disp (sulfato ferroso)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1703 cons (sulfato ferroso)"
+				},
+				"description": {
+					"es": "1703 cons (sulfato ferroso)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0570 disp (hidralazina - tableta)"
+				},
+				"description": {
+					"es": "0570 disp (hidralazina - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0570 cons (hidralazina - tableta)"
+				},
+				"description": {
+					"es": "0570 cons (hidralazina - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2116 disp (hidralazina - solucion)"
+				},
+				"description": {
+					"es": "2116 disp (hidralazina - solucion)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2116 cons (hidralazina - solucion)"
+				},
+				"description": {
+					"es": "2116 cons (hidralazina - solucion)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0566 disp (metildopa)"
+				},
+				"description": {
+					"es": "0566 disp (metildopa)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0566 cons (metildopa)"
+				},
+				"description": {
+					"es": "0566 cons (metildopa)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3629 disp (sulfato de magnesio)"
+				},
+				"description": {
+					"es": "3629 disp (sulfato de magnesio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3629 cons (sulfato de magnesio)"
+				},
+				"description": {
+					"es": "3629 cons (sulfato de magnesio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0641 disp (dextran)"
+				},
+				"description": {
+					"es": "0641 disp (dextran)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0641 cons (dextran)"
+				},
+				"description": {
+					"es": "0641 cons (dextran)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Planification familiar"
+		},
+		"code": "CSAE"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0177 disponible (condón masculino)"
+				},
+				"description": {
+					"es": "0177 disponible (condón masculino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0177 consumo (condón masculino)"
+				},
+				"description": {
+					"es": "0177 consumo (condón masculino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4526 disponible (levonorgestrel)"
+				},
+				"description": {
+					"es": "4526 disponible (levonorgestrel)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4526 consumo (levonorgestrel)"
+				},
+				"description": {
+					"es": "4526 consumo (levonorgestrel)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2210 disponible (levonorgestrel - 2 comp/tab)"
+				},
+				"description": {
+					"es": "2210 disponible (levonorgestrel - 2 comp/tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2210 consumo (levonorgestrel - 2 comp/tab)"
+				},
+				"description": {
+					"es": "2210 consumo (levonorgestrel - 2 comp/tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3504 disponible (levonorgestrel y etinilestradiol)"
+				},
+				"description": {
+					"es": "3504 disponible (levonorgestrel y etinilestradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3504 consumo (levonorgestrel y etinilestradiol)"
+				},
+				"description": {
+					"es": "3504 consumo (levonorgestrel y etinilestradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3505 disponible (desogestrel y etinilestradiol - 21 tab)"
+				},
+				"description": {
+					"es": "3505 disponible (desogestrel y etinilestradiol - 21 tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3505 consumo (desogestrel y etinilestradiol - 21 tab)"
+				},
+				"description": {
+					"es": "3505 consumo (desogestrel y etinilestradiol - 21 tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3508 disponible (desogestrel y etinilestradiol - 28 tab)"
+				},
+				"description": {
+					"es": "3508 disponible (desogestrel y etinilestradiol - 28 tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3508 consumo (desogestrel y etinilestradiol - 28 tab)"
+				},
+				"description": {
+					"es": "3508 consumo (desogestrel y etinilestradiol - 28 tab)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3503 disponible (noretisterona)"
+				},
+				"description": {
+					"es": "3503 disponible (noretisterona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3503 consumo (noretisterona)"
+				},
+				"description": {
+					"es": "3503 consumo (noretisterona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3506 disponible (noretisterona y etinilestradiol)"
+				},
+				"description": {
+					"es": "3506 disponible (noretisterona y etinilestradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3506 consumo (noretisterona y etinilestradiol)"
+				},
+				"description": {
+					"es": "3506 consumo (noretisterona y etinilestradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3515 disponible (noretisterona y estradiol)"
+				},
+				"description": {
+					"es": "3515 disponible (noretisterona y estradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3515 consumo (noretisterona y estradiol)"
+				},
+				"description": {
+					"es": "3515 consumo (noretisterona y estradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3509 disponible (medroxiprogesterona y cipionato de estradiol)"
+				},
+				"description": {
+					"es": "3509 disponible (medroxiprogesterona y cipionato de estradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3509 consumo (medroxiprogesterona y cipionato de estradiol)"
+				},
+				"description": {
+					"es": "3509 consumo (medroxiprogesterona y cipionato de estradiol)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Urgencia Obstetrica"
+		},
+		"code": "CSAN"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1542 disp (oxitocina)"
+				},
+				"description": {
+					"es": "1542 disp (oxitocina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1542 cons (oxitocina)"
+				},
+				"description": {
+					"es": "1542 cons (oxitocina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1541 disp (carbetocina)"
+				},
+				"description": {
+					"es": "1541 disp (carbetocina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1541 cons (carbetocina)"
+				},
+				"description": {
+					"es": "1541 cons (carbetocina)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Antibioticos (1)"
+		},
+		"code": "CSAF"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2128 disp (amoxicilina trihidratada - capsula)"
+				},
+				"description": {
+					"es": "2128 disp (amoxicilina trihidratada - capsula)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2128 cons (amoxicilina trihidratada - capsula)"
+				},
+				"description": {
+					"es": "2128 cons (amoxicilina trihidratada - capsula)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2127 disp (amoxicilina trihidratada - suspension oral)"
+				},
+				"description": {
+					"es": "2127 disp (amoxicilina trihidratada - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2127 cons (amoxicilina trihidratada - suspension oral)"
+				},
+				"description": {
+					"es": "2127 cons (amoxicilina trihidratada - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2129 disp (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - suspension oral)"
+				},
+				"description": {
+					"es": "2129 disp (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2129 cons (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - suspension oral)"
+				},
+				"description": {
+					"es": "2129 cons (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2230 disp (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - tableta)"
+				},
+				"description": {
+					"es": "2230 disp (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2230 cons (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - tableta)"
+				},
+				"description": {
+					"es": "2230 cons (amoxicilina trihidratada - ácido clavulánico (clavulanato de potasio) - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1930 disp (ampicilina trihidratada)"
+				},
+				"description": {
+					"es": "1930 disp (ampicilina trihidratada)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1930 cons (ampicilina trihidratada)"
+				},
+				"description": {
+					"es": "1930 cons (ampicilina trihidratada)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1923 disp (bencilpenicilina procaínica con bencilpenicilina cristalina - 300 000ui)"
+				},
+				"description": {
+					"es": "1923 disp (bencilpenicilina procaínica con bencilpenicilina cristalina - 300 000ui)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1923 cons (bencilpenicilina procaínica con bencilpenicilina cristalina - 300 000ui)"
+				},
+				"description": {
+					"es": "1923 cons (bencilpenicilina procaínica con bencilpenicilina cristalina - 300 000ui)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1924 disp (bencilpenicilina procaínica con bencilpenicilina cristalina - 600 000ui)"
+				},
+				"description": {
+					"es": "1924 disp (bencilpenicilina procaínica con bencilpenicilina cristalina - 600 000ui)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1924 cons (bencilpenicilina procaínica con bencilpenicilina cristalina - 600 000ui)"
+				},
+				"description": {
+					"es": "1924 cons (bencilpenicilina procaínica con bencilpenicilina cristalina - 600 000ui)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1925 disp (benzatina bencilpenicilina)"
+				},
+				"description": {
+					"es": "1925 disp (benzatina bencilpenicilina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1925 cons (benzatina bencilpenicilina)"
+				},
+				"description": {
+					"es": "1925 cons (benzatina bencilpenicilina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1939 disp (cefalexina monohidratada)"
+				},
+				"description": {
+					"es": "1939 disp (cefalexina monohidratada)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1939 cons (cefalexina monohidratada)"
+				},
+				"description": {
+					"es": "1939 cons (cefalexina monohidratada)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4255 disp (ciprofloxacino monohidratado, clorhidrato de )"
+				},
+				"description": {
+					"es": "4255 disp (ciprofloxacino monohidratado, clorhidrato de )"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4255 cons (ciprofloxacino monohidratado, clorhidrato de )"
+				},
+				"description": {
+					"es": "4255 cons (ciprofloxacino monohidratado, clorhidrato de )"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Antibioticos (2)"
+		},
+		"code": "CSAG"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2132 disp (claritromicina)"
+				},
+				"description": {
+					"es": "2132 disp (claritromicina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2132 cons (claritromicina)"
+				},
+				"description": {
+					"es": "2132 cons (claritromicina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2133 disp (clindamicina, clorhidrato de)"
+				},
+				"description": {
+					"es": "2133 disp (clindamicina, clorhidrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2133 cons (clindamicina, clorhidrato de)"
+				},
+				"description": {
+					"es": "2133 cons (clindamicina, clorhidrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1926 disp (dicloxacilina sódica - capsula)"
+				},
+				"description": {
+					"es": "1926 disp (dicloxacilina sódica - capsula)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1926 cons (dicloxacilina sódica - capsula)"
+				},
+				"description": {
+					"es": "1926 cons (dicloxacilina sódica - capsula)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1927 disp (dicloxacilina sódica - suspension oral)"
+				},
+				"description": {
+					"es": "1927 disp (dicloxacilina sódica - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1927 cons (dicloxacilina sódica - suspension oral)"
+				},
+				"description": {
+					"es": "1927 cons (dicloxacilina sódica - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1940 disp (doxiciclina, hiclato de)"
+				},
+				"description": {
+					"es": "1940 disp (doxiciclina, hiclato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1940 cons (doxiciclina, hiclato de)"
+				},
+				"description": {
+					"es": "1940 cons (doxiciclina, hiclato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1971 disp (eritromicina, estearato de )"
+				},
+				"description": {
+					"es": "1971 disp (eritromicina, estearato de )"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1971 cons (eritromicina, estearato de )"
+				},
+				"description": {
+					"es": "1971 cons (eritromicina, estearato de )"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1972 disp (eritromicina, estearato o etilsuccinato o estolato de)"
+				},
+				"description": {
+					"es": "1972 disp (eritromicina, estearato o etilsuccinato o estolato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1972 cons (eritromicina, estearato o etilsuccinato o estolato de)"
+				},
+				"description": {
+					"es": "1972 cons (eritromicina, estearato o etilsuccinato o estolato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1911 disp (nitrofurantoína)"
+				},
+				"description": {
+					"es": "1911 disp (nitrofurantoína)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1911 cons (nitrofurantoína)"
+				},
+				"description": {
+					"es": "1911 cons (nitrofurantoína)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1903 disp (trimetoprima - sulfametoxazol - comprimido)"
+				},
+				"description": {
+					"es": "1903 disp (trimetoprima - sulfametoxazol - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1903 cons (trimetoprima - sulfametoxazol - comprimido)"
+				},
+				"description": {
+					"es": "1903 cons (trimetoprima - sulfametoxazol - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1904 disp (trimetoprima - sulfametoxazol - suspension oral)"
+				},
+				"description": {
+					"es": "1904 disp (trimetoprima - sulfametoxazol - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1904 cons (trimetoprima - sulfametoxazol - suspension oral)"
+				},
+				"description": {
+					"es": "1904 cons (trimetoprima - sulfametoxazol - suspension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Antiparasitario/Antimicotico"
+		},
+		"code": "CSAH"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1345 disp (albendazol - supension oral)"
+				},
+				"description": {
+					"es": "1345 disp (albendazol - supension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1345 cons (albendazol - supension oral)"
+				},
+				"description": {
+					"es": "1345 cons (albendazol - supension oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1344 disp (albendazol - tableta)"
+				},
+				"description": {
+					"es": "1344 disp (albendazol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1344 cons (albendazol - tableta)"
+				},
+				"description": {
+					"es": "1344 cons (albendazol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2018 disp (itraconazol)"
+				},
+				"description": {
+					"es": "2018 disp (itraconazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2018 cons (itraconazol)"
+				},
+				"description": {
+					"es": "2018 cons (itraconazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2136 disp (mebendazol)"
+				},
+				"description": {
+					"es": "2136 disp (mebendazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2136 cons (mebendazol)"
+				},
+				"description": {
+					"es": "2136 cons (mebendazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1561 disp (metronidazol - ovulo)"
+				},
+				"description": {
+					"es": "1561 disp (metronidazol - ovulo)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1561 cons (metronidazol - ovulo)"
+				},
+				"description": {
+					"es": "1561 cons (metronidazol - ovulo)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1308 disp (metronidazol - tableta)"
+				},
+				"description": {
+					"es": "1308 disp (metronidazol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1308 cons (metronidazol - tableta)"
+				},
+				"description": {
+					"es": "1308 cons (metronidazol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1310 disp (metronidazol, benzoilo de)"
+				},
+				"description": {
+					"es": "1310 disp (metronidazol, benzoilo de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1310 cons (metronidazol, benzoilo de)"
+				},
+				"description": {
+					"es": "1310 cons (metronidazol, benzoilo de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0891 disp (miconazol, nitrato de)"
+				},
+				"description": {
+					"es": "0891 disp (miconazol, nitrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0891 cons (miconazol, nitrato de)"
+				},
+				"description": {
+					"es": "0891 cons (miconazol, nitrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4260 disp (nistatina)"
+				},
+				"description": {
+					"es": "4260 disp (nistatina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4260 cons (nistatina)"
+				},
+				"description": {
+					"es": "4260 cons (nistatina)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Gastrointestinal"
+		},
+		"code": "CSAI"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3623 disp (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisódico dihidratado))"
+				},
+				"description": {
+					"es": "3623 disp (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisódico dihidratado))"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3623 cons (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisódico dihidratado))"
+				},
+				"description": {
+					"es": "3623 cons (electrolitos orales (glucosa, cloruro de potasio, cloruro de sodio y citrato trisódico dihidratado))"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5186 disp (omeprazol)"
+				},
+				"description": {
+					"es": "5186 disp (omeprazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5186 cons (omeprazol)"
+				},
+				"description": {
+					"es": "5186 cons (omeprazol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1206 disp (butilhioscina, bromuro de)"
+				},
+				"description": {
+					"es": "1206 disp (butilhioscina, bromuro de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1206 cons (butilhioscina, bromuro de)"
+				},
+				"description": {
+					"es": "1206 cons (butilhioscina, bromuro de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1207 disp (butilhioscina, bromuro de)"
+				},
+				"description": {
+					"es": "1207 disp (butilhioscina, bromuro de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1207 cons (butilhioscina, bromuro de)"
+				},
+				"description": {
+					"es": "1207 cons (butilhioscina, bromuro de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1233 disp (ranitidina, clorhidrato de)"
+				},
+				"description": {
+					"es": "1233 disp (ranitidina, clorhidrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1233 cons (ranitidina, clorhidrato de)"
+				},
+				"description": {
+					"es": "1233 cons (ranitidina, clorhidrato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1271 disp (plántago psyllium)"
+				},
+				"description": {
+					"es": "1271 disp (plántago psyllium)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1271 cons (plántago psyllium)"
+				},
+				"description": {
+					"es": "1271 cons (plántago psyllium)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1224 disp (aluminio, hidróxido de - hidróxido de magnesio)"
+				},
+				"description": {
+					"es": "1224 disp (aluminio, hidróxido de - hidróxido de magnesio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1224 cons (aluminio, hidróxido de - hidróxido de magnesio)"
+				},
+				"description": {
+					"es": "1224 cons (aluminio, hidróxido de - hidróxido de magnesio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1263 disp (bismuto, subsalicilato de)"
+				},
+				"description": {
+					"es": "1263 disp (bismuto, subsalicilato de)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1263 cons (bismuto, subsalicilato de)"
+				},
+				"description": {
+					"es": "1263 cons (bismuto, subsalicilato de)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Analgesicos/Antipireticos"
+		},
+		"code": "CSAJ"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0101 disp (ácido acetilsalicílico - tableta 500mg)"
+				},
+				"description": {
+					"es": "0101 disp (ácido acetilsalicílico - tableta 500mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0101 cons (ácido acetilsalicílico - tableta 500mg)"
+				},
+				"description": {
+					"es": "0101 cons (ácido acetilsalicílico - tableta 500mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 disp (ácido acetilsalicílico - tableta soluble o efervescente)"
+				},
+				"description": {
+					"es": "0103 disp (ácido acetilsalicílico - tableta soluble o efervescente)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 cons (ácido acetilsalicílico - tableta soluble o efervescente)"
+				},
+				"description": {
+					"es": "0103 cons (ácido acetilsalicílico - tableta soluble o efervescente)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0104 disp (paracetamol - tableta)"
+				},
+				"description": {
+					"es": "0104 disp (paracetamol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0104 cons (paracetamol - tableta)"
+				},
+				"description": {
+					"es": "0104 cons (paracetamol - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0105 disp (paracetamol - supositorio)"
+				},
+				"description": {
+					"es": "0105 disp (paracetamol - supositorio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0105 cons (paracetamol - supositorio)"
+				},
+				"description": {
+					"es": "0105 cons (paracetamol - supositorio)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0106 disp (paracetamol - solucion oral)"
+				},
+				"description": {
+					"es": "0106 disp (paracetamol - solucion oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0106 cons (paracetamol - solucion oral)"
+				},
+				"description": {
+					"es": "0106 cons (paracetamol - solucion oral)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0108 disp (metamizol sódico - comprimido)"
+				},
+				"description": {
+					"es": "0108 disp (metamizol sódico - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0108 cons (metamizol sódico - comprimido)"
+				},
+				"description": {
+					"es": "0108 cons (metamizol sódico - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0109 disp (metamizol sódico - solucion inyectable)"
+				},
+				"description": {
+					"es": "0109 disp (metamizol sódico - solucion inyectable)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0109 cons (metamizol sódico - solucion inyectable)"
+				},
+				"description": {
+					"es": "0109 cons (metamizol sódico - solucion inyectable)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5501 disp (diclofenaco sódico)"
+				},
+				"description": {
+					"es": "5501 disp (diclofenaco sódico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5501 cons (diclofenaco sódico)"
+				},
+				"description": {
+					"es": "5501 cons (diclofenaco sódico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3422 disp (ketorolaco trometamina)"
+				},
+				"description": {
+					"es": "3422 disp (ketorolaco trometamina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3422 cons (ketorolaco trometamina)"
+				},
+				"description": {
+					"es": "3422 cons (ketorolaco trometamina)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Antiinflamatorio"
+		},
+		"code": "CSAK"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3413 disp (indometacina)"
+				},
+				"description": {
+					"es": "3413 disp (indometacina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3413 cons (indometacina)"
+				},
+				"description": {
+					"es": "3413 cons (indometacina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3417 disp (diclofenaco sódico)"
+				},
+				"description": {
+					"es": "3417 disp (diclofenaco sódico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3417 cons (diclofenaco sódico)"
+				},
+				"description": {
+					"es": "3417 cons (diclofenaco sódico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3419 disp (naproxeno - suspension)"
+				},
+				"description": {
+					"es": "3419 disp (naproxeno - suspension)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3419 cons (naproxeno - suspension)"
+				},
+				"description": {
+					"es": "3419 cons (naproxeno - suspension)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3407 disp (naproxeno - tableta)"
+				},
+				"description": {
+					"es": "3407 disp (naproxeno - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3407 cons (naproxeno - tableta)"
+				},
+				"description": {
+					"es": "3407 cons (naproxeno - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Otros"
+		},
+		"code": "CSAL"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2462 disp (ambroxol, clorhidrato de - comprimido)"
+				},
+				"description": {
+					"es": "2462 disp (ambroxol, clorhidrato de - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2462 cons (ambroxol, clorhidrato de - comprimido)"
+				},
+				"description": {
+					"es": "2462 cons (ambroxol, clorhidrato de - comprimido)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2463 disp (ambroxol, clorhidrato de - solucion)"
+				},
+				"description": {
+					"es": "2463 disp (ambroxol, clorhidrato de - solucion)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2463 cons (ambroxol, clorhidrato de - solucion)"
+				},
+				"description": {
+					"es": "2463 cons (ambroxol, clorhidrato de - solucion)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0402 disp (clorfenamina, maleato de - tableta)"
+				},
+				"description": {
+					"es": "0402 disp (clorfenamina, maleato de - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0402 cons (clorfenamina, maleato de - tableta)"
+				},
+				"description": {
+					"es": "0402 cons (clorfenamina, maleato de - tableta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0408 disp (clorfenamina, maleato de - jarabe)"
+				},
+				"description": {
+					"es": "0408 disp (clorfenamina, maleato de - jarabe)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0408 cons (clorfenamina, maleato de - jarabe)"
+				},
+				"description": {
+					"es": "0408 cons (clorfenamina, maleato de - jarabe)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2714 disp (complejo b)"
+				},
+				"description": {
+					"es": "2714 disp (complejo b)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2714 cons (complejo b)"
+				},
+				"description": {
+					"es": "2714 cons (complejo b)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2707 disp (ácido ascórbico)"
+				},
+				"description": {
+					"es": "2707 disp (ácido ascórbico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2707 cons (ácido ascórbico)"
+				},
+				"description": {
+					"es": "2707 cons (ácido ascórbico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3451 disp (alopurinol)"
+				},
+				"description": {
+					"es": "3451 disp (alopurinol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3451 cons (alopurinol)"
+				},
+				"description": {
+					"es": "3451 cons (alopurinol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2608 disp (carbamazepina)"
+				},
+				"description": {
+					"es": "2608 disp (carbamazepina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2608 cons (carbamazepina)"
+				},
+				"description": {
+					"es": "2608 cons (carbamazepina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0804 disp (óxido de zinc )"
+				},
+				"description": {
+					"es": "0804 disp (óxido de zinc )"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0804 cons (óxido de zinc )"
+				},
+				"description": {
+					"es": "0804 cons (óxido de zinc )"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3616 disp (solución hartmann)"
+				},
+				"description": {
+					"es": "3616 disp (solución hartmann)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "3616 cons (solución hartmann)"
+				},
+				"description": {
+					"es": "3616 cons (solución hartmann)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Insumos de UTP"
+		},
+		"code": "CSAM"
+	},
+	"fields": {
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año de reporte"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Tiras disp"
+				},
+				"description": {
+					"es": "Tiras disponibles"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q1b": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Tiras cons"
+				},
+				"description": {
+					"es": "Tiras usadas"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q2a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Cintas disp"
+				},
+				"description": {
+					"es": "Cinta disponible"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q2b": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Cintas cons"
+				},
+				"description": {
+					"es": "Cinta usada"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q3a": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Gel disp"
+				},
+				"description": {
+					"es": "Gel disponible"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q3b": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Gel cons"
+				},
+				"description": {
+					"es": "Gel usado"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q4a": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Solucion disp"
+				},
+				"description": {
+					"es": "Solución disponible"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q4b": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Solucion cons"
+				},
+				"description": {
+					"es": "Solución usada"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q5a": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Jabones disp"
+				},
+				"description": {
+					"es": "Jabón disponible"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q5b": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Jabones cons"
+				},
+				"description": {
+					"es": "Jabón usado"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q6a": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Guantes disp"
+				},
+				"description": {
+					"es": "Guantes disponible"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"q6b": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "Guantes cons"
+				},
+				"description": {
+					"es": "Guantes usados"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Stockout"
+		},
+		"code": "FALTA"
+	},
+	"fields": {
+		"facility": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"tiny": {
+					"es": "f"
+				},
+				"short": {
+					"es": "Farmacia"
+				},
+				"description": {
+					"es": "Farmacia"
+				}
+			},
+			"length": [4,
+			6]
+		},
+		"item": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"tiny": {
+					"es": "m"
+				},
+				"short": {
+					"es": "Medicamento"
+				},
+				"description": {
+					"es": "Medicamento"
+				}
+			},
+			"length": [1,
+			40]
+		}
+	},
+	"use-sentinel": true,
+	"public_form": true
+}]
