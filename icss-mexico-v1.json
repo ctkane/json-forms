@@ -4519,7 +4519,7 @@
 	"fields": {
 		"facility": {
 			"position": 1,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"tiny": {
 					"es": "f"
@@ -4536,7 +4536,7 @@
 		},
 		"item": {
 			"position": 2,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"tiny": {
 					"es": "m"
