@@ -1,0 +1,322 @@
+[
+   {
+      "meta": {
+         "code": "ANCR",
+         "label": {
+            "en": "ANC Registration",
+            "sw": "Sajilisha ANC"
+         }
+      },
+      "fields": {
+         "name": {
+            "labels": {
+               "tiny": {
+                 "en": "N",
+                 "sw": "JINA"
+               },
+               "description": {
+                 "en": "Name",
+                 "sw": "Jina"
+               },
+               "short": {
+                 "en": "Name",
+                 "sw": "Jina"
+               }
+            },
+            "position": 0,
+            "type": "string",
+            "length": [
+               1,
+               40
+            ],
+            "required": true
+         },
+         "last_menstrual_period": {
+            "labels": {
+               "tiny": {
+                  "en": "LMP"
+               },
+               "description": {
+                  "en": "Weeks since last menstrual period"
+               },
+               "short": {
+                  "en": "Weeks since LMP"
+               }
+            },
+            "position": 1,
+            "type": "integer",
+            "length": [
+               1,
+               2
+            ],
+            "range": [
+               1,
+               53
+            ],
+            "validations": {},
+            "flags": {},
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "ANCV",
+         "label": {
+            "en": "ANC Visit",
+            "sw": "Kudhibitisha ANC Klinik"
+         }
+      },
+      "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                 "en": "ID"
+               },
+               "description": {
+                 "en": "Patient Identifier"
+               },
+               "short": {
+                 "en": "Patient ID"
+               }
+            },
+            "position": 0,
+            "flags": {
+                "input_digits_only": true
+            },
+            "length": [
+                5, 5
+            ],
+            "type": "string",
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "IMMR",
+         "label": {
+            "en": "Immunization Registration",
+            "sw": "Sajilisha Chanjo"
+         }
+      },
+      "fields": {
+         "name": {
+            "labels": {
+               "tiny": {
+                 "en": "child",
+                 "sw": "mtoto"
+               },
+               "description": {
+                 "en": "Child's Full Name",
+                 "sw": "Jina"
+               },
+               "short": {
+                 "en": "Child's Name",
+                 "sw": "Jina"
+               }
+            },
+            "position": 0,
+            "type": "string",
+            "length": [
+               1,
+               40
+            ],
+            "required": true
+         },
+         "mother_patient_id": {
+            "labels": {
+               "tiny": {
+                  "en": "mom",
+                  "sw": "mama"
+               },
+               "description": {
+                  "en": "Mother's Patient Identifier"
+               },
+               "short": {
+                  "en": "Mother's Patient ID"
+               }
+            },
+            "position": 1,
+            "flags": {
+                "input_digits_only": true
+            },
+            "length": [
+                5, 5
+            ],
+            "type": "string",
+            "validations": {},
+            "required": true
+         },
+         "days_since_birth": {
+            "labels": {
+               "tiny": {
+                  "en": "dob",
+                  "sw": "dob"
+               },
+               "description": {
+                  "en": "Days since birth",
+                  "sw": "siku kutoka kuzaliwa"
+               },
+               "short": {
+                  "en": "Days since birth",
+                  "sw": "siku kutoka kuzaliwa"
+               }
+            },
+            "position": 2,
+            "type": "integer",
+            "length": [
+               1,
+               3
+            ],
+            "range": [
+               1,
+               365
+            ],
+            "validations": {},
+            "flags": {},
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "IMMV",
+         "label": {
+            "en": "Immunization Visit Confirmation",
+            "sw": "Kudhibitisha klinik ya chanjo"
+         }
+      },
+      "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                 "en": "ID"
+               },
+               "description": {
+                 "en": "Patient Identifier"
+               },
+               "short": {
+                 "en": "Patient ID"
+               }
+            },
+            "position": 0,
+            "flags": {
+                "input_digits_only": true
+            },
+            "length": [
+                5, 5
+            ],
+            "type": "string",
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "OFF",
+         "label": {
+            "en": "Disable Notifications",
+            "sw": "Toa"
+         }
+      },
+      "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                 "en": "ID"
+               },
+               "description": {
+                 "en": "Patient Identifier"
+               },
+               "short": {
+                 "en": "Patient ID"
+               }
+            },
+            "position": 0,
+            "flags": {
+                "input_digits_only": true
+            },
+            "length": [
+                5, 5
+            ],
+            "type": "string",
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "ON",
+         "label": {
+            "en": "Enable Notifications",
+            "sw": "Rudisha"
+         }
+      },
+      "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                 "en": "ID"
+               },
+               "description": {
+                 "en": "Patient Identifier"
+               },
+               "short": {
+                 "en": "Patient ID"
+               }
+            },
+            "position": 0,
+            "flags": {
+                "input_digits_only": true
+            },
+            "length": [
+                5, 5
+            ],
+            "type": "string",
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "HATARI",
+         "label": {
+            "en": "Danger Signs",
+            "sw": "Hatari"
+         }
+      },
+      "fields": {
+         "name": {
+            "labels": {
+               "tiny": {
+                 "en": "N",
+                 "sw": "JINA"
+               },
+               "description": {
+                 "en": "Full Name",
+                 "sw": "Jina"
+               },
+               "short": {
+                 "en": "Full Name",
+                 "sw": "Jina"
+               }
+            },
+            "position": 0,
+            "type": "string",
+            "length": [
+               1,
+               40
+            ],
+            "required": true
+         }
+      },
+      "use_sentinel": true
+   }
+]
