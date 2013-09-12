@@ -150,18 +150,18 @@
             "validations": {},
             "required": true
          },
-         "days_since_birth": {
+         "weeks_since_birth": {
             "labels": {
                "tiny": {
                   "en": "dob",
                   "sw": "dob"
                },
                "description": {
-                  "en": "Days since birth",
+                  "en": "Weeks since birth",
                   "sw": "siku kutoka kuzaliwa"
                },
                "short": {
-                  "en": "Days since birth",
+                  "en": "Weeks since birth",
                   "sw": "siku kutoka kuzaliwa"
                }
             },
@@ -169,11 +169,11 @@
             "type": "integer",
             "length": [
                1,
-               3
+               2
             ],
             "range": [
                1,
-               365
+               52
             ],
             "validations": {},
             "flags": {},
