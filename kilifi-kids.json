@@ -56,6 +56,28 @@
             "validations": {},
             "flags": {},
             "required": true
+         },
+         "getid": {
+            "labels": {
+               "tiny": {
+                  "en": "GETID",
+                  "sw": "PATAID"
+               },
+               "description": {
+                  "en": "When set only generate ID, not schedule."
+               },
+               "short": {
+                  "en": "Only Generate ID"
+               }
+            },
+            "position": 2,
+            "type": "string",
+            "length": [
+               1,
+               2
+            ],
+            "validations": {},
+            "flags": {}
          }
       },
       "use_sentinel": true
