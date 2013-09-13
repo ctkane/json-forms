@@ -315,7 +315,7 @@
          }
       },
       "fields": {
-         "name": {
+         "patient_name": {
             "labels": {
                "tiny": {
                  "en": "N",
