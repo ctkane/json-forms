@@ -180,11 +180,11 @@
                },
                "description": {
                   "en": "Weeks since birth",
-                  "sw": "siku kutoka kuzaliwa"
+                  "sw": "wiki kutoka kuzaliwa"
                },
                "short": {
                   "en": "Weeks since birth",
-                  "sw": "siku kutoka kuzaliwa"
+                  "sw": "wiki kutoka kuzaliwa"
                }
             },
             "position": 2,
