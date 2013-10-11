@@ -1,0 +1,381 @@
+[{
+	"meta": {
+		"label": {
+			"en": "LDP+ Coaching"
+		},
+		"code": "LDPC"
+	},
+	"fields": {
+		"name": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Coach"
+				},
+				"description": {
+					"en": "Coach"
+				}
+			},
+			"length": [1,
+			20]
+		},
+		"team": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Participant"
+				},
+				"description": {
+					"en": "Participant"
+				}
+			},
+			"length": [1,
+			20]
+		},
+		"q1": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Results achieved last month"
+				},
+				"description": {
+					"en": "Results achieved last month"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Acheived"
+			}],
+			[2,
+			{
+				"en": "Not acheived"
+			}],
+			[3,
+			{
+				"en": "No longer planned"
+			}]]
+		},
+		"q2": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased new ANC attendance?"
+				},
+				"description": {
+					"en": "Increased new ANC attendance?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased HIV+ pregnant women who received results?"
+				},
+				"description": {
+					"en": "Increased HIV+ pregnant women who received results?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q4": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+				},
+				"description": {
+					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q5": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased women who tested HIV+?"
+				},
+				"description": {
+					"en": "Increased women who tested HIV+?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q6": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased positive women started on ARV prophylaxis-triple regimen?"
+				},
+				"description": {
+					"en": "Increased positive women started on ARV prophylaxis-triple regimen?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q7": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased total deliveries at the facility booked & unbooked?"
+				},
+				"description": {
+					"en": "Increased total deliveries at the facility booked & unbooked?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q8": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Biggest challenge in achieving your work plan goals?"
+				},
+				"description": {
+					"en": "Biggest challenge in achieving your work plan goals?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Husbands"
+			}],
+			[2,
+			{
+				"en": "Distance"
+			}],
+			[3,
+			{
+				"en": "Patient Relocation"
+			}],
+			[4,
+			{
+				"en": "Drugs finished"
+			}],
+			[5,
+			{
+				"en": "Motivation (Staff)"
+			}],
+			[6,
+			{
+				"en": "Patient Finances"
+			}],
+			[7,
+			{
+				"en": "Stigmatization"
+			}],
+			[8,
+			{
+				"en": "Poor health-seeking behaviour"
+			}]]
+		},
+		"q9": {
+			"position": 11,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "Suggestions made by coach on the way forward"
+				},
+				"description": {
+					"en": "Suggestions made by coach on the way forward"
+				}
+			},
+			"length": [0,
+			36],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q10": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Advocacy - agreeed on addressing?"
+				},
+				"description": {
+					"en": "Advocacy - agreeed on addressing?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q11": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Community mobilization - agreeed on addressing?"
+				},
+				"description": {
+					"en": "Community mobilization - agreeed on addressing?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q12": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Community awareness/sensitization - agreeed on addressing?"
+				},
+				"description": {
+					"en": "Community awareness/sensitization - agreeed on addressing?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q13": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Coordination/meeting - agreeed on addressing?"
+				},
+				"description": {
+					"en": "Coordination/meeting - agreeed on addressing?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q14": {
+			"position": 16,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "What will participants do differently next time?"
+				},
+				"description": {
+					"en": "What will participants do differently next time?"
+				}
+			},
+			"length": [1,
+			36]
+		},
+		"q15": {
+			"position": 17,
+			"type": "date",
+			"labels": {
+				"short": {
+					"en": "Date of next meeting"
+				},
+				"description": {
+					"en": "Date of next meeting"
+				}
+			},
+			"length": [1,
+			12]
+		}
+	},
+	"use-sentinel": true
+}]

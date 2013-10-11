@@ -1,0 +1,831 @@
+[{
+	"meta": {
+		"label": {
+			"en": "LDP+ Report"
+		},
+		"code": "LDPR"
+	},
+	"fields": {
+		"name": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Person Reporting"
+				},
+				"description": {
+					"en": "Person Reporting"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"team": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "LDP Team"
+				},
+				"description": {
+					"en": "LDP Team"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"q1": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "How is PMTCT work plan advancing?"
+				},
+				"description": {
+					"en": "How is PMTCT work plan advancing?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Acheived"
+			}],
+			[2,
+			{
+				"en": "Not acheived"
+			}],
+			[3,
+			{
+				"en": "No longer planned"
+			}]]
+		},
+		"q2": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased new ANC attendance?"
+				},
+				"description": {
+					"en": "Increased new ANC attendance?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased HIV+ pregnant women who received results?"
+				},
+				"description": {
+					"en": "Increased HIV+ pregnant women who received results?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q4": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+				},
+				"description": {
+					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q5": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased women who tested HIV+?"
+				},
+				"description": {
+					"en": "Increased women who tested HIV+?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q6": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased positive women started on ARV prophylaxis-triple regimen?"
+				},
+				"description": {
+					"en": "Increased positive women started on ARV prophylaxis-triple regimen?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q7": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Increased total deliveries at the facility booked & unbooked?"
+				},
+				"description": {
+					"en": "Increased total deliveries at the facility booked & unbooked?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q8": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Biggest challenge in achieving your work plan goals?"
+				},
+				"description": {
+					"en": "Biggest challenge in achieving your work plan goals?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Husbands"
+			}],
+			[2,
+			{
+				"en": "Distance"
+			}],
+			[3,
+			{
+				"en": "Patient Relocation"
+			}],
+			[4,
+			{
+				"en": "Drugs finished"
+			}],
+			[5,
+			{
+				"en": "Motivation (Staff)"
+			}],
+			[6,
+			{
+				"en": "Patient Finances"
+			}],
+			[7,
+			{
+				"en": "Stigmatization"
+			}],
+			[8,
+			{
+				"en": "Poor health-seeking behaviour"
+			}]]
+		},
+		"q9": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using planning to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using planning to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q10": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using organizing to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using organizing to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q11": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using implementing to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using implementing to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q12": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using montiroing and evaluation to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using montiroing and evaluation to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q13": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using scanning to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using scanning to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q14": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using focusing to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using focusing to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q15": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using aligning/mobilizing to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using aligning/mobilizing to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q16": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Using inspiring to overcome this challenge?"
+				},
+				"description": {
+					"en": "Using inspiring to overcome this challenge?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q17": {
+			"position": 19,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "Practice you still don't fully understand?"
+				},
+				"description": {
+					"en": "Practice you still don't fully understand?"
+				}
+			},
+			"length": [0,
+			40]
+		},
+		"q18": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Planning advocacy for next month?"
+				},
+				"description": {
+					"en": "Planning advocacy for next month?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q19": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Planning community mobilization for next month?"
+				},
+				"description": {
+					"en": "Planning community mobilization for next month?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q20": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Planning community awareness/sensitization for next month?"
+				},
+				"description": {
+					"en": "Planning community awareness/sensitization for next month?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q21": {
+			"position": 23,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Planning training for next month?"
+				},
+				"description": {
+					"en": "Planning training for next month?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		},
+		"q22": {
+			"position": 24,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Planning coordination/meeting for next month?"
+				},
+				"description": {
+					"en": "Planning coordination/meeting for next month?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "Yes"
+			}],
+			[2,
+			{
+				"en": "No"
+			}]]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"en": "PMTCT Indicators"
+		},
+		"code": "PMTCT"
+	},
+	"fields": {
+		"name": {
+			"position": 1,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "Person Reporting"
+				},
+				"description": {
+					"en": "Person Reporting"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"team": {
+			"position": 2,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "LDP Team"
+				},
+				"description": {
+					"en": "LDP Team"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"q1": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "New ANC clients"
+				},
+				"description": {
+					"en": "New ANC clients"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q2": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant women HIV tested, counseled and received results"
+				},
+				"description": {
+					"en": "Pregnant women HIV tested, counseled and received results"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "HIV+ women started on ARV prophylaxis – triple regimen"
+				},
+				"description": {
+					"en": "HIV+ women started on ARV prophylaxis – triple regimen"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q4": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Total deliveries at facility booked and un-booked"
+				},
+				"description": {
+					"en": "Total deliveries at facility booked and un-booked"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q5": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Partners of HIV+ pregnant women who receive results"
+				},
+				"description": {
+					"en": "Partners of HIV+ pregnant women who receive results"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q6": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant women who tested HIV+"
+				},
+				"description": {
+					"en": "Pregnant women who tested HIV+"
+				}
+			},
+			"length": [1,
+			1]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"en": "FP/HIV Indicators"
+		},
+		"code": "FPHIV"
+	},
+	"fields": {
+		"name": {
+			"position": 1,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "Person Reporting"
+				},
+				"description": {
+					"en": "Person Reporting"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"team": {
+			"position": 2,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "LDP Team"
+				},
+				"description": {
+					"en": "LDP Team"
+				}
+			},
+			"length": [1,
+			30]
+		},
+		"q1": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+				},
+				"description": {
+					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q2": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+				},
+				"description": {
+					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
+				},
+				"description": {
+					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q4": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
+				},
+				"description": {
+					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q5": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
+				},
+				"description": {
+					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q6": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
+				},
+				"description": {
+					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q7": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Total HIV+ women"
+				},
+				"description": {
+					"en": "Total HIV+ women"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q8": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "HIV+ women that attended FP Clinic"
+				},
+				"description": {
+					"en": "HIV+ women that attended FP Clinic"
+				}
+			},
+			"length": [1,
+			1]
+		},
+		"q9": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Total support group attendees"
+				},
+				"description": {
+					"en": "Total support group attendees"
+				}
+			},
+			"length": [1,
+			1]
+		}
+	},
+	"use-sentinel": true
+}]
