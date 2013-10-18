@@ -6,36 +6,8 @@
 		"code": "LDPR"
 	},
 	"fields": {
-		"name": {
-			"position": 1,
-			"type": "integer",
-			"labels": {
-				"short": {
-					"en": "Person Reporting"
-				},
-				"description": {
-					"en": "Person Reporting"
-				}
-			},
-			"length": [1,
-			30]
-		},
-		"team": {
-			"position": 2,
-			"type": "integer",
-			"labels": {
-				"short": {
-					"en": "LDP Team"
-				},
-				"description": {
-					"en": "LDP Team"
-				}
-			},
-			"length": [1,
-			30]
-		},
 		"q1": {
-			"position": 3,
+			"position": 1,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -61,7 +33,7 @@
 			}]]
 		},
 		"q2": {
-			"position": 4,
+			"position": 2,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -83,7 +55,7 @@
 			}]]
 		},
 		"q3": {
-			"position": 5,
+			"position": 3,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -105,14 +77,14 @@
 			}]]
 		},
 		"q4": {
-			"position": 6,
+			"position": 4,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+					"en": "Increased partners of HIV+ women counselled, tested and received results?"
 				},
 				"description": {
-					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+					"en": "Increased partners of HIV+ women counselled, tested and received results?"
 				}
 			},
 			"length": [1,
@@ -127,7 +99,7 @@
 			}]]
 		},
 		"q5": {
-			"position": 7,
+			"position": 5,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -149,7 +121,7 @@
 			}]]
 		},
 		"q6": {
-			"position": 8,
+			"position": 6,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -171,14 +143,14 @@
 			}]]
 		},
 		"q7": {
-			"position": 9,
+			"position": 7,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Increased total deliveries at the facility booked & unbooked?"
+					"en": "Increased total deliveries at the facility booked and unbooked?"
 				},
 				"description": {
-					"en": "Increased total deliveries at the facility booked & unbooked?"
+					"en": "Increased total deliveries at the facility booked and unbooked?"
 				}
 			},
 			"length": [1,
@@ -193,7 +165,7 @@
 			}]]
 		},
 		"q8": {
-			"position": 10,
+			"position": 8,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -239,7 +211,7 @@
 			}]]
 		},
 		"q9": {
-			"position": 11,
+			"position": 9,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -261,7 +233,7 @@
 			}]]
 		},
 		"q10": {
-			"position": 12,
+			"position": 10,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -283,7 +255,7 @@
 			}]]
 		},
 		"q11": {
-			"position": 13,
+			"position": 11,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -305,14 +277,14 @@
 			}]]
 		},
 		"q12": {
-			"position": 14,
+			"position": 12,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Using montiroing and evaluation to overcome this challenge?"
+					"en": "Using monitoring and evaluation to overcome this challenge?"
 				},
 				"description": {
-					"en": "Using montiroing and evaluation to overcome this challenge?"
+					"en": "Using monitoring and evaluation to overcome this challenge?"
 				}
 			},
 			"length": [1,
@@ -327,7 +299,7 @@
 			}]]
 		},
 		"q13": {
-			"position": 15,
+			"position": 13,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -349,7 +321,7 @@
 			}]]
 		},
 		"q14": {
-			"position": 16,
+			"position": 14,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -371,7 +343,7 @@
 			}]]
 		},
 		"q15": {
-			"position": 17,
+			"position": 15,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -393,7 +365,7 @@
 			}]]
 		},
 		"q16": {
-			"position": 18,
+			"position": 16,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -415,7 +387,7 @@
 			}]]
 		},
 		"q17": {
-			"position": 19,
+			"position": 17,
 			"type": "string",
 			"labels": {
 				"short": {
@@ -426,10 +398,10 @@
 				}
 			},
 			"length": [0,
-			40]
+			76]
 		},
 		"q18": {
-			"position": 20,
+			"position": 18,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -451,7 +423,7 @@
 			}]]
 		},
 		"q19": {
-			"position": 21,
+			"position": 19,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -473,7 +445,7 @@
 			}]]
 		},
 		"q20": {
-			"position": 22,
+			"position": 20,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -495,7 +467,7 @@
 			}]]
 		},
 		"q21": {
-			"position": 23,
+			"position": 21,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -517,7 +489,7 @@
 			}]]
 		},
 		"q22": {
-			"position": 24,
+			"position": 22,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -537,6 +509,20 @@
 			{
 				"en": "No"
 			}]]
+		},
+		"name": {
+			"position": 23,
+			"type": "string",
+			"labels": {
+				"short": {
+					"en": "Person Reporting"
+				},
+				"description": {
+					"en": "Person Reporting"
+				}
+			},
+			"length": [1,
+			30]
 		}
 	},
 	"use-sentinel": true
@@ -546,120 +532,106 @@
 		"label": {
 			"en": "PMTCT Indicators"
 		},
-		"code": "PMTCT"
+		"code": "PMTC"
 	},
 	"fields": {
-		"name": {
-			"position": 1,
-			"type": "string",
-			"labels": {
-				"short": {
-					"en": "Person Reporting"
-				},
-				"description": {
-					"en": "Person Reporting"
-				}
-			},
-			"length": [1,
-			30]
-		},
-		"team": {
-			"position": 2,
-			"type": "string",
-			"labels": {
-				"short": {
-					"en": "LDP Team"
-				},
-				"description": {
-					"en": "LDP Team"
-				}
-			},
-			"length": [1,
-			30]
-		},
 		"q1": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "New ANC clients"
+				},
+				"description": {
+					"en": "New ANC clients"
+				}
+			},
+			"length": [1,
+			5]
+		},
+		"q2": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant women HIV tested, counseled and received results"
+				},
+				"description": {
+					"en": "Pregnant women HIV tested, counseled and received results"
+				}
+			},
+			"length": [1,
+			5]
+		},
+		"q3": {
 			"position": 3,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "New ANC clients"
+					"en": "HIV+ women started on ARV prophylaxis - triple regimen"
 				},
 				"description": {
-					"en": "New ANC clients"
+					"en": "HIV+ women started on ARV prophylaxis - triple regimen"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q2": {
+		"q4": {
 			"position": 4,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Pregnant women HIV tested, counseled and received results"
+					"en": "Total deliveries at facility booked and un-booked"
 				},
 				"description": {
-					"en": "Pregnant women HIV tested, counseled and received results"
+					"en": "Total deliveries at facility booked and un-booked"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q3": {
+		"q5": {
 			"position": 5,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "HIV+ women started on ARV prophylaxis – triple regimen"
+					"en": "Partners of HIV+ pregnant women who receive results"
 				},
 				"description": {
-					"en": "HIV+ women started on ARV prophylaxis – triple regimen"
+					"en": "Partners of HIV+ pregnant women who receive results"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q4": {
+		"q6": {
 			"position": 6,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Total deliveries at facility booked and un-booked"
+					"en": "Pregnant women who tested HIV+"
 				},
 				"description": {
-					"en": "Total deliveries at facility booked and un-booked"
+					"en": "Pregnant women who tested HIV+"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q5": {
+		"name": {
 			"position": 7,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"short": {
-					"en": "Partners of HIV+ pregnant women who receive results"
+					"en": "Person Reporting"
 				},
 				"description": {
-					"en": "Partners of HIV+ pregnant women who receive results"
+					"en": "Person Reporting"
 				}
 			},
 			"length": [1,
-			1]
-		},
-		"q6": {
-			"position": 8,
-			"type": "integer",
-			"labels": {
-				"short": {
-					"en": "Pregnant women who tested HIV+"
-				},
-				"description": {
-					"en": "Pregnant women who tested HIV+"
-				}
-			},
-			"length": [1,
-			1]
+			30]
 		}
 	},
 	"use-sentinel": true
@@ -669,162 +641,148 @@
 		"label": {
 			"en": "FP/HIV Indicators"
 		},
-		"code": "FPHIV"
+		"code": "FPHI"
 	},
 	"fields": {
-		"name": {
-			"position": 1,
-			"type": "string",
-			"labels": {
-				"short": {
-					"en": "Person Reporting"
-				},
-				"description": {
-					"en": "Person Reporting"
-				}
-			},
-			"length": [1,
-			30]
-		},
-		"team": {
-			"position": 2,
-			"type": "string",
-			"labels": {
-				"short": {
-					"en": "LDP Team"
-				},
-				"description": {
-					"en": "LDP Team"
-				}
-			},
-			"length": [1,
-			30]
-		},
 		"q1": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+				},
+				"description": {
+					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+				}
+			},
+			"length": [1,
+			5]
+		},
+		"q2": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+				},
+				"description": {
+					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+				}
+			},
+			"length": [1,
+			5]
+		},
+		"q3": {
 			"position": 3,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
 				},
 				"description": {
-					"en": "Pregnant counseled (# of HIV+ pregnant women counseled on FP)"
+					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q2": {
+		"q4": {
 			"position": 4,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
 				},
 				"description": {
-					"en": "Pregnant referred (# of HIV+ pregnant women referred for FP services)"
+					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q3": {
+		"q5": {
 			"position": 5,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
+					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
 				},
 				"description": {
-					"en": "Not-pregnant counseled (# of HIV+ non-pregnant women counselled on FP)"
+					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q4": {
+		"q6": {
 			"position": 6,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
+					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
 				},
 				"description": {
-					"en": "Not-pregnant referred (# of HIV+ non-pregnant women referred for FP services)"
+					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q5": {
+		"q7": {
 			"position": 7,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
+					"en": "Total HIV+ women"
 				},
 				"description": {
-					"en": "Post-partum counseled (# of HIV+ women post-partum counselled on FP)"
+					"en": "Total HIV+ women"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q6": {
+		"q8": {
 			"position": 8,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
+					"en": "HIV+ women that attended FP Clinic"
 				},
 				"description": {
-					"en": "Received FP info (# of HIV+ men & women receiving FP info during support group meeting)"
+					"en": "HIV+ women that attended FP Clinic"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q7": {
+		"q9": {
 			"position": 9,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Total HIV+ women"
+					"en": "Total support group attendees"
 				},
 				"description": {
-					"en": "Total HIV+ women"
+					"en": "Total support group attendees"
 				}
 			},
 			"length": [1,
-			1]
+			5]
 		},
-		"q8": {
+		"name": {
 			"position": 10,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"short": {
-					"en": "HIV+ women that attended FP Clinic"
+					"en": "Person Reporting"
 				},
 				"description": {
-					"en": "HIV+ women that attended FP Clinic"
+					"en": "Person Reporting"
 				}
 			},
 			"length": [1,
-			1]
-		},
-		"q9": {
-			"position": 11,
-			"type": "integer",
-			"labels": {
-				"short": {
-					"en": "Total support group attendees"
-				},
-				"description": {
-					"en": "Total support group attendees"
-				}
-			},
-			"length": [1,
-			1]
+			30]
 		}
 	},
 	"use-sentinel": true
