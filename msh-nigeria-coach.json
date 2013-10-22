@@ -8,7 +8,7 @@
 	"fields": {
 		"name": {
 			"position": 1,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"short": {
 					"en": "Coach"
@@ -22,13 +22,13 @@
 		},
 		"team": {
 			"position": 2,
-			"type": "integer",
+			"type": "string",
 			"labels": {
 				"short": {
-					"en": "Participant"
+					"en": "Name of LDP team"
 				},
 				"description": {
-					"en": "Participant"
+					"en": "Name of LDP team"
 				}
 			},
 			"length": [1,
@@ -109,10 +109,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+					"en": "Increased partners of HIV+ women counselled, tested and received results?"
 				},
 				"description": {
-					"en": "Increased partners of HIV+ women counselled, tested & received results?"
+					"en": "Increased partners of HIV+ women counselled, tested and received results?"
 				}
 			},
 			"length": [1,
@@ -175,10 +175,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Increased total deliveries at the facility booked & unbooked?"
+					"en": "Increased total deliveries at the facility booked and unbooked?"
 				},
 				"description": {
-					"en": "Increased total deliveries at the facility booked & unbooked?"
+					"en": "Increased total deliveries at the facility booked and unbooked?"
 				}
 			},
 			"length": [1,
@@ -250,25 +250,17 @@
 				}
 			},
 			"length": [0,
-			36],
-			"list": [[1,
-			{
-				"en": "Yes"
-			}],
-			[2,
-			{
-				"en": "No"
-			}]]
+			36]
 		},
 		"q10": {
 			"position": 12,
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Advocacy - agreeed on addressing?"
+					"en": "Advocacy - agreed on addressing?"
 				},
 				"description": {
-					"en": "Advocacy - agreeed on addressing?"
+					"en": "Advocacy - agreed on addressing?"
 				}
 			},
 			"length": [1,
@@ -287,10 +279,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Community mobilization - agreeed on addressing?"
+					"en": "Community mobilization - agreed on addressing?"
 				},
 				"description": {
-					"en": "Community mobilization - agreeed on addressing?"
+					"en": "Community mobilization - agreed on addressing?"
 				}
 			},
 			"length": [1,
@@ -309,10 +301,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Community awareness/sensitization - agreeed on addressing?"
+					"en": "Community awareness/sensitization - agreed on addressing?"
 				},
 				"description": {
-					"en": "Community awareness/sensitization - agreeed on addressing?"
+					"en": "Community awareness/sensitization - agreed on addressing?"
 				}
 			},
 			"length": [1,
@@ -331,10 +323,10 @@
 			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Coordination/meeting - agreeed on addressing?"
+					"en": "Coordination/meeting - agreed on addressing?"
 				},
 				"description": {
-					"en": "Coordination/meeting - agreeed on addressing?"
+					"en": "Coordination/meeting - agreed on addressing?"
 				}
 			},
 			"length": [1,
@@ -364,17 +356,51 @@
 		},
 		"q15": {
 			"position": 17,
-			"type": "date",
+			"type": "integer",
 			"labels": {
 				"short": {
-					"en": "Date of next meeting"
+					"en": "Day of next meeting (DD)"
 				},
 				"description": {
-					"en": "Date of next meeting"
+					"en": "Day of next meeting (DD)"
 				}
 			},
 			"length": [1,
-			12]
+			2],
+			"validations": {
+				"is_numeric_day": true
+			}
+		},
+		"q16": {
+			"position": 18,
+			"type": "month",
+			"labels": {
+				"short": {
+					"en": "Month of next meeting"
+				},
+				"description": {
+					"en": "Month of next meeting"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q17": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Year of next meeting (YYYY)"
+				},
+				"description": {
+					"en": "Year of next meeting (YYYY)"
+				}
+			},
+			"length": [4,
+			4],
+			"validations": {
+				"is_numeric_year": true
+			}
 		}
 	},
 	"use-sentinel": true
