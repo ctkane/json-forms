@@ -49,7 +49,7 @@
             "flags": {},
             "required": true
          },
-         "language": {
+         "locale": {
             "labels": {
                "tiny": {
                   "en": "L"
