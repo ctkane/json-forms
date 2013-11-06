@@ -24,8 +24,7 @@
             "length": [
                1,
                40
-            ],
-            "required": true
+            ]
          },
          "caregiver_phone": {
             "labels": {
@@ -46,8 +45,7 @@
                20
             ],
             "validations": {},
-            "flags": {},
-            "required": true
+            "flags": {}
          },
          "locale": {
             "labels": {
