@@ -68,7 +68,7 @@
             "validations": {},
             "flags": {}
          },
-         "group": {
+         "patient_id": {
             "labels": {
                "tiny": {
                   "en": "G"
