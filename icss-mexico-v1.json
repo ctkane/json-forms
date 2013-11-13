@@ -4589,6 +4589,930 @@
 {
 	"meta": {
 		"label": {
+			"es": "Diabetes y lipidos"
+		},
+		"code": "CSAP"
+	},
+	"fields": {
+		"facility": {
+			"position": 1,
+			"type": "string",
+			"labels": {
+				"short": {
+					"es": "Almacen"
+				},
+				"description": {
+					"es": "Almacen"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año"
+				}
+			},
+			"position": 2,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013",
+				"es": "2013"
+			}],
+			[2,
+			{
+				"en": "2014",
+				"es": "2014"
+			}],
+			[3,
+			{
+				"en": "2015",
+				"es": "2015"
+			}],
+			[4,
+			{
+				"en": "2016",
+				"es": "2016"
+			}],
+			[5,
+			{
+				"en": "2017",
+				"es": "2017"
+			}],
+			[6,
+			{
+				"en": "2018",
+				"es": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 3,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1042 disp (glibenclamida)"
+				},
+				"description": {
+					"es": "1042 disp (glibenclamida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1042 cons (glibenclamida)"
+				},
+				"description": {
+					"es": "1042 cons (glibenclamida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5165 disp (metformina)"
+				},
+				"description": {
+					"es": "5165 disp (metformina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "5165 cons (metformina)"
+				},
+				"description": {
+					"es": "5165 cons (metformina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1050 disp (insulina humana acción intermedia nph)"
+				},
+				"description": {
+					"es": "1050 disp (insulina humana acción intermedia nph)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1050 cons (insulina humana acción intermedia nph)"
+				},
+				"description": {
+					"es": "1050 cons (insulina humana acción intermedia nph)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1051 disp (insulina humana acción rápida regular)"
+				},
+				"description": {
+					"es": "1051 disp (insulina humana acción rápida regular)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "1051 cons (insulina humana acción rápida regular)"
+				},
+				"description": {
+					"es": "1051 cons (insulina humana acción rápida regular)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4157 disp (insulina humana acción intermedia lenta)"
+				},
+				"description": {
+					"es": "4157 disp (insulina humana acción intermedia lenta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4157 cons (insulina humana acción intermedia lenta)"
+				},
+				"description": {
+					"es": "4157 cons (insulina humana acción intermedia lenta)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4158 disp (insulina glargina)"
+				},
+				"description": {
+					"es": "4158 disp (insulina glargina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4158 cons (insulina glargina)"
+				},
+				"description": {
+					"es": "4158 cons (insulina glargina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4162 disp (insulina lispro)"
+				},
+				"description": {
+					"es": "4162 disp (insulina lispro)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4162 cons (insulina lispro)"
+				},
+				"description": {
+					"es": "4162 cons (insulina lispro)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4148 disp (insulina mix)"
+				},
+				"description": {
+					"es": "4148 disp (insulina mix)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4148 cons (insulina mix)"
+				},
+				"description": {
+					"es": "4148 cons (insulina mix)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0657 disp (pravastatina)"
+				},
+				"description": {
+					"es": "0657 disp (pravastatina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0657 cons (pravastatina)"
+				},
+				"description": {
+					"es": "0657 cons (pravastatina)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0655 disp (bezafibrato)"
+				},
+				"description": {
+					"es": "0655 disp (bezafibrato)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 23,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0655 cons (bezafibrato)"
+				},
+				"description": {
+					"es": "0655 cons (bezafibrato)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"es": "Hipertensión"
+		},
+		"code": "CSAO"
+	},
+	"fields": {
+		"facility": {
+			"position": 1,
+			"type": "string",
+			"labels": {
+				"short": {
+					"es": "Almacen"
+				},
+				"description": {
+					"es": "Almacen"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"year": {
+			"labels": {
+				"short": {
+					"en": "Year",
+					"es": "Año"
+				}
+			},
+			"position": 2,
+			"type": "integer",
+			"list": [[1,
+			{
+				"en": "2013",
+				"es": "2013"
+			}],
+			[2,
+			{
+				"en": "2014",
+				"es": "2014"
+			}],
+			[3,
+			{
+				"en": "2015",
+				"es": "2015"
+			}],
+			[4,
+			{
+				"en": "2016",
+				"es": "2016"
+			}],
+			[5,
+			{
+				"en": "2017",
+				"es": "2017"
+			}],
+			[6,
+			{
+				"en": "2018",
+				"es": "2018"
+			}]]
+		},
+		"month": {
+			"labels": {
+				"short": {
+					"en": "Month",
+					"es": "Mes de reporte"
+				}
+			},
+			"position": 3,
+			"type": "integer",
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"es": "Enero"
+			}],
+			[2,
+			{
+				"es": "Febrero"
+			}],
+			[3,
+			{
+				"es": "Marzo"
+			}],
+			[4,
+			{
+				"es": "Abril"
+			}],
+			[5,
+			{
+				"es": "Mayo"
+			}],
+			[6,
+			{
+				"es": "Junio"
+			}],
+			[7,
+			{
+				"es": "Julio"
+			}],
+			[8,
+			{
+				"es": "Agosto"
+			}],
+			[9,
+			{
+				"es": "Septiembre"
+			}],
+			[10,
+			{
+				"es": "Octubre"
+			}],
+			[11,
+			{
+				"es": "Noviembre"
+			}],
+			[12,
+			{
+				"es": "Diciembre"
+			}]]
+		},
+		"q1a": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 disp (acido acetil salicílico)"
+				},
+				"description": {
+					"es": "0103 disp (acido acetil salicílico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q1b": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0103 cons (acido acetil salicílico)"
+				},
+				"description": {
+					"es": "0103 cons (acido acetil salicílico)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2a": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0574 disp (captopril)"
+				},
+				"description": {
+					"es": "0574 disp (captopril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q2b": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0574 cons (captopril)"
+				},
+				"description": {
+					"es": "0574 cons (captopril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3a": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2501 disp (enalapril o lisinopril o ramipril)"
+				},
+				"description": {
+					"es": "2501 disp (enalapril o lisinopril o ramipril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q3b": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2501 cons (enalapril o lisinopril o ramipril)"
+				},
+				"description": {
+					"es": "2501 cons (enalapril o lisinopril o ramipril)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4a": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0572 disp (metoprolol)"
+				},
+				"description": {
+					"es": "0572 disp (metoprolol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q4b": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0572 cons (metoprolol)"
+				},
+				"description": {
+					"es": "0572 cons (metoprolol)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5a": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0599 disp (nifedipino)"
+				},
+				"description": {
+					"es": "0599 disp (nifedipino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q5b": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0599 cons (nifedipino)"
+				},
+				"description": {
+					"es": "0599 cons (nifedipino)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6a": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4095 disp (irbesartan - tableta 150mg)"
+				},
+				"description": {
+					"es": "4095 disp (irbesartan - tableta 150mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q6b": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4095 cons (irbesartan - tableta 150mg)"
+				},
+				"description": {
+					"es": "4095 cons (irbesartan - tableta 150mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7a": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4096 disp (irbesartan - tableta 300mg)"
+				},
+				"description": {
+					"es": "4096 disp (irbesartan - tableta 300mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q7b": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4096 cons (irbesartan - tableta 300mg)"
+				},
+				"description": {
+					"es": "4096 cons (irbesartan - tableta 300mg)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8a": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2540 disp (telmisartán)"
+				},
+				"description": {
+					"es": "2540 disp (telmisartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q8b": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2540 cons (telmisartán)"
+				},
+				"description": {
+					"es": "2540 cons (telmisartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9a": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2520 disp (losartán)"
+				},
+				"description": {
+					"es": "2520 disp (losartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q9b": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2520 cons (losartán)"
+				},
+				"description": {
+					"es": "2520 cons (losartán)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10a": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0561 disp (clortalidona)"
+				},
+				"description": {
+					"es": "0561 disp (clortalidona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q10b": {
+			"position": 23,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "0561 cons (clortalidona)"
+				},
+				"description": {
+					"es": "0561 cons (clortalidona)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q11a": {
+			"position": 24,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2301 disp (hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2301 disp (hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q11b": {
+			"position": 25,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2301 cons (hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2301 cons (hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q12a": {
+			"position": 26,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2542 disp (telmisartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2542 disp (telmisartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q12b": {
+			"position": 27,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2542 cons (telmisartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2542 cons (telmisartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q13a": {
+			"position": 28,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4097 disp (irbesartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "4097 disp (irbesartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q13b": {
+			"position": 29,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "4097 cons (irbesartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "4097 cons (irbesartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q14a": {
+			"position": 30,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2521 disp (losartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2521 disp (losartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		},
+		"q14b": {
+			"position": 31,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"es": "2521 cons (losartan - hidroclorotiazida)"
+				},
+				"description": {
+					"es": "2521 cons (losartan - hidroclorotiazida)"
+				}
+			},
+			"length": [1,
+			4]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
 			"es": "Insumos de UTP"
 		},
 		"code": "CSAM"
