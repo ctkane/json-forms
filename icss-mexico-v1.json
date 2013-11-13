@@ -4589,14 +4589,14 @@
 {
 	"meta": {
 		"label": {
-			"es": "Diabetes y lipidos"
+			"es": "Diabetes y lipidos (Supervisor)"
 		},
 		"code": "CSAP"
 	},
 	"fields": {
 		"facility": {
 			"position": 1,
-			"type": "string",
+			"type": "integer",
 			"labels": {
 				"short": {
 					"es": "Almacen"
@@ -4606,7 +4606,7 @@
 				}
 			},
 			"length": [1,
-			4]
+			5]
 		},
 		"year": {
 			"labels": {
@@ -4995,14 +4995,14 @@
 {
 	"meta": {
 		"label": {
-			"es": "Hipertensión"
+			"es": "Hipertensión (Supervisor)"
 		},
 		"code": "CSAO"
 	},
 	"fields": {
 		"facility": {
 			"position": 1,
-			"type": "string",
+			"type": "integer",
 			"labels": {
 				"short": {
 					"es": "Almacen"
@@ -5012,7 +5012,7 @@
 				}
 			},
 			"length": [1,
-			4]
+			5]
 		},
 		"year": {
 			"labels": {
