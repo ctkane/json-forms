@@ -6,8 +6,60 @@
 		"code": "LDPC"
 	},
 	"fields": {
-		"name": {
+		"year": {
 			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Year"
+				},
+				"description": {
+					"en": "Year"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "month",
+			"labels": {
+				"short": {
+					"en": "Month"
+				},
+				"description": {
+					"en": "Month"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"name": {
+			"position": 3,
 			"type": "string",
 			"labels": {
 				"short": {
@@ -21,7 +73,7 @@
 			20]
 		},
 		"team": {
-			"position": 2,
+			"position": 4,
 			"type": "string",
 			"labels": {
 				"short": {
@@ -35,7 +87,7 @@
 			20]
 		},
 		"q1": {
-			"position": 3,
+			"position": 5,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -61,7 +113,7 @@
 			}]]
 		},
 		"q2": {
-			"position": 4,
+			"position": 6,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -83,7 +135,7 @@
 			}]]
 		},
 		"q3": {
-			"position": 5,
+			"position": 7,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -105,7 +157,7 @@
 			}]]
 		},
 		"q4": {
-			"position": 6,
+			"position": 8,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -127,7 +179,7 @@
 			}]]
 		},
 		"q5": {
-			"position": 7,
+			"position": 9,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -149,7 +201,7 @@
 			}]]
 		},
 		"q6": {
-			"position": 8,
+			"position": 10,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -171,7 +223,7 @@
 			}]]
 		},
 		"q7": {
-			"position": 9,
+			"position": 11,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -193,7 +245,7 @@
 			}]]
 		},
 		"q8": {
-			"position": 10,
+			"position": 12,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -239,7 +291,7 @@
 			}]]
 		},
 		"q9": {
-			"position": 11,
+			"position": 13,
 			"type": "string",
 			"labels": {
 				"short": {
@@ -253,7 +305,7 @@
 			36]
 		},
 		"q10": {
-			"position": 12,
+			"position": 14,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -275,7 +327,7 @@
 			}]]
 		},
 		"q11": {
-			"position": 13,
+			"position": 15,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -297,7 +349,7 @@
 			}]]
 		},
 		"q12": {
-			"position": 14,
+			"position": 16,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -319,7 +371,7 @@
 			}]]
 		},
 		"q13": {
-			"position": 15,
+			"position": 17,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -341,7 +393,7 @@
 			}]]
 		},
 		"q14": {
-			"position": 16,
+			"position": 18,
 			"type": "string",
 			"labels": {
 				"short": {
@@ -355,7 +407,7 @@
 			36]
 		},
 		"q15": {
-			"position": 17,
+			"position": 19,
 			"type": "integer",
 			"labels": {
 				"short": {
@@ -372,7 +424,7 @@
 			}
 		},
 		"q16": {
-			"position": 18,
+			"position": 20,
 			"type": "month",
 			"labels": {
 				"short": {
@@ -386,7 +438,7 @@
 			2]
 		},
 		"q17": {
-			"position": 19,
+			"position": 21,
 			"type": "integer",
 			"labels": {
 				"short": {
