@@ -26,8 +26,8 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
+               5,
+               50
             ],
             "required": true
          },
@@ -50,8 +50,8 @@
                2
             ],
             "range": [
-               1,
-               53
+               0,
+               40
             ],
             "validations": {},
             "flags": {},
@@ -121,8 +121,8 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
+               5,
+               50
             ],
             "required": true
          },
@@ -311,8 +311,8 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
+               5,
+               50
             ],
             "required": true
          }
