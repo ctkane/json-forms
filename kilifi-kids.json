@@ -54,8 +54,33 @@
                40
             ],
             "validations": {},
-            "flags": {},
-            "required": true
+            "flags": {}
+         },
+         "age_in_years": {
+            "labels": {
+               "tiny": {
+                  "en": "AGE",
+                  "sw": "UMRI"
+               },
+               "description": {
+                  "en": "Age In Years"
+               },
+               "short": {
+                  "en": "Age In Years"
+               }
+            },
+            "position": 2,
+            "type": "integer",
+            "length": [
+               1,
+               2
+            ],
+            "range": [
+               1,
+               40
+            ],
+            "validations": {},
+            "flags": {}
          }
       },
       "use_sentinel": true
@@ -129,8 +154,8 @@
          "mother_patient_id": {
             "labels": {
                "tiny": {
-                  "en": "mom",
-                  "sw": "mama"
+                  "en": "momid",
+                  "sw": "mamaid"
                },
                "description": {
                   "en": "Mother's Patient Identifier"
