@@ -28,8 +28,7 @@
             "length": [
                5,
                50
-            ],
-            "required": true
+            ]
          },
          "last_menstrual_period": {
             "labels": {
@@ -113,8 +112,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -148,8 +146,7 @@
             "length": [
                5,
                50
-            ],
-            "required": true
+            ]
          },
          "mother_patient_id": {
             "labels": {
@@ -172,8 +169,7 @@
                 5, 5
             ],
             "type": "string",
-            "validations": {},
-            "required": true
+            "validations": {}
          },
          "weeks_since_birth": {
             "labels": {
@@ -201,8 +197,7 @@
                52
             ],
             "validations": {},
-            "flags": {},
-            "required": true
+            "flags": {}
          }
       },
       "use_sentinel": true
@@ -235,8 +230,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -269,8 +263,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -303,8 +296,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -338,8 +330,7 @@
             "length": [
                5,
                50
-            ],
-            "required": true
+            ]
          }
       },
       "use_sentinel": true
