@@ -264,6 +264,27 @@
                 5, 5
             ],
             "type": "string"
+         },
+         "reason": {
+            "labels": {
+               "tiny": {
+                 "en": "r",
+                 "sw": "r"
+               },
+               "description": {
+                 "en": "Reason",
+                 "sw": "Reason"
+               },
+               "short": {
+                 "en": "Reason",
+                 "sw": "Reason"
+               }
+            },
+            "position": 1,
+            "length": [
+                3, 100
+            ],
+            "type": "string"
          }
       },
       "use_sentinel": true
