@@ -26,10 +26,9 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
-            ],
-            "required": true
+               5,
+               50
+            ]
          },
          "last_menstrual_period": {
             "labels": {
@@ -50,12 +49,37 @@
                2
             ],
             "range": [
-               1,
-               53
+               0,
+               40
             ],
             "validations": {},
-            "flags": {},
-            "required": true
+            "flags": {}
+         },
+         "age_in_years": {
+            "labels": {
+               "tiny": {
+                  "en": "AGE",
+                  "sw": "UMRI"
+               },
+               "description": {
+                  "en": "Age In Years"
+               },
+               "short": {
+                  "en": "Age In Years"
+               }
+            },
+            "position": 2,
+            "type": "integer",
+            "length": [
+               1,
+               2
+            ],
+            "range": [
+               1,
+               40
+            ],
+            "validations": {},
+            "flags": {}
          }
       },
       "use_sentinel": true
@@ -88,8 +112,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -121,16 +144,15 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
-            ],
-            "required": true
+               5,
+               50
+            ]
          },
          "mother_patient_id": {
             "labels": {
                "tiny": {
-                  "en": "mom",
-                  "sw": "mama"
+                  "en": "momid",
+                  "sw": "mamaid"
                },
                "description": {
                   "en": "Mother's Patient Identifier"
@@ -147,8 +169,7 @@
                 5, 5
             ],
             "type": "string",
-            "validations": {},
-            "required": true
+            "validations": {}
          },
          "weeks_since_birth": {
             "labels": {
@@ -176,8 +197,7 @@
                52
             ],
             "validations": {},
-            "flags": {},
-            "required": true
+            "flags": {}
          }
       },
       "use_sentinel": true
@@ -210,8 +230,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -244,8 +263,28 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
+         },
+         "reason": {
+            "labels": {
+               "tiny": {
+                 "en": "r",
+                 "sw": "r"
+               },
+               "description": {
+                 "en": "Reason",
+                 "sw": "Reason"
+               },
+               "short": {
+                 "en": "Reason",
+                 "sw": "Reason"
+               }
+            },
+            "position": 1,
+            "length": [
+                3, 100
+            ],
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -278,8 +317,7 @@
             "length": [
                 5, 5
             ],
-            "type": "string",
-            "required": true
+            "type": "string"
          }
       },
       "use_sentinel": true
@@ -311,10 +349,9 @@
             "position": 0,
             "type": "string",
             "length": [
-               1,
-               40
-            ],
-            "required": true
+               5,
+               50
+            ]
          }
       },
       "use_sentinel": true
