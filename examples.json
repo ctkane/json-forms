@@ -13,11 +13,12 @@
 					"en": "ID"
 				},
 				"description": {
-					"fr": "Reporting Unit ID",
-					"en": "Reporting Unit ID"
+					"en": "Reporting Unit ID",
+					"fr": "Identité"
 				},
 				"short": {
-					"en": "Unit ID"
+					"en": "Unit ID",
+					"fr": "Unit ID"
 				}
 			},
 			"position": 0,
@@ -32,10 +33,12 @@
 					"en": "WKN"
 				},
 				"description": {
-					"en": "Epi-week number for report"
+					"en": "Epi-week number for report",
+					"fr": "Semaine du rapport"
 				},
 				"short": {
-					"en": "Epi-week number"
+					"en": "Epi-week number",
+					"fr": "Semaine"
 				}
 			},
 			"position": 1,
@@ -58,10 +61,12 @@
 					"en": "YR"
 				},
 				"description": {
-					"en": "Year of report"
+					"en": "Year of report",
+					"fr": "Année du rapport"
 				},
 				"short": {
-					"en": "Year"
+					"en": "Year",
+					"fr": "Année"
 				}
 			},
 			"position": 2,
@@ -79,10 +84,12 @@
 					"en": "AFP"
 				},
 				"description": {
-					"en": "Number of acute flaccid paralysis (AFP) cases"
+					"en": "Number of acute flaccid paralysis (AFP) cases",
+					"fr": "Nombre de paralysie flasque aiguë (PFA) des cas"
 				},
 				"short": {
-					"en": "Number of AFP cases"
+					"en": "Number of AFP cases",
+					"fr": "Paralysie flasque aigue"
 				}
 			},
 			"position": 3,
@@ -103,10 +110,12 @@
 					"en": "NNT"
 				},
 				"description": {
-					"en": "Number of neonatal tetanus cases encountered"
+					"en": "Number of neonatal tetanus cases encountered",
+					"fr": "Nombre de cas de tétanos néonatal rencontrées"
 				},
 				"short": {
-					"en": "Number of NNT cases"
+					"en": "Number of NNT cases",
+					"fr": "Tétanos néonatal"
 				}
 			},
 			"position": 4,
@@ -127,10 +136,12 @@
 					"en": "MSL"
 				},
 				"description": {
-					"en": "Number of measles cases encountered"
+					"en": "Number of measles cases encountered",
+					"fr": "Nombre de cas de rougeole rencontré"
 				},
 				"short": {
-					"en": "Number of MSL cases"
+					"en": "Number of MSL cases",
+					"fr": "Rougeole"
 				}
 			},
 			"position": 5,
@@ -151,10 +162,12 @@
 					"en": "AES"
 				},
 				"description": {
-					"en": "Number of acute encephalitis syndrome (AES) cases encountered"
+					"en": "Number of acute encephalitis syndrome (AES) cases encountered",
+					"fr": "Nombre de syndrome de l'encéphalite aiguë (AES) des cas rencontrés"
 				},
 				"short": {
-					"en": "Number of AES cases"
+					"en": "Number of AES cases",
+					"fr": "Encéphalite aigue"
 				}
 			},
 			"position": 6,
@@ -175,10 +188,12 @@
 					"en": "PNU"
 				},
 				"description": {
-					"en": "Number of pneumonia cases encountered"
+					"en": "Number of pneumonia cases encountered",
+					"fr": "Nombre de cas de pneumonie rencontré"
 				},
 				"short": {
-					"en": "Number of pneumonia cases"
+					"en": "Number of pneumonia cases",
+					"fr": "Pneumonie"
 				}
 			},
 			"position": 7,
