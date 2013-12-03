@@ -1,0 +1,707 @@
+[{
+	"meta": {
+		"label": {
+			"en": "Kenyan 514 Form"
+		},
+		"code": "K514"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Year"
+				},
+				"description": {
+					"en": "Year"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"en": "2013"
+			}],
+			[2,
+			{
+				"en": "2014"
+			}],
+			[3,
+			{
+				"en": "2015"
+			}],
+			[4,
+			{
+				"en": "2016"
+			}],
+			[5,
+			{
+				"en": "2017"
+			}],
+			[6,
+			{
+				"en": "2018"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "month",
+			"labels": {
+				"short": {
+					"en": "Month"
+				},
+				"description": {
+					"en": "Month"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q1": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant women referred for ANC or any other services"
+				},
+				"description": {
+					"en": "Pregnant women referred for ANC or any other services"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q2": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Pregnant women counseled on (IBP) Individual Birth Plan"
+				},
+				"description": {
+					"en": "Pregnant women counseled on (IBP) Individual Birth Plan"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of Children <6 months exclusively breast fed"
+				},
+				"description": {
+					"en": "Number of Children <6 months exclusively breast fed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q4": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Home deliveries referred for Post Natal Care (within 42 days)"
+				},
+				"description": {
+					"en": "Home deliveries referred for Post Natal Care (within 42 days)"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q5": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of women (15-49 years) provided with FP commodities"
+				},
+				"description": {
+					"en": "Number of women (15-49 years) provided with FP commodities"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q6": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "children <1 year not fully immunized"
+				},
+				"description": {
+					"en": "children <1 year not fully immunized"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q7": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Immunization defaulters <5 years traced and referred"
+				},
+				"description": {
+					"en": "Immunization defaulters <5 years traced and referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q8": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Children <5 years referred for growth monitoring"
+				},
+				"description": {
+					"en": "Children <5 years referred for growth monitoring"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q9": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Children 6 months to 5 years supplemented with Vitamin A"
+				},
+				"description": {
+					"en": "Children 6 months to 5 years supplemented with Vitamin A"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q10": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "<5 years children referred within 24 hours of onset of illness (fever, diarrhea)"
+				},
+				"description": {
+					"en": "<5 years children referred within 24 hours of onset of illness (fever, diarrhea)"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q11": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "children < 5 years with MUAC indicating severe malnutrition."
+				},
+				"description": {
+					"en": "children < 5 years with MUAC indicating severe malnutrition."
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q12": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "children < 5 years with MUAC indicating moderate malnutrition."
+				},
+				"description": {
+					"en": "children < 5 years with MUAC indicating moderate malnutrition."
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q13": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Children <5 years with malnutrition referred"
+				},
+				"description": {
+					"en": "Children <5 years with malnutrition referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q14": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Cases of cough (2 weeks and above) identified and referred"
+				},
+				"description": {
+					"en": "Cases of cough (2 weeks and above) identified and referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q15": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Cases of fever for children under 5 years managed"
+				},
+				"description": {
+					"en": "Cases of fever for children under 5 years managed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q16": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Cases of fever for children under 5 years managed"
+				},
+				"description": {
+					"en": "Cases of fever for children under 5 years managed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q17": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Cases provided with painkillers"
+				},
+				"description": {
+					"en": "Cases provided with painkillers"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q18": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Cases of injuries and wounds identified and managed"
+				},
+				"description": {
+					"en": "Cases of injuries and wounds identified and managed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q19": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Elderly people referred for health check - ups"
+				},
+				"description": {
+					"en": "Elderly people referred for health check - ups"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q20": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Tuberclosis defaulters traced and referred"
+				},
+				"description": {
+					"en": "Tuberclosis defaulters traced and referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q21": {
+			"position": 23,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "ART defaulters traced and referred"
+				},
+				"description": {
+					"en": "ART defaulters traced and referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q22": {
+			"position": 24,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Households provided with basic IEC materials with the 21 Key health messages"
+				},
+				"description": {
+					"en": "Households provided with basic IEC materials with the 21 Key health messages"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q23": {
+			"position": 25,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "No of individuals over 7 yrs in the HH given health education"
+				},
+				"description": {
+					"en": "No of individuals over 7 yrs in the HH given health education"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q24": {
+			"position": 26,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "HIV status"
+				},
+				"description": {
+					"en": "HIV status"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q25": {
+			"position": 27,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Chronic ill patients provided with Home based care"
+				},
+				"description": {
+					"en": "Chronic ill patients provided with Home based care"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q26": {
+			"position": 28,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "OVC referred for care and support"
+				},
+				"description": {
+					"en": "OVC referred for care and support"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q27": {
+			"position": 29,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Supportive Supervision visits by CHEW"
+				},
+				"description": {
+					"en": "Supportive Supervision visits by CHEW"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q28": {
+			"position": 30,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Supportive Supervision visits by CHC"
+				},
+				"description": {
+					"en": "Supportive Supervision visits by CHC"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q29": {
+			"position": 31,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "New Latrines"
+				},
+				"description": {
+					"en": "New Latrines"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q30": {
+			"position": 32,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "No. of Condoms distributed"
+				},
+				"description": {
+					"en": "No. of Condoms distributed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q31": {
+			"position": 33,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "New Handwashing Facilities"
+				},
+				"description": {
+					"en": "New Handwashing Facilities"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q32": {
+			"position": 34,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "New Compost Pits"
+				},
+				"description": {
+					"en": "New Compost Pits"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q33": {
+			"position": 35,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of Children <15 dewormed"
+				},
+				"description": {
+					"en": "Number of Children <15 dewormed"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q34": {
+			"position": 36,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Total pregnant women"
+				},
+				"description": {
+					"en": "Total pregnant women"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q35": {
+			"position": 37,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of pregnant women under 18 years"
+				},
+				"description": {
+					"en": "Number of pregnant women under 18 years"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q36": {
+			"position": 38,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of births"
+				},
+				"description": {
+					"en": "Number of births"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q37": {
+			"position": 39,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of new borns referred"
+				},
+				"description": {
+					"en": "Number of new borns referred"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q38": {
+			"position": 40,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of cases referred for other ailments"
+				},
+				"description": {
+					"en": "Number of cases referred for other ailments"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q39": {
+			"position": 41,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "No. of deliveries by unskilled attendants"
+				},
+				"description": {
+					"en": "No. of deliveries by unskilled attendants"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q40": {
+			"position": 42,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Number of individuals using ITNs"
+				},
+				"description": {
+					"en": "Number of individuals using ITNs"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q41": {
+			"position": 43,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Participation in Community dialogue days"
+				},
+				"description": {
+					"en": "Participation in Community dialogue days"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q42": {
+			"position": 44,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Participation in Community Action Days"
+				},
+				"description": {
+					"en": "Participation in Community Action Days"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q43": {
+			"position": 45,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Deaths <1yrs"
+				},
+				"description": {
+					"en": "Deaths <1yrs"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q44": {
+			"position": 46,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Deaths 1-5 yr"
+				},
+				"description": {
+					"en": "Deaths 1-5 yr"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q45": {
+			"position": 47,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Maternals"
+				},
+				"description": {
+					"en": "Maternals"
+				}
+			},
+			"length": [1,
+			2]
+		},
+		"q46": {
+			"position": 48,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"en": "Other deaths"
+				},
+				"description": {
+					"en": "Other deaths"
+				}
+			},
+			"length": [1,
+			2]
+		}
+	},
+	"use-sentinel": true
+}]
