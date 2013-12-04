@@ -2,8 +2,8 @@
 	"meta": {
 		"code": "ZDIS",
 		"label": {
-			"fr": "Hebdo: Maladies",
-			"en": "Weekly: Disease Surveillance"
+			"en": "Weekly: Disease Surveillance",
+			"fr": "Hebdo: Maladies"
 		}
 	},
 	"fields": {
@@ -216,8 +216,8 @@
 	"meta": {
 		"code": "ZSTK",
 		"label": {
-			"fr": "Mensuel: Medicaments",
-			"en": "Monthly: Stock Monitoring"
+			"en": "Monthly: Stock Monitoring",
+			"fr": "Mensuel: Medicaments"
 		}
 	},
 	"fields": {
@@ -514,8 +514,8 @@
 	"meta": {
 		"code": "ZCTR",
 		"label": {
-			"fr": "Mensuel: Contraceptifs",
-			"en": "Monthly: Contraceptives"
+			"en": "Monthly: Contraceptives",
+			"fr": "Mensuel: Contraceptifs"
 		}
 	},
 	"fields": {
