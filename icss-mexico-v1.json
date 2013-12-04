@@ -40,7 +40,8 @@
 			4],
 			"conditions": {
 				"s1": 1
-			}
+			},
+			"required": false
 		},
 		"s1q2": {
 			"position": 3,
@@ -57,7 +58,8 @@
 			4],
 			"conditions": {
 				"s1": 1
-			}
+			},
+			"required": false
 		},
 		"s1q3": {
 			"position": 4,
@@ -74,7 +76,8 @@
 			4],
 			"conditions": {
 				"s1": 1
-			}
+			},
+			"required": false
 		},
 		"s2": {
 			"labels": {
@@ -96,7 +99,8 @@
 			}]],
 			"conditions": {
 				"s1": 1
-			}
+			},
+			"required": false
 		},
 		"s2q1": {
 			"position": 6,
@@ -115,7 +119,8 @@
 				"s1": 1,
 				"s2": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s2q2": {
 			"position": 7,
@@ -134,7 +139,8 @@
 				"s1": 1,
 				"s2": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s2q3": {
 			"position": 8,
@@ -153,7 +159,8 @@
 				"s1": 1,
 				"s2": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s3": {
 			"labels": {
@@ -177,7 +184,8 @@
 				"s1": 1,
 				"s2": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s3q1": {
 			"position": 10,
@@ -197,7 +205,8 @@
 				"s2": 1,
 				"s3": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s3q2": {
 			"position": 11,
@@ -217,7 +226,8 @@
 				"s2": 1,
 				"s3": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s3q3": {
 			"position": 12,
@@ -237,7 +247,8 @@
 				"s2": 1,
 				"s3": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s4": {
 			"labels": {
@@ -262,7 +273,8 @@
 				"s2": 1,
 				"s3": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s4q1": {
 			"position": 14,
@@ -283,7 +295,8 @@
 				"s3": 1,
 				"s4": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s4q2": {
 			"position": 15,
@@ -304,7 +317,8 @@
 				"s3": 1,
 				"s4": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		},
 		"s4q3": {
 			"position": 16,
@@ -325,7 +339,8 @@
 				"s3": 1,
 				"s4": 1
 			},
-			"conditions-operator": "&&"
+			"conditions-operator": "&&",
+			"required": false
 		}
 	},
 	"use-sentinel": true
