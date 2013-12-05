@@ -102,7 +102,7 @@
 			"flags": {
 				
 			},
-			"required": true
+			"required": false
 		},
 		"nnt_cases": {
 			"labels": {
@@ -128,7 +128,7 @@
 			"flags": {
 				
 			},
-			"required": true
+			"required": false
 		},
 		"msl_cases": {
 			"labels": {
@@ -154,7 +154,7 @@
 			"flags": {
 				
 			},
-			"required": true
+			"required": false
 		},
 		"aes_cases": {
 			"labels": {
@@ -180,7 +180,7 @@
 			"flags": {
 				
 			},
-			"required": true
+			"required": false
 		},
 		"pnu_cases": {
 			"labels": {
@@ -206,7 +206,7 @@
 			"flags": {
 				
 			},
-			"required": true
+			"required": false
 		}
 	},
 	"facility_reference": "id",
