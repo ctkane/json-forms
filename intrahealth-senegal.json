@@ -323,7 +323,7 @@
       },
       "use-sentinel": true
    },
-   {
+{
       "meta": {
          "label": {
             "fr": "CPN, CPON, Accouchement"
@@ -719,6 +719,86 @@
             "length": [
                 1, 3
             ]
+         },
+		 "nb_cpn_1er_contact": {
+            "position": 18,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb CPN 1er contact"
+               },
+               "description": {
+                  "fr": "Nb CPN 1er contact"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 
+		 "nb_cpon_1er_contact": {
+            "position": 19,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb CPoN 1er contact"
+               },
+               "description": {
+                  "fr": "Nb CPoN 1er contact"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 
+		 
+		 "nb_cible_attendue": {
+            "position": 20,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb gross. attendu"
+               },
+               "description": {
+                  "fr": "Nb gross. attendu"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 
+		 "nb_fem_recu_cpon": {
+            "position": 21,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb fem. recu en CPoN"
+               },
+               "description": {
+                  "fr": "Nb fem. recu en CPoN"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 
+		 "nb_fem_3cpon": {
+            "position": 22,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb fem. effectué 3CPoN"
+               },
+               "description": {
+                  "fr": "Nb fem. effectué 3CPoN"
+               }
+            },
+            "length": [
+                1, 3
+            ]
          }
       },
       "use-sentinel": true
@@ -964,6 +1044,51 @@
                },
                "description": {
                   "fr": "Nb. fem. ss prophylaxie"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 "dc_palu_moins5ans": {
+            "position": 8,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb. décés palu -5ans"
+               },
+               "description": {
+                  "fr": "Nb. décés palu -5ans"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 "dc_palu_fem_enceinte": {
+            "position": 9,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb. décés palu fem. enceinte"
+               },
+               "description": {
+                  "fr": "Nb. décés palu fem. enceinte"
+               }
+            },
+            "length": [
+                1, 3
+            ]
+         },
+		 "dc_palu_reste_pop": {
+            "position": 10,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Nb. décés palu reste pop."
+               },
+               "description": {
+                  "fr": "Nb. décés palu reste pop."
                }
             },
             "length": [
@@ -1650,10 +1775,10 @@
             "type": "integer",
             "labels": {
                "short": {
-                  "fr": "Nb évac. vers la struct."
+                  "fr": "Nb évac. vers struct."
                },
                "description": {
-                  "fr": "Nb evac vers la structure"
+                  "fr": "Nb evac vers la struct."
                }
             },
             "length": [
@@ -1668,7 +1793,7 @@
                   "fr": "Nb gross. risque référées"
                },
                "description": {
-                  "fr": "Nb de gross. à risque referees"
+                  "fr": "Nb gross. risque referees"
                }
             },
             "length": [
