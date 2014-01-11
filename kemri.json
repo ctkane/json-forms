@@ -1,12 +1,33 @@
 [
    {
       "meta": {
-         "code": "KEMRI",
+         "code": "KEMR",
          "label": {
-            "en": "KEMRI"
+            "en": "RESMAL"
          }
       },
       "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                  "en": "ID"
+               },
+               "description": {
+                  "en": "Patient ID"
+               },
+               "short": {
+                  "en": "Patient ID"
+               }
+            },
+            "position": 1,
+            "type": "string",
+            "length": [
+               5,
+               5
+            ],
+            "validations": {},
+            "flags": { "input_digits_only": true }
+         },
          "caregiver_name": {
             "labels": {
                "tiny": {
@@ -19,7 +40,7 @@
                  "en": "Caregiver Name"
                }
             },
-            "position": 0,
+            "position": 2,
             "type": "string",
             "length": [
                1,
@@ -32,20 +53,20 @@
                   "en": "P"
                },
                "description": {
-                  "en": "Caregiver Phone"
+                  "en": "Caregiver Phone (starting with 7)"
                },
                "short": {
-                  "en": "Caregiver Phone"
+                  "en": "Caregiver Phone (starting with 7)"
                }
             },
-            "position": 1,
+            "position": 3,
             "type": "string",
             "length": [
-               1,
-               20
+               9,
+               9
             ],
             "validations": {},
-            "flags": {}
+            "flags": { "input_digits_only": true }
          },
          "locale": {
             "labels": {
@@ -59,33 +80,20 @@
                   "en": "Language"
                }
             },
-            "position": 2,
-            "type": "string",
-            "length": [
-               1,
-               2
-            ],
-            "validations": {},
-            "flags": {}
-         },
-         "patient_id": {
-            "labels": {
-               "tiny": {
-                  "en": "G"
-               },
-               "description": {
-                  "en": "Group"
-               },
-               "short": {
-                  "en": "Group"
-               }
-            },
-            "position": 2,
-            "type": "string",
-            "length": [
-               1,
-               8
-            ],
+            "position": 4,
+            "type": "integer",
+            "list": [[1,
+			{
+				"en": "en"
+			}],
+			[2,
+			{
+				"en": "sw"
+			}],
+			[3,
+			{
+				"en": "lu"
+			}]],
             "validations": {},
             "flags": {}
          }
