@@ -1,22 +1,22 @@
 [
    {
       "meta": {
-         "code": "KEMR",
+         "code": "KEMRI",
          "label": {
-            "en": "RESMAL"
+            "en": "KEMRI"
          }
       },
       "fields": {
          "patient_id": {
             "labels": {
                "tiny": {
-                  "en": "ID"
+                  "en": "G"
                },
                "description": {
-                  "en": "Patient ID"
+                  "en": "Group ID"
                },
                "short": {
-                  "en": "Patient ID"
+                  "en": "Group ID"
                }
             },
             "position": 1,
@@ -81,19 +81,24 @@
                }
             },
             "position": 4,
-            "type": "integer",
-            "list": [[1,
-			{
-				"en": "en"
-			}],
-			[2,
-			{
-				"en": "sw"
-			}],
-			[3,
-			{
-				"en": "lu"
-			}]],
+            "type": "string",
+            "list": [
+                [
+                    "en", {
+                        "en": "en"
+                    }
+                ],
+                [
+                    "sw", {
+                        "en": "sw"
+                    }
+                ],
+                [
+                    "lu", {
+                        "en": "lu"
+                    }
+                ]
+            ],
             "validations": {},
             "flags": {}
          }
