@@ -1,22 +1,22 @@
 [
    {
       "meta": {
-         "code": "KEMRI",
+         "code": "KEMR",
          "label": {
-            "en": "KEMRI"
+            "en": "RESMAL"
          }
       },
       "fields": {
          "patient_id": {
             "labels": {
                "tiny": {
-                  "en": "G"
+                  "en": "ID"
                },
                "description": {
-                  "en": "Group ID"
+                  "en": "Patient ID"
                },
                "short": {
-                  "en": "Group ID"
+                  "en": "Patient ID"
                }
             },
             "position": 1,
@@ -81,23 +81,111 @@
                }
             },
             "position": 4,
+            "type": "integer",
+            "list": [[1,
+			{
+				"en": "en"
+			}],
+			[2,
+			{
+				"en": "sw"
+			}],
+			[3,
+			{
+				"en": "lu"
+			}]],
+            "validations": {},
+            "flags": {}
+         }
+      },
+      "use_sentinel": true
+   },
+   {
+      "meta": {
+         "code": "KEMRI",
+         "label": {
+            "en": "KEMRI"
+         }
+      },
+      "fields": {
+         "caregiver_name": {
+            "labels": {
+               "tiny": {
+                 "en": "N"
+               },
+               "description": {
+                 "en": "Caregiver Name"
+               },
+               "short": {
+                 "en": "Caregiver Name"
+               }
+            },
+            "position": 0,
             "type": "string",
-            "list": [
-                [
-                    "en", {
-                        "en": "en"
-                    }
-                ],
-                [
-                    "sw", {
-                        "en": "sw"
-                    }
-                ],
-                [
-                    "lu", {
-                        "en": "lu"
-                    }
-                ]
+            "length": [
+               1,
+               40
+            ]
+         },
+         "caregiver_phone": {
+            "labels": {
+               "tiny": {
+                  "en": "P"
+               },
+               "description": {
+                  "en": "Caregiver Phone"
+               },
+               "short": {
+                  "en": "Caregiver Phone"
+               }
+            },
+            "position": 1,
+            "type": "string",
+            "length": [
+               1,
+               20
+            ],
+            "validations": {},
+            "flags": {}
+         },
+         "locale": {
+            "labels": {
+               "tiny": {
+                  "en": "L"
+               },
+               "description": {
+                  "en": "Language"
+               },
+               "short": {
+                  "en": "Language"
+               }
+            },
+            "position": 2,
+            "type": "string",
+            "length": [
+               1,
+               2
+            ],
+            "validations": {},
+            "flags": {}
+         },
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                  "en": "G"
+               },
+               "description": {
+                  "en": "Group"
+               },
+               "short": {
+                  "en": "Group"
+               }
+            },
+            "position": 2,
+            "type": "string",
+            "length": [
+               1,
+               8
             ],
             "validations": {},
             "flags": {}
