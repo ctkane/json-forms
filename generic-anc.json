@@ -1,0 +1,140 @@
+[{
+	"meta": {
+		"code": "R",
+		"label": {
+			"en": "Register Pregnancy",
+		}
+	},
+	"fields": {
+		"id": {
+			"labels": {
+				"tiny": {
+					"en": "n"
+				},
+				"description": {
+					"en": "Name of patient"
+				},
+				"short": {
+					"en": "Name"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"length": [1,
+			30],
+			"required": true
+		}
+	}
+},
+{
+	"meta": {
+		"code": "V",
+		"label": {
+			"en": "Completed ANC Visit",
+		}
+	},
+	"fields": {
+		"id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"length": [5,
+			5],
+			"required": true
+		}
+	}
+},
+{
+	"meta": {
+		"code": "DF",
+		"label": {
+			"en": "Delivery at Health Facility",
+		}
+	},
+	"fields": {
+		"id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"length": [5,
+			5],
+			"required": true
+		}
+	}
+},
+{
+	"meta": {
+		"code": "DS",
+		"label": {
+			"en": "Delivery With SBA",
+		}
+	},
+	"fields": {
+		"id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"length": [5,
+			5],
+			"required": true
+		}
+	}
+},
+{
+	"meta": {
+		"code": "DN",
+		"label": {
+			"en": "Delivery With No SBA",
+		}
+	},
+	"fields": {
+		"id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"length": [5,
+			5],
+			"required": true
+		}
+	}
+}]
