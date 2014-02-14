@@ -2,7 +2,7 @@
 	"meta": {
 		"code": "R",
 		"label": {
-			"en": "Register Pregnancy",
+			"en": "Register Pregnancy"
 		}
 	},
 	"fields": {
@@ -30,7 +30,7 @@
 	"meta": {
 		"code": "V",
 		"label": {
-			"en": "Completed ANC Visit",
+			"en": "Completed ANC Visit"
 		}
 	},
 	"fields": {
@@ -58,7 +58,7 @@
 	"meta": {
 		"code": "DF",
 		"label": {
-			"en": "Delivery at Health Facility",
+			"en": "Delivery at Health Facility"
 		}
 	},
 	"fields": {
@@ -86,7 +86,7 @@
 	"meta": {
 		"code": "DS",
 		"label": {
-			"en": "Delivery With SBA",
+			"en": "Delivery With SBA"
 		}
 	},
 	"fields": {
@@ -114,7 +114,7 @@
 	"meta": {
 		"code": "DN",
 		"label": {
-			"en": "Delivery With No SBA",
+			"en": "Delivery With No SBA"
 		}
 	},
 	"fields": {
