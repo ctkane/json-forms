@@ -1817,5 +1817,488 @@
 		}
 		},
 		"use-sentinel": true
-	}
+	},
+	{
+      "meta": {
+         "label": {
+            "fr": "Suivi Stock"
+         },
+         "code": "ISSS"
+      },
+      "fields": {
+         "annee_rapport": {
+            "position": 0,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Année du rapport"
+               },
+               "description": {
+                  "fr": "Année du rapport"
+               }
+            },
+            "length": [
+                4, 4
+            ],
+            "list": [
+               [
+                  2012,
+                  {
+                     "fr": "2012"
+                  }
+               ],
+               [
+                  2013,
+                  {
+                     "fr": "2013"
+                  }
+               ],
+               [
+                  2014,
+                  {
+                     "fr": "2014"
+                  }
+               ],
+               [
+                  2015,
+                  {
+                     "fr": "2015"
+                  }
+               ],
+               [
+                  2016,
+                  {
+                     "fr": "2016"
+                  }
+               ],
+               [
+                  2017,
+                  {
+                     "fr": "2017"
+                  }
+               ],
+               [
+                  2018,
+                  {
+                     "fr": "2018"
+                  }
+               ]
+            ]
+         },
+         "mois_rapport": {
+            "position": 1,
+            "type": "integer",
+            "labels": {
+               "short": {
+                  "fr": "Mois du rapport"
+               },
+               "description": {
+                  "fr": "Mois du rapport"
+               }
+            },
+            "length": [
+                1, 2
+            ],
+            "list": [
+               [
+                  1,
+                  {
+                     "fr": "Janvier"
+                  }
+               ],
+               [
+                  2,
+                  {
+                     "fr": "Février"
+                  }
+               ],
+               [
+                  3,
+                  {
+                     "fr": "Mars"
+                  }
+               ],
+               [
+                  4,
+                  {
+                     "fr": "Avril"
+                  }
+               ],
+               [
+                  5,
+                  {
+                     "fr": "Mai"
+                  }
+               ],
+               [
+                  6,
+                  {
+                     "fr": "Juin"
+                  }
+               ],
+               [
+                  7,
+                  {
+                     "fr": "Juillet"
+                  }
+               ],
+               [
+                  8,
+                  {
+                     "fr": "Aout"
+                  }
+               ],
+               [
+                  9,
+                  {
+                     "fr": "Septembre"
+                  }
+               ],
+               [
+                  10,
+                  {
+                     "fr": "Octobre"
+                  }
+               ],
+               [
+                  11,
+                  {
+                     "fr": "Novembre"
+                  }
+               ],
+               [
+                  12,
+                  {
+                     "fr": "Décembre"
+                  }
+               ]
+            ]
+         },		 
+		 "microgynon_c": {         
+								"position": 2,            
+								"type": "integer",
+								"labels": 
+								{               
+									"short": {"fr": "Microgynon (cycle) reçu"},
+									"description": {"fr": "Microgynon (cycle) reçu"}
+								},            
+								"length": [1, 3]         
+							},
+		 
+         "microgynon_d": {
+								"position": 3,
+								"type": "integer",
+								"labels":
+								{
+									"short": { "fr": "Microgynon (cycle) distribué" },
+									"description": { "fr": "Microgynon (cycle) distrib" }
+								},            
+								"length": [1, 3]
+							},
+         "microlut_c": 	{            
+								"position": 4,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "Microlut(cycle) reçu"},               
+									"description": { "fr": "Microlut (cycle) reçu" }            
+								},            
+								"length": [1, 3]         
+							},
+										
+         "microlut_d": 	{            
+								"position": 5,
+								"type": "integer",
+								"labels": 
+								{
+									"short": {"fr": "Microlut(cycle) distribué"},
+									"description": { "fr": "Microlut (cycle) distrib" }
+								},
+								"length": [1, 3]
+							},
+							
+         "duet_c": 		{
+								"position": 6,
+								"type": "integer",
+								"labels": 
+								{
+									"short": {"fr": "Duet reçu"},
+									"description": {                  "fr": "Duet reçu"               }
+								},
+								"length": [1, 3]         
+							},
+         "duet_d": 		{            
+								"position": 7,
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "Duet distribué"},               
+									"description": { "fr": "Duet distrib" }
+								},            
+								"length": [ 1, 3 ]         
+							},
+							
+         "tcu380_c": 		{            
+								"position": 8,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "TCU380A reçu" },               
+									"description": { "fr": "TCU380A reçu" }
+								},            
+								"length": [ 1, 3 ]         
+							},
+         "tcu380_dist": 	{            
+								"position": 9,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "TCU380A distribué" },               
+									"description": { "fr": "TCU380A distrib" }            
+								},            
+								"length": [ 1, 3]         
+							},
+							
+         "depoprov_c": 	{            
+								"position": 14,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "Dépo-prov(unit) reçu" },               
+									"description": { "fr": "Dépo-prov(unit) reçu" }            
+								},            
+								"length": [ 1, 3 ]
+							},
+         "depoprov_d": 	{            
+								"position": 15,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": { "fr": "Dépo-prov(unit) distribué" },               
+									"description": { "fr": "Dépo-prov(unit) distribué" }            
+								},            
+								"length": [ 1, 3 ]
+							},
+         "jadelle_c": 	{            
+								"position": 18,            
+								"type": "integer",            
+								"labels": 
+								{   "short": {                  "fr": "Jadelle (jeu) reçu"               },               
+									"description": {                  "fr": "Jadelle (jeu) reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "jadelle_d": 	{            
+								"position": 19,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Jadelle (jeu) Distribué"               },               
+									"description": {                  "fr": "Jadelle (jeu) Distribué"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "implanon_c": 	{            
+								"position": 20,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Implanon (unit) reçu"               },               
+									"description": {                  "fr": "Implanon (unit) reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "implanon_d": 	{            
+								"position": 21,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Implanon (unit) Distribué"               },               
+									"description": {                  "fr": "Implanon (unit) Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "ocytocine_c": 	{            
+								"position": 24,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Ocytocine reçu"               },               
+									"description": {                  "fr": "Ocytocine reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "ocytocine_d": 	{            
+								"position": 25,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Ocytocine Distribué"               },               
+									"description": {                  "fr": "Ocytocine Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sulfmagn_c": 	{            
+								"position": 26,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Sulftate Magn. reçu"               },               
+									"description": {                  "fr": "Sulfate de Magnesium reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sulfmagn_d": 	{            
+								"position": 27,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Sulfate Magn. Distribué"               },               
+									"description": {                  "fr": "Sulfate Magn Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actadulte_c": 	{            
+								"position": 28,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT Adulte reçu"               },               
+									"description": {                  "fr": "ACT Adulte reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actadult_d": 	{            
+								"position": 29,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT adulte Distribué"               },               
+									"description": {                  "fr": "ACT adulte Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actenfant_c": 	{            
+								"position": 30,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT enft reçu"               },               
+									"description": {                  "fr": "ACT enfan reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actenft_d": 	{            
+								"position": 31,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT enft Distribué"               },               
+									"description": {                  "fr": "ACT enft Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actnour_com": 	{            
+								"position": 32,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT Nourr. reçu"               },               
+									"description": {                  "fr": "ACT nourrisson reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "actnour_d": 	{            
+								"position": 33,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "ACT nourrisson Distribué"               },               
+									"description": {                  "fr": "ACT nourrisson Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "vita_c": 		{            
+								"position": 34,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Vit A reçu"               },               
+									"description": {                  "fr": "Vit A reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "vita_d": 		{            
+								"position": 35,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Vit. A distribué"               },               
+									"description": {                  "fr": "Vitamine A Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sro_c": 		{            
+								"position": 36,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "SRO reçu"               },               
+									"description": {                  "fr": "SRO reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sro_d": 		{            
+								"position": 37,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "SRO Distribué"               },               
+									"description": {                  "fr": "SRO Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "zinc_c": 		{            
+								"position": 38,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Zinc reçu"               },               
+									"description": {                  "fr": "Zinc reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "zinc_d": 		{            
+								"position": 39,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "Zinc Distribué"               },               
+									"description": {                  "fr": "Zinc Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sp_c": 			{            
+								"position": 40,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "SP reçu"               },               
+									"description": {                  "fr": "SP reçu"               }            
+								},            
+								"length": [ 1,3 ]         
+							},
+         "sp_d": 		{            
+								"position": 41,            
+								"type": "integer",            
+								"labels": 
+								{               
+									"short": {                  "fr": "SP Distribué"               },               
+									"description": {                  "fr": "SP Distrib"               }            
+								},            
+								"length": [ 1,3 ]         
+							}
+				},
+      "use-sentinel": true
+   }
 ]
