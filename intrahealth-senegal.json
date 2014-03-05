@@ -1826,7 +1826,7 @@
          "code": "ISSS"
       },
       "fields": {
-         "annee_rapport": {
+         "year": {
             "position": 0,
             "type": "integer",
             "labels": {
@@ -1885,7 +1885,7 @@
                ]
             ]
          },
-         "mois_rapport": {
+         "month": {
             "position": 1,
             "type": "integer",
             "labels": {
@@ -1979,8 +1979,8 @@
 								"type": "integer",
 								"labels": 
 								{               
-									"short": {"fr": "Microgynon (cycle) reçu"},
-									"description": {"fr": "Microgynon (cycle) reçu"}
+									"short": {"fr": "Microgynon (cycle) Dispo"},
+									"description": {"fr": "Microgynon (cycle) Dispo"}
 								},            
 								"length": [1, 3]         
 							},
@@ -2000,8 +2000,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": { "fr": "Microlut(cycle) reçu"},               
-									"description": { "fr": "Microlut (cycle) reçu" }            
+									"short": { "fr": "Microlut(cycle) Dispo"},               
+									"description": { "fr": "Microlut (cycle) Dispo" }            
 								},            
 								"length": [1, 3]         
 							},
@@ -2022,8 +2022,8 @@
 								"type": "integer",
 								"labels": 
 								{
-									"short": {"fr": "Duet reçu"},
-									"description": {                  "fr": "Duet reçu"               }
+									"short": {"fr": "Duet Dispo"},
+									"description": {                  "fr": "Duet Dispo"               }
 								},
 								"length": [1, 3]         
 							},
@@ -2043,8 +2043,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": { "fr": "TCU380A reçu" },               
-									"description": { "fr": "TCU380A reçu" }
+									"short": { "fr": "TCU380A Dispo" },               
+									"description": { "fr": "TCU380A Dispo" }
 								},            
 								"length": [ 1, 3 ]         
 							},
@@ -2064,8 +2064,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": { "fr": "Dépo-prov(unit) reçu" },               
-									"description": { "fr": "Dépo-prov(unit) reçu" }            
+									"short": { "fr": "Dépo-prov(unit) Dispo" },               
+									"description": { "fr": "Dépo-prov(unit) Dispo" }            
 								},            
 								"length": [ 1, 3 ]
 							},
@@ -2083,8 +2083,8 @@
 								"position": 18,            
 								"type": "integer",            
 								"labels": 
-								{   "short": {                  "fr": "Jadelle (jeu) reçu"               },               
-									"description": {                  "fr": "Jadelle (jeu) reçu"               }            
+								{   "short": {                  "fr": "Jadelle (jeu) Dispo"               },               
+									"description": {                  "fr": "Jadelle (jeu) Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2103,8 +2103,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "Implanon (unit) reçu"               },               
-									"description": {                  "fr": "Implanon (unit) reçu"               }            
+									"short": {                  "fr": "Implanon (unit) Dispo"               },               
+									"description": {                  "fr": "Implanon (unit) Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2123,8 +2123,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "Ocytocine reçu"               },               
-									"description": {                  "fr": "Ocytocine reçu"               }            
+									"short": {                  "fr": "Ocytocine Dispo"               },               
+									"description": {                  "fr": "Ocytocine Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2143,8 +2143,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "Sulftate Magn. reçu"               },               
-									"description": {                  "fr": "Sulfate de Magnesium reçu"               }            
+									"short": {                  "fr": "Sulftate Magn. Dispo"               },               
+									"description": {                  "fr": "Sulfate de Magnesium Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2163,8 +2163,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "ACT Adulte reçu"               },               
-									"description": {                  "fr": "ACT Adulte reçu"               }            
+									"short": {                  "fr": "ACT Adulte Dispo"               },               
+									"description": {                  "fr": "ACT Adulte Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2183,8 +2183,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "ACT enft reçu"               },               
-									"description": {                  "fr": "ACT enfan reçu"               }            
+									"short": {                  "fr": "ACT enft Dispo"               },               
+									"description": {                  "fr": "ACT enfan Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2203,8 +2203,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "ACT Nourr. reçu"               },               
-									"description": {                  "fr": "ACT nourrisson reçu"               }            
+									"short": {                  "fr": "ACT Nourr. Dispo"               },               
+									"description": {                  "fr": "ACT nourrisson Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2223,8 +2223,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "Vit A reçu"               },               
-									"description": {                  "fr": "Vit A reçu"               }            
+									"short": {                  "fr": "Vit A Dispo"               },               
+									"description": {                  "fr": "Vit A Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2243,8 +2243,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "SRO reçu"               },               
-									"description": {                  "fr": "SRO reçu"               }            
+									"short": {                  "fr": "SRO Dispo"               },               
+									"description": {                  "fr": "SRO Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2263,8 +2263,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "Zinc reçu"               },               
-									"description": {                  "fr": "Zinc reçu"               }            
+									"short": {                  "fr": "Zinc Dispo"               },               
+									"description": {                  "fr": "Zinc Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
@@ -2283,8 +2283,8 @@
 								"type": "integer",            
 								"labels": 
 								{               
-									"short": {                  "fr": "SP reçu"               },               
-									"description": {                  "fr": "SP reçu"               }            
+									"short": {                  "fr": "SP Dispo"               },               
+									"description": {                  "fr": "SP Dispo"               }            
 								},            
 								"length": [ 1,3 ]         
 							},
