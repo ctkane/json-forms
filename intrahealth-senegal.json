@@ -1,2304 +1,2069 @@
-[
-   {
-      "meta": {
-         "label": {
-            "fr": "PF"
-         },
-         "code": "ISPF"
-      },
-       "fields": {         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "microgynon": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Microgynon cycle"
-               },
-               "description": {
-                  "fr": "Microgynon cycle"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "microlut": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Microlut cycle"
-               },
-               "description": {
-                  "fr": "Microlut cycle"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "duet": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Duet cycle"
-               },
-               "description": {
-                  "fr": "Duet cycle"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "tcu380a": {
-            "position": 5,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "TCU 380A"
-               },
-               "description": {
-                  "fr": "TCU 380A"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "preserv_m": {
-            "position": 6,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Préservatif M. unit"
-               },
-               "description": {
-                  "fr": "Préservatif M. unit"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "preserv_f": {
-            "position": 7,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Préservatif F. unit"
-               },
-               "description": {
-                  "fr": "Préservatif F. unit"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "depo_prov": {
-            "position": 8,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Dépo-prov. unit"
-               },
-               "description": {
-                  "fr": "Dépo-prov. unit"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "norplant": {
-            "position": 9,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Norplant jeu"
-               },
-               "description": {
-                  "fr": "Norplant jeu"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "jadelle": {
-            "position": 10,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Jadelle jeu"
-               },
-               "description": {
-                  "fr": "Jadelle jeu"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "implanon": {
-            "position": 11,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Implanon unit"
-               },
-               "description": {
-                  "fr": "Implanon unit"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "collier": {
-            "position": 12,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Collier cycle unit"
-               },
-               "description": {
-                  "fr": "Collier cycle (unit)"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-      },
-      "use-sentinel": true
-   },
-{
-      "meta": {
-         "label": {
-            "fr": "CPN, CPON, Accouchement"
-         },
-         "code": "ISCP"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "nbr_cpn1": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPN1"
-               },
-               "description": {
-                  "fr": "Nb CPN1"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpn2": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPN2"
-               },
-               "description": {
-                  "fr": "Nb CPN2"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpn3": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPN3"
-               },
-               "description": {
-                  "fr": "Nb CPN3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpn4": {
-            "position": 5,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPN4"
-               },
-               "description": {
-                  "fr": "Nb CPN4"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_tpi1": {
-            "position": 6,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb TPi1 pour fem. enceinte"
-               },
-               "description": {
-                  "fr": "Nb TPi1 pour fem. enceinte"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_tpi2": {
-            "position": 7,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb TPi2 pour femmes enceintes"
-               },
-               "description": {
-                  "fr": "Nb femmes enceintes recu TPI2"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_tpi3": {
-            "position": 8,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb TPi3 pour femmes enceintes"
-               },
-               "description": {
-                  "fr": "Nb femm. enc. recu TPI3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		  "nbr_cpon1_j1j3": {
-            "position": 9,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPoN1 J1-J3"
-               },
-               "description": {
-                  "fr": "Nb CPoN1 (J1-J3)"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpon1_j4j8": {
-            "position": 10,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPoN2 J4-J8"
-               },
-               "description": {
-                  "fr": "Nb CPoN1 (J4-J8)"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpon2_j9j15": {
-            "position": 11,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPoN2 J9-J15"
-               },
-               "description": {
-                  "fr": "Nb CPoN2 (J9-J15)"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_cpon3_j16j42": {
-            "position": 12,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPoN3 J16-J42"
-               },
-               "description": {
-                  "fr": "Nb CPoN3 (J16-J42)"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		          "nbr_acc_assiste": {
-            "position": 13,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb accht A./PQ"
-               },
-               "description": {
-                  "fr": "Nb accht A./PQ"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_acc_gatpa": {
-            "position": 14,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb accht GATPA"
-               },
-               "description": {
-                  "fr": "Nb GATPA"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_acc_partogramme": {
-            "position": 15,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb accht Partogr."
-               },
-               "description": {
-                  "fr": "Nb Parto"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_enfants_psi": {
-            "position": 16,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb Nne avec PSI"
-               },
-               "description": {
-                  "fr": "Nb Nne avec PSI"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_enfants_si3elements": {
-            "position": 17,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb Nne recu MT/MSP/SC des SI"
-               },
-               "description": {
-                  "fr": "Nb Nne recu MT/MSP/SC des SI"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 "nb_cpn_1er_contact": {
-            "position": 18,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPN 1er contact"
-               },
-               "description": {
-                  "fr": "Nb CPN 1er contact"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 
-		 "nb_cpon_1er_contact": {
-            "position": 19,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb CPoN 1er contact"
-               },
-               "description": {
-                  "fr": "Nb CPoN 1er contact"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 
-		 
-		 "nb_cible_attendue": {
-            "position": 20,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb gross. attendu"
-               },
-               "description": {
-                  "fr": "Nb gross. attendu"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 
-		 "nb_fem_recu_cpon": {
-            "position": 21,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb fem. recu en CPoN"
-               },
-               "description": {
-                  "fr": "Nb fem. recu en CPoN"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 
-		 "nb_fem_3cpon": {
-            "position": 22,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb fem. effectué 3CPoN"
-               },
-               "description": {
-                  "fr": "Nb fem. effectué 3CPoN"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-      },
-      "use-sentinel": true
-   },
-    {
-      "meta": {
-         "label": {
-            "fr": "PALU/PTME"
-         },
-         "code": "ISLM"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-		    "palu_moins5": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb Palu enft -5ans"
-               },
-               "description": {
-                  "fr": "Nb Palu enft -5ans"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "palu_fem_enc": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb Palu Fem. enceinte"
-               },
-               "description": {
-                  "fr": "Nb Palu Fem. enceinte"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "palu_reste_pop": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb Palu reste population"
-               },
-               "description": {
-                  "fr": "Nb Palu reste population"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "fem_enc_test_vih": {
-            "position": 5,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb fem. enc. test VIH"
-               },
-               "description": {
-                  "fr": "Nb fem. enc. test VIH"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "fem_enc_positif_test_vih": {
-            "position": 6,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb fem. enc. positif VIH"
-               },
-               "description": {
-                  "fr": "Nb fem. enc. positif VIH"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "fem_enc_ss_prophylaxie": {
-            "position": 7,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb. fem. ss prophylaxie"
-               },
-               "description": {
-                  "fr": "Nb. fem. ss prophylaxie"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 "dc_palu_moins5ans": {
-            "position": 8,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb. décés palu -5ans"
-               },
-               "description": {
-                  "fr": "Nb. décés palu -5ans"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 "dc_palu_fem_enceinte": {
-            "position": 9,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb. décés palu fem. enceinte"
-               },
-               "description": {
-                  "fr": "Nb. décés palu fem. enceinte"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-		 "dc_palu_reste_pop": {
-            "position": 10,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb. décés palu reste pop."
-               },
-               "description": {
-                  "fr": "Nb. décés palu reste pop."
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-      },
-      "use-sentinel": true
-   },
-      {
-      "meta": {
-         "label": {
-            "fr": "DIARRHEE/PEV"
-         },
-         "code": "ISSE"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "total_diarrhee_moins5ans": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb diarrhee -5ans tt au PS"
-               },
-               "description": {
-                  "fr": "Nb diarrhee -5ans tt au PS"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "dhiarre_sro": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb diarrhee -5ans tt SRO"
-               },
-               "description": {
-                  "fr": "Nb diarrhee -5ans tt SRO"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "total_enft_penta3": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb enft 0-23m PENTA3"
-               },
-               "description": {
-                  "fr": "Nb enft 0-23m PENTA3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "enft_0_11_penta3": {
-            "position": 5,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb 0-11m recus PENTA3"
-               },
-               "description": {
-                  "fr": "Nb 0-11 m recus PENTA3"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "pop_cible_0_11": {
-            "position": 6,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Pop. cible 0-11m attendue"
-               },
-               "description": {
-                  "fr": "Pop. cible 0-11m attendue"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-      },
-      "use-sentinel": true
-   },
-      {
-      "meta": {
-         "label": {
-            "fr": "S.A/SUPERVISION"
-         },
-         "code": "ISSA"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "spv_recu": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb superv. recues"
-               },
-               "description": {
-                  "fr": "Nb superv recues"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "spv_cases": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb superv. des cases"
-               },
-               "description": {
-                  "fr": "Nb superv des cases"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "spv_dsdom": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb superv. DSDOM"
-               },
-               "description": {
-                  "fr": "Nb superv DSDOM"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "cases_aumoins_une_spv": {
-            "position": 5,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb cases au moins 1 superv."
-               },
-               "description": {
-                  "fr": "Nb cases au moins 1 superv."
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "dsdom_aumoins_une_spv": {
-            "position": 6,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb DSDOM au moins 1 superv."
-               },
-               "description": {
-                  "fr": "Nb DSDOM au moins 1 superv."
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nb_cases_zone": {
-            "position": 7,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb cases zone responsabilité"
-               },
-               "description": {
-                  "fr": "Nb cases zone responsabilité"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_sa": {
-            "position": 8,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb S.A réalisées"
-               },
-               "description": {
-                  "fr": "Nb S.A réalisées"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nb_cases_couvertes": {
-            "position": 9,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb cases couvertes en S.A"
-               },
-               "description": {
-                  "fr": "Nb cases couvertes en S.A"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         }
-      },
-      "use-sentinel": true
-   },
-   {
-      "meta": {
-         "label": {
-            "fr": "Références/Contre Références"
-         },
-         "code": "ISRE"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-			   [
-                  6,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-			   [
-                  7,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ],
-            "validations": {"is_numeric_month": true}
-         },
-         "evac_vers_struc": {
-            "position": 2,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb évac. vers struct."
-               },
-               "description": {
-                  "fr": "Nb evac vers la struct."
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "nbr_gross_risque": {
-            "position": 3,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb gross. risque référées"
-               },
-               "description": {
-                  "fr": "Nb gross. risque referees"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-         },
-         "cas_malnut_0_5_risque": {
-            "position": 4,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Nb MAS 0-5ans référés"
-               },
-               "description": {
-                  "fr": "Nb MAS 0-5ans référés"
-               }
-            },
-            "length": [
-                1, 3
-            ]
-		}
+[{
+	"meta": {
+		"label": {
+			"fr": "PF"
 		},
-		"use-sentinel": true
+		"code": "ISPF"
 	},
-	{
-      "meta": {
-         "label": {
-            "fr": "Suivi Stock"
-         },
-         "code": "ISSS"
-      },
-      "fields": {
-         "year": {
-            "position": 0,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Année du rapport"
-               },
-               "description": {
-                  "fr": "Année du rapport"
-               }
-            },
-            "length": [
-                4, 4
-            ],
-            "list": [
-               [
-                  2012,
-                  {
-                     "fr": "2012"
-                  }
-               ],
-               [
-                  2013,
-                  {
-                     "fr": "2013"
-                  }
-               ],
-               [
-                  2014,
-                  {
-                     "fr": "2014"
-                  }
-               ],
-               [
-                  2015,
-                  {
-                     "fr": "2015"
-                  }
-               ],
-               [
-                  2016,
-                  {
-                     "fr": "2016"
-                  }
-               ],
-               [
-                  2017,
-                  {
-                     "fr": "2017"
-                  }
-               ],
-               [
-                  2018,
-                  {
-                     "fr": "2018"
-                  }
-               ]
-            ]
-         },
-         "month": {
-            "position": 1,
-            "type": "integer",
-            "labels": {
-               "short": {
-                  "fr": "Mois du rapport"
-               },
-               "description": {
-                  "fr": "Mois du rapport"
-               }
-            },
-            "length": [
-                1, 2
-            ],
-            "list": [
-               [
-                  1,
-                  {
-                     "fr": "Janvier"
-                  }
-               ],
-               [
-                  2,
-                  {
-                     "fr": "Février"
-                  }
-               ],
-               [
-                  3,
-                  {
-                     "fr": "Mars"
-                  }
-               ],
-               [
-                  4,
-                  {
-                     "fr": "Avril"
-                  }
-               ],
-               [
-                  5,
-                  {
-                     "fr": "Mai"
-                  }
-               ],
-               [
-                  6,
-                  {
-                     "fr": "Juin"
-                  }
-               ],
-               [
-                  7,
-                  {
-                     "fr": "Juillet"
-                  }
-               ],
-               [
-                  8,
-                  {
-                     "fr": "Aout"
-                  }
-               ],
-               [
-                  9,
-                  {
-                     "fr": "Septembre"
-                  }
-               ],
-               [
-                  10,
-                  {
-                     "fr": "Octobre"
-                  }
-               ],
-               [
-                  11,
-                  {
-                     "fr": "Novembre"
-                  }
-               ],
-               [
-                  12,
-                  {
-                     "fr": "Décembre"
-                  }
-               ]
-            ]
-         },		 
-		 "microgynon_c": {         
-								"position": 2,            
-								"type": "integer",
-								"labels": 
-								{               
-									"short": {"fr": "Microgynon (cycle) Dispo"},
-									"description": {"fr": "Microgynon (cycle) Dispo"}
-								},            
-								"length": [1, 3]         
-							},
-		 
-         "microgynon_d": {
-								"position": 3,
-								"type": "integer",
-								"labels":
-								{
-									"short": { "fr": "Microgynon (cycle) distribué" },
-									"description": { "fr": "Microgynon (cycle) distrib" }
-								},            
-								"length": [1, 3]
-							},
-         "microlut_c": 	{            
-								"position": 4,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "Microlut(cycle) Dispo"},               
-									"description": { "fr": "Microlut (cycle) Dispo" }            
-								},            
-								"length": [1, 3]         
-							},
-										
-         "microlut_d": 	{            
-								"position": 5,
-								"type": "integer",
-								"labels": 
-								{
-									"short": {"fr": "Microlut(cycle) distribué"},
-									"description": { "fr": "Microlut (cycle) distrib" }
-								},
-								"length": [1, 3]
-							},
-							
-         "duet_c": 		{
-								"position": 6,
-								"type": "integer",
-								"labels": 
-								{
-									"short": {"fr": "Duet Dispo"},
-									"description": {                  "fr": "Duet Dispo"               }
-								},
-								"length": [1, 3]         
-							},
-         "duet_d": 		{            
-								"position": 7,
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "Duet distribué"},               
-									"description": { "fr": "Duet distrib" }
-								},            
-								"length": [ 1, 3 ]         
-							},
-							
-         "tcu380_c": 		{            
-								"position": 8,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "TCU380A Dispo" },               
-									"description": { "fr": "TCU380A Dispo" }
-								},            
-								"length": [ 1, 3 ]         
-							},
-         "tcu380_dist": 	{            
-								"position": 9,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "TCU380A distribué" },               
-									"description": { "fr": "TCU380A distrib" }            
-								},            
-								"length": [ 1, 3]         
-							},
-							
-         "depoprov_c": 	{            
-								"position": 14,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "Dépo-prov(unit) Dispo" },               
-									"description": { "fr": "Dépo-prov(unit) Dispo" }            
-								},            
-								"length": [ 1, 3 ]
-							},
-         "depoprov_d": 	{            
-								"position": 15,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": { "fr": "Dépo-prov(unit) distribué" },               
-									"description": { "fr": "Dépo-prov(unit) distribué" }            
-								},            
-								"length": [ 1, 3 ]
-							},
-         "jadelle_c": 	{            
-								"position": 18,            
-								"type": "integer",            
-								"labels": 
-								{   "short": {                  "fr": "Jadelle (jeu) Dispo"               },               
-									"description": {                  "fr": "Jadelle (jeu) Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "jadelle_d": 	{            
-								"position": 19,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Jadelle (jeu) Distribué"               },               
-									"description": {                  "fr": "Jadelle (jeu) Distribué"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "implanon_c": 	{            
-								"position": 20,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Implanon (unit) Dispo"               },               
-									"description": {                  "fr": "Implanon (unit) Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "implanon_d": 	{            
-								"position": 21,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Implanon (unit) Distribué"               },               
-									"description": {                  "fr": "Implanon (unit) Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "ocytocine_c": 	{            
-								"position": 24,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Ocytocine Dispo"               },               
-									"description": {                  "fr": "Ocytocine Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "ocytocine_d": 	{            
-								"position": 25,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Ocytocine Distribué"               },               
-									"description": {                  "fr": "Ocytocine Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sulfmagn_c": 	{            
-								"position": 26,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Sulftate Magn. Dispo"               },               
-									"description": {                  "fr": "Sulfate de Magnesium Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sulfmagn_d": 	{            
-								"position": 27,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Sulfate Magn. Distribué"               },               
-									"description": {                  "fr": "Sulfate Magn Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actadulte_c": 	{            
-								"position": 28,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT Adulte Dispo"               },               
-									"description": {                  "fr": "ACT Adulte Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actadult_d": 	{            
-								"position": 29,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT adulte Distribué"               },               
-									"description": {                  "fr": "ACT adulte Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actenfant_c": 	{            
-								"position": 30,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT enft Dispo"               },               
-									"description": {                  "fr": "ACT enfan Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actenft_d": 	{            
-								"position": 31,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT enft Distribué"               },               
-									"description": {                  "fr": "ACT enft Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actnour_com": 	{            
-								"position": 32,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT Nourr. Dispo"               },               
-									"description": {                  "fr": "ACT nourrisson Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "actnour_d": 	{            
-								"position": 33,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "ACT nourrisson Distribué"               },               
-									"description": {                  "fr": "ACT nourrisson Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "vita_c": 		{            
-								"position": 34,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Vit A Dispo"               },               
-									"description": {                  "fr": "Vit A Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "vita_d": 		{            
-								"position": 35,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Vit. A distribué"               },               
-									"description": {                  "fr": "Vitamine A Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sro_c": 		{            
-								"position": 36,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "SRO Dispo"               },               
-									"description": {                  "fr": "SRO Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sro_d": 		{            
-								"position": 37,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "SRO Distribué"               },               
-									"description": {                  "fr": "SRO Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "zinc_c": 		{            
-								"position": 38,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Zinc Dispo"               },               
-									"description": {                  "fr": "Zinc Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "zinc_d": 		{            
-								"position": 39,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "Zinc Distribué"               },               
-									"description": {                  "fr": "Zinc Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sp_c": 			{            
-								"position": 40,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "SP Dispo"               },               
-									"description": {                  "fr": "SP Dispo"               }            
-								},            
-								"length": [ 1,3 ]         
-							},
-         "sp_d": 		{            
-								"position": 41,            
-								"type": "integer",            
-								"labels": 
-								{               
-									"short": {                  "fr": "SP Distribué"               },               
-									"description": {                  "fr": "SP Distrib"               }            
-								},            
-								"length": [ 1,3 ]         
-							}
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
 				},
-      "use-sentinel": true
-   }
-]
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"microgynon": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microgynon cycle"
+				},
+				"description": {
+					"fr": "Microgynon cycle"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"microlut": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microlut cycle"
+				},
+				"description": {
+					"fr": "Microlut cycle"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"duet": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Duet cycle"
+				},
+				"description": {
+					"fr": "Duet cycle"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"tcu380a": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "TCU 380A"
+				},
+				"description": {
+					"fr": "TCU 380A"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"preserv_m": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Préservatif M. unit"
+				},
+				"description": {
+					"fr": "Préservatif M. unit"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"preserv_f": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Préservatif F. unit"
+				},
+				"description": {
+					"fr": "Préservatif F. unit"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"depo_prov": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Dépo-prov. unit"
+				},
+				"description": {
+					"fr": "Dépo-prov. unit"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"norplant": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Norplant jeu"
+				},
+				"description": {
+					"fr": "Norplant jeu"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"jadelle": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Jadelle jeu"
+				},
+				"description": {
+					"fr": "Jadelle jeu"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"implanon": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Implanon unit"
+				},
+				"description": {
+					"fr": "Implanon unit"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"collier": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Collier cycle unit"
+				},
+				"description": {
+					"fr": "Collier cycle (unit)"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "CPN, CPON, Accouchement"
+		},
+		"code": "ISCP"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"nbr_cpn1": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPN1"
+				},
+				"description": {
+					"fr": "Nb CPN1"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpn2": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPN2"
+				},
+				"description": {
+					"fr": "Nb CPN2"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpn3": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPN3"
+				},
+				"description": {
+					"fr": "Nb CPN3"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpn4": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPN4"
+				},
+				"description": {
+					"fr": "Nb CPN4"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_tpi1": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb TPi1 pour fem. enceinte"
+				},
+				"description": {
+					"fr": "Nb TPi1 pour fem. enceinte"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_tpi2": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb TPi2 pour femmes enceintes"
+				},
+				"description": {
+					"fr": "Nb femmes enceintes recu TPI2"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_tpi3": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb TPi3 pour femmes enceintes"
+				},
+				"description": {
+					"fr": "Nb femm. enc. recu TPI3"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpon1_j1j3": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPoN1 J1-J3"
+				},
+				"description": {
+					"fr": "Nb CPoN1 (J1-J3)"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpon1_j4j8": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPoN2 J4-J8"
+				},
+				"description": {
+					"fr": "Nb CPoN1 (J4-J8)"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpon2_j9j15": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPoN2 J9-J15"
+				},
+				"description": {
+					"fr": "Nb CPoN2 (J9-J15)"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_cpon3_j16j42": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPoN3 J16-J42"
+				},
+				"description": {
+					"fr": "Nb CPoN3 (J16-J42)"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_acc_assiste": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb accht A./PQ"
+				},
+				"description": {
+					"fr": "Nb accht A./PQ"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_acc_gatpa": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb accht GATPA"
+				},
+				"description": {
+					"fr": "Nb GATPA"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_acc_partogramme": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb accht Partogr."
+				},
+				"description": {
+					"fr": "Nb Parto"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_enfants_psi": {
+			"position": 16,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb Nne avec PSI"
+				},
+				"description": {
+					"fr": "Nb Nne avec PSI"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_enfants_si3elements": {
+			"position": 17,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb Nne recu MT/MSP/SC des SI"
+				},
+				"description": {
+					"fr": "Nb Nne recu MT/MSP/SC des SI"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_cpn_1er_contact": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPN 1er contact"
+				},
+				"description": {
+					"fr": "Nb CPN 1er contact"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_cpon_1er_contact": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb CPoN 1er contact"
+				},
+				"description": {
+					"fr": "Nb CPoN 1er contact"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_cible_attendue": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb gross. attendu"
+				},
+				"description": {
+					"fr": "Nb gross. attendu"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_fem_recu_cpon": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb fem. recu en CPoN"
+				},
+				"description": {
+					"fr": "Nb fem. recu en CPoN"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_fem_3cpon": {
+			"position": 22,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb fem. effectué 3CPoN"
+				},
+				"description": {
+					"fr": "Nb fem. effectué 3CPoN"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "PALU/PTME"
+		},
+		"code": "ISLM"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"palu_moins5": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb Palu enft -5ans"
+				},
+				"description": {
+					"fr": "Nb Palu enft -5ans"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"palu_fem_enc": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb Palu Fem. enceinte"
+				},
+				"description": {
+					"fr": "Nb Palu Fem. enceinte"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"palu_reste_pop": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb Palu reste population"
+				},
+				"description": {
+					"fr": "Nb Palu reste population"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"fem_enc_test_vih": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb fem. enc. test VIH"
+				},
+				"description": {
+					"fr": "Nb fem. enc. test VIH"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"fem_enc_positif_test_vih": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb fem. enc. positif VIH"
+				},
+				"description": {
+					"fr": "Nb fem. enc. positif VIH"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"fem_enc_ss_prophylaxie": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb. fem. ss prophylaxie"
+				},
+				"description": {
+					"fr": "Nb. fem. ss prophylaxie"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"dc_palu_moins5ans": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb. décés palu -5ans"
+				},
+				"description": {
+					"fr": "Nb. décés palu -5ans"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"dc_palu_fem_enceinte": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb. décés palu fem. enceinte"
+				},
+				"description": {
+					"fr": "Nb. décés palu fem. enceinte"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"dc_palu_reste_pop": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb. décés palu reste pop."
+				},
+				"description": {
+					"fr": "Nb. décés palu reste pop."
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "DIARRHEE/PEV"
+		},
+		"code": "ISSE"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"total_diarrhee_moins5ans": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb diarrhee -5ans tt au PS"
+				},
+				"description": {
+					"fr": "Nb diarrhee -5ans tt au PS"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"dhiarre_sro": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb diarrhee -5ans tt SRO"
+				},
+				"description": {
+					"fr": "Nb diarrhee -5ans tt SRO"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"total_enft_penta3": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb enft 0-23m PENTA3"
+				},
+				"description": {
+					"fr": "Nb enft 0-23m PENTA3"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"enft_0_11_penta3": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb 0-11m recus PENTA3"
+				},
+				"description": {
+					"fr": "Nb 0-11 m recus PENTA3"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"pop_cible_0_11": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Pop. cible 0-11m attendue"
+				},
+				"description": {
+					"fr": "Pop. cible 0-11m attendue"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "S.A/SUPERVISION"
+		},
+		"code": "ISSA"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"spv_recu": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb superv. recues"
+				},
+				"description": {
+					"fr": "Nb superv recues"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"spv_cases": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb superv. des cases"
+				},
+				"description": {
+					"fr": "Nb superv des cases"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"spv_dsdom": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb superv. DSDOM"
+				},
+				"description": {
+					"fr": "Nb superv DSDOM"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"cases_aumoins_une_spv": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb cases au moins 1 superv."
+				},
+				"description": {
+					"fr": "Nb cases au moins 1 superv."
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"dsdom_aumoins_une_spv": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb DSDOM au moins 1 superv."
+				},
+				"description": {
+					"fr": "Nb DSDOM au moins 1 superv."
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_cases_zone": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb cases zone responsabilité"
+				},
+				"description": {
+					"fr": "Nb cases zone responsabilité"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_sa": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb S.A réalisées"
+				},
+				"description": {
+					"fr": "Nb S.A réalisées"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nb_cases_couvertes": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb cases couvertes en S.A"
+				},
+				"description": {
+					"fr": "Nb cases couvertes en S.A"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Références/Contre Références"
+		},
+		"code": "ISRE"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]],
+			"validations": {
+				"is_numeric_month": true
+			}
+		},
+		"evac_vers_struc": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb évac. vers struct."
+				},
+				"description": {
+					"fr": "Nb evac vers la struct."
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"nbr_gross_risque": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb gross. risque référées"
+				},
+				"description": {
+					"fr": "Nb gross. risque referees"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"cas_malnut_0_5_risque": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Nb MAS 0-5ans référés"
+				},
+				"description": {
+					"fr": "Nb MAS 0-5ans référés"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Suivi Stock"
+		},
+		"code": "ISSS"
+	},
+	"fields": {
+		"year": {
+			"position": 0,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Année du rapport"
+				},
+				"description": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [4,
+			4],
+			"list": [[1,
+			{
+				"fr": "2012"
+			}],
+			[2,
+			{
+				"fr": "2013"
+			}],
+			[3,
+			{
+				"fr": "2014"
+			}],
+			[4,
+			{
+				"fr": "2015"
+			}],
+			[5,
+			{
+				"fr": "2016"
+			}],
+			[6,
+			{
+				"fr": "2017"
+			}],
+			[7,
+			{
+				"fr": "2018"
+			}]]
+		},
+		"month": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Mois du rapport"
+				},
+				"description": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"microgynon_c": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microgynon (cycle) Dispo"
+				},
+				"description": {
+					"fr": "Microgynon (cycle) Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"microgynon_d": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microgynon (cycle) distribué"
+				},
+				"description": {
+					"fr": "Microgynon (cycle) distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"microlut_c": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microlut(cycle) Dispo"
+				},
+				"description": {
+					"fr": "Microlut (cycle) Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"microlut_d": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Microlut(cycle) distribué"
+				},
+				"description": {
+					"fr": "Microlut (cycle) distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"duet_c": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Duet Dispo"
+				},
+				"description": {
+					"fr": "Duet Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"duet_d": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Duet distribué"
+				},
+				"description": {
+					"fr": "Duet distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"tcu380_c": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "TCU380A Dispo"
+				},
+				"description": {
+					"fr": "TCU380A Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"tcu380_dist": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "TCU380A distribué"
+				},
+				"description": {
+					"fr": "TCU380A distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"depoprov_c": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Dépo-prov(unit) Dispo"
+				},
+				"description": {
+					"fr": "Dépo-prov(unit) Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"depoprov_d": {
+			"position": 15,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Dépo-prov(unit) distribué"
+				},
+				"description": {
+					"fr": "Dépo-prov(unit) distribué"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"jadelle_c": {
+			"position": 18,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Jadelle (jeu) Dispo"
+				},
+				"description": {
+					"fr": "Jadelle (jeu) Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"jadelle_d": {
+			"position": 19,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Jadelle (jeu) Distribué"
+				},
+				"description": {
+					"fr": "Jadelle (jeu) Distribué"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"implanon_c": {
+			"position": 20,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Implanon (unit) Dispo"
+				},
+				"description": {
+					"fr": "Implanon (unit) Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"implanon_d": {
+			"position": 21,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Implanon (unit) Distribué"
+				},
+				"description": {
+					"fr": "Implanon (unit) Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"ocytocine_c": {
+			"position": 24,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Ocytocine Dispo"
+				},
+				"description": {
+					"fr": "Ocytocine Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"ocytocine_d": {
+			"position": 25,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Ocytocine Distribué"
+				},
+				"description": {
+					"fr": "Ocytocine Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sulfmagn_c": {
+			"position": 26,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Sulftate Magn. Dispo"
+				},
+				"description": {
+					"fr": "Sulfate de Magnesium Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sulfmagn_d": {
+			"position": 27,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Sulfate Magn. Distribué"
+				},
+				"description": {
+					"fr": "Sulfate Magn Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actadulte_c": {
+			"position": 28,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT Adulte Dispo"
+				},
+				"description": {
+					"fr": "ACT Adulte Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actadult_d": {
+			"position": 29,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT adulte Distribué"
+				},
+				"description": {
+					"fr": "ACT adulte Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actenfant_c": {
+			"position": 30,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT enft Dispo"
+				},
+				"description": {
+					"fr": "ACT enfan Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actenft_d": {
+			"position": 31,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT enft Distribué"
+				},
+				"description": {
+					"fr": "ACT enft Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actnour_com": {
+			"position": 32,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT Nourr. Dispo"
+				},
+				"description": {
+					"fr": "ACT nourrisson Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"actnour_d": {
+			"position": 33,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "ACT nourrisson Distribué"
+				},
+				"description": {
+					"fr": "ACT nourrisson Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"vita_c": {
+			"position": 34,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Vit A Dispo"
+				},
+				"description": {
+					"fr": "Vit A Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"vita_d": {
+			"position": 35,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Vit. A distribué"
+				},
+				"description": {
+					"fr": "Vitamine A Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sro_c": {
+			"position": 36,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "SRO Dispo"
+				},
+				"description": {
+					"fr": "SRO Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sro_d": {
+			"position": 37,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "SRO Distribué"
+				},
+				"description": {
+					"fr": "SRO Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"zinc_c": {
+			"position": 38,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Zinc Dispo"
+				},
+				"description": {
+					"fr": "Zinc Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"zinc_d": {
+			"position": 39,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "Zinc Distribué"
+				},
+				"description": {
+					"fr": "Zinc Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sp_c": {
+			"position": 40,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "SP Dispo"
+				},
+				"description": {
+					"fr": "SP Dispo"
+				}
+			},
+			"length": [1,
+			3]
+		},
+		"sp_d": {
+			"position": 41,
+			"type": "integer",
+			"labels": {
+				"short": {
+					"fr": "SP Distribué"
+				},
+				"description": {
+					"fr": "SP Distrib"
+				}
+			},
+			"length": [1,
+			3]
+		}
+	},
+	"use-sentinel": true
+}]
