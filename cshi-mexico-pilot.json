@@ -270,7 +270,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -768,7 +768,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1098,7 +1098,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1260,7 +1260,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1646,7 +1646,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -2032,7 +2032,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -2418,7 +2418,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -2804,7 +2804,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -3162,7 +3162,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -3492,7 +3492,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -3850,7 +3850,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -4068,7 +4068,7 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -4454,5 +4454,5 @@
 			4]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 }]

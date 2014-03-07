@@ -268,7 +268,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -680,7 +680,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -924,7 +924,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1112,7 +1112,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1342,7 +1342,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -1502,7 +1502,7 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -2065,5 +2065,5 @@
 			3]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 }]

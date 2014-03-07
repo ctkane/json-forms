@@ -577,7 +577,7 @@
 			30]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -738,7 +738,7 @@
 			30]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -941,5 +941,5 @@
 			30]
 		}
 	},
-	"use-sentinel": true
+	"use_sentinel": true
 }]

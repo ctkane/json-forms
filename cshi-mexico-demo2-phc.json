@@ -326,7 +326,7 @@
          }
 
       },
-      "use-sentinel": true
+      "use_sentinel": true
    },
 
 
@@ -777,7 +777,7 @@
          }
 
       },
-      "use-sentinel": true
+      "use_sentinel": true
    },
 
 
@@ -1228,7 +1228,7 @@
          }
 
       },
-      "use-sentinel": true
+      "use_sentinel": true
    },
 
 
@@ -1679,7 +1679,7 @@
          }
 
       },
-      "use-sentinel": true
+      "use_sentinel": true
    },
 
 
@@ -1764,6 +1764,6 @@
       }
 
       },
-      "use-sentinel": true
+      "use_sentinel": true
    }
 ]
