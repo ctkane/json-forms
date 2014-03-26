@@ -6,7 +6,7 @@
 		}
 	},
 	"fields": {
-		"id": {
+		"patient_name": {
 			"labels": {
 				"tiny": {
 					"en": "n"
@@ -34,7 +34,7 @@
 		}
 	},
 	"fields": {
-		"id": {
+		"patient_id": {
 			"labels": {
 				"tiny": {
 					"en": "id"
@@ -62,7 +62,7 @@
 		}
 	},
 	"fields": {
-		"id": {
+		"patient_id": {
 			"labels": {
 				"tiny": {
 					"en": "id"
@@ -90,7 +90,7 @@
 		}
 	},
 	"fields": {
-		"id": {
+		"patient_id": {
 			"labels": {
 				"tiny": {
 					"en": "id"
@@ -118,7 +118,7 @@
 		}
 	},
 	"fields": {
-		"id": {
+		"patient_id": {
 			"labels": {
 				"tiny": {
 					"en": "id"
