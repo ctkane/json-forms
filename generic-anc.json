@@ -24,7 +24,9 @@
 			30],
 			"required": true
 		}
-	}
+	},
+	"public_form": true,
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -52,7 +54,9 @@
 			5],
 			"required": true
 		}
-	}
+	},
+	"public_form": true,
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -80,7 +84,9 @@
 			5],
 			"required": true
 		}
-	}
+	},
+	"public_form": true,
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -108,7 +114,9 @@
 			5],
 			"required": true
 		}
-	}
+	},
+	"public_form": true,
+	"use_sentinel": true
 },
 {
 	"meta": {
@@ -136,5 +144,7 @@
 			5],
 			"required": true
 		}
-	}
+	},
+	"public_form": true,
+	"use_sentinel": true
 }]
