@@ -1041,7 +1041,7 @@
 			}],
 			[3,
 			{
-				"en": "Kwa wazee"
+				"en": "Kwa Wazee"
 			}],
 			[4,
 			{
@@ -1206,7 +1206,7 @@
 			}],
 			[6,
 			{
-				"en": "Maziwa ng'ombe"
+				"en": "Maziwa Ng'ombe"
 			}],
 			[7,
 			{
@@ -1522,7 +1522,7 @@
 			}],
 			[7,
 			{
-				"en": "Mto pepo"
+				"en": "Mto Pepo"
 			}],
 			[8,
 			{
@@ -1883,7 +1883,7 @@
 			}],
 			[6,
 			{
-				"en": "Sharifu msa"
+				"en": "Sharifu Msa"
 			}],
 			[7,
 			{
@@ -2230,49 +2230,106 @@
 				}
 			},
 			"length": [1,
-			2]
+			2],
+			"validations": {
+				"is_numeric_week": true
+			}
 		},
-		"seen": {
+		"visits_u5": {
 			"position": 3,
 			"type": "integer",
 			"labels": {
 				"description": {
-					"en": "Seen at facility"
+					"en": "Under 5: All OPD Visits"
 				},
 				"short": {
-					"en": "Seen at facility"
+					"en": "<5 All OPD Visits"
 				}
 			},
 			"length": [0,
 			4]
 		},
-		"tested": {
+		"pos_u5": {
 			"position": 4,
 			"type": "integer",
 			"labels": {
 				"description": {
-					"en": "Tested for malaria"
+					"en": "Under 5: Malaria POSitive"
 				},
 				"short": {
-					"en": "Tested for malaria"
+					"en": "<5 Malaria POSitive"
+				}
+			},
+			"length": [0,
+			4],
+			"validations": {
+				"validate_A_gte_B": true
+			}
+		},
+		"neg_u5": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"en": "Under 5: Malaria NEGative"
+				},
+				"short": {
+					"en": "<5 Malaria NEGative"
+				}
+			},
+			"length": [0,
+			4],
+			"validations": {
+				"validate_A_gte_B_plus_C": true
+			}
+		},
+		"visits_5p": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"en": "5 yrs and above: All OPD Visits"
+				},
+				"short": {
+					"en": "5+ All OPD Visits"
 				}
 			},
 			"length": [0,
 			4]
 		},
-		"positive": {
-			"position": 5,
+		"pos_5p": {
+			"position": 7,
 			"type": "integer",
 			"labels": {
 				"description": {
-					"en": "Positive malaria cases"
+					"en": "5 yrs and above: Malaria POSitive"
 				},
 				"short": {
-					"en": "Positive malaria cases"
+					"en": "5+ Malaria POSitive"
 				}
 			},
 			"length": [0,
-			4]
+			4],
+			"validations": {
+				"validate_A_gte_B": true
+			}
+		},
+		"neg_5p": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"en": "5 yrs and above: Malaria NEGative"
+				},
+				"short": {
+					"en": "5+ Malaria NEGative"
+				}
+			},
+			"length": [0,
+			4],
+			"validations": {
+				"validate_A_gte_B_plus_C": true
+			}
 		}
 	},
 	"use_sentinel": true
