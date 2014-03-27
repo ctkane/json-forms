@@ -1,8 +1,15 @@
+[![Build Status](https://travis-ci.org/medic/json-forms.png?branch=master)](https://travis-ci.org/medic/json-forms)
 
 JSON based form definitions for use with Kujua and Muvuku.
 
+Scheduled reports are supported when the form includes the following fields:
 
-[![Build Status](https://travis-ci.org/medic/json-forms.png?branch=master)](https://travis-ci.org/medic/json-forms)
+ * `week` or `week_number` and `year`
+ * or
+ * `month` and `year`
+
+To see an example of a weekly or monthly form see
+[examples.json](examples.json).  
 
 ## License & Copyright
 
