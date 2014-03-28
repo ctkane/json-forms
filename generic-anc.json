@@ -49,7 +49,10 @@
 				}
 			},
 			"position": 0,
-			"type": "integer",
+			"type": "string",
+            "flags": {
+                "input_digits_only": true
+            },
 			"length": [5,
 			5],
 			"required": true
@@ -79,7 +82,10 @@
 				}
 			},
 			"position": 0,
-			"type": "integer",
+			"type": "string",
+            "flags": {
+                "input_digits_only": true
+            },
 			"length": [5,
 			5],
 			"required": true
@@ -109,7 +115,10 @@
 				}
 			},
 			"position": 0,
-			"type": "integer",
+			"type": "string",
+            "flags": {
+                "input_digits_only": true
+            },
 			"length": [5,
 			5],
 			"required": true
@@ -139,7 +148,10 @@
 				}
 			},
 			"position": 0,
-			"type": "integer",
+			"type": "string",
+            "flags": {
+                "input_digits_only": true
+            },
 			"length": [5,
 			5],
 			"required": true
