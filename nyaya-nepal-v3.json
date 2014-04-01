@@ -1,0 +1,276 @@
+[{
+	"meta": {
+		"code": "द",
+		"label": {
+			"en": "Register Pregnancy"
+		}
+	},
+	"fields": {
+		"ward": {
+			"labels": {
+				"tiny": {
+					"en": "w"
+				},
+				"description": {
+					"en": "Ward"
+				},
+				"short": {
+					"en": "Ward"
+				}
+			},
+			"position": 0,
+			"type": "integer",
+			"length": [1,
+			1],
+			"range": [1,
+			9],
+			"required": true
+		},
+		"patient_age": {
+			"labels": {
+				"tiny": {
+					"en": "a"
+				},
+				"description": {
+					"en": "Age of patient"
+				},
+				"short": {
+					"en": "Age"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"length": [1,
+			2],
+			"range": [8,
+			80],
+			"required": true
+		},
+		"patient_lmp": {
+			"labels": {
+				"tiny": {
+					"en": "l"
+				},
+				"description": {
+					"en": "LMP of patient"
+				},
+				"short": {
+					"en": "LMP"
+				}
+			},
+			"position": 2,
+			"type": "string",
+			"length": [1,
+			2],
+			"range": [0,
+			40],
+			"required": true
+		},
+		"patient_name": {
+			"labels": {
+				"tiny": {
+					"en": "n"
+				},
+				"description": {
+					"en": "Name of patient"
+				},
+				"short": {
+					"en": "Name"
+				}
+			},
+			"position": 3,
+			"type": "string",
+			"length": [1,
+			30],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "ग",
+		"label": {
+			"en": "Completed ANC Visit"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"required": true
+		},
+		"location": {
+			"labels": {
+				"tiny": {
+					"en": "l"
+				},
+				"description": {
+					"en": "Location"
+				},
+				"short": {
+					"en": "Location"
+				}
+			},
+			"position": 1,
+			"type": "string",
+			"length": [0,
+			5],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "ज",
+		"label": {
+			"en": "Delivery Report"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"required": true
+		},
+		"location": {
+			"labels": {
+				"tiny": {
+					"en": "l"
+				},
+				"description": {
+					"en": "Location"
+				},
+				"short": {
+					"en": "Location"
+				}
+			},
+			"position": 1,
+			"type": "string",
+			"length": [0,
+			5],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "बन्द",
+		"label": {
+			"en": "Stop notifications"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"required": true
+		},
+		"location": {
+			"labels": {
+				"tiny": {
+					"en": "r"
+				},
+				"description": {
+					"en": "Reason"
+				},
+				"short": {
+					"en": "Reason"
+				}
+			},
+			"position": 1,
+			"type": "string",
+			"length": [0,
+			100],
+			"required": false
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "सुरु ",
+		"label": {
+			"en": "Start notifications"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "id"
+				},
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "Pregnancy ID"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+}]
