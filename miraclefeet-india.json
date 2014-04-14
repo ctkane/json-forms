@@ -1,0 +1,153 @@
+[{
+	"meta": {
+		"code": "MC",
+		"label": {
+			"en": "Casting Phase"
+		}
+	},
+	"fields": {
+		"patient_phone": {
+			"labels": {
+				"tiny": {
+					"en": "p"
+				},
+				"description": {
+					"en": "Patient Phone Number"
+				},
+				"short": {
+					"en": "Phone"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [10,
+			10],
+			"required": true
+		},
+		"patient_name": {
+			"labels": {
+				"tiny": {
+					"en": "n"
+				},
+				"description": {
+					"en": "Name of patient"
+				},
+				"short": {
+					"en": "Name"
+				}
+			},
+			"position": 3,
+			"type": "string",
+			"length": [1,
+			60],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "MT",
+		"label": {
+			"en": "Tenotomy Phase"
+		}
+	},
+	"fields": {
+		"patient_phone": {
+			"labels": {
+				"tiny": {
+					"en": "p"
+				},
+				"description": {
+					"en": "Patient Phone Number"
+				},
+				"short": {
+					"en": "Phone"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [10,
+			10],
+			"required": true
+		},
+		"patient_name": {
+			"labels": {
+				"tiny": {
+					"en": "n"
+				},
+				"description": {
+					"en": "Name of patient"
+				},
+				"short": {
+					"en": "Name"
+				}
+			},
+			"position": 3,
+			"type": "string",
+			"length": [1,
+			60],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "MB",
+		"label": {
+			"en": "Bracing Phase"
+		}
+	},
+	"fields": {
+		"patient_phone": {
+			"labels": {
+				"tiny": {
+					"en": "p"
+				},
+				"description": {
+					"en": "Patient Phone Number"
+				},
+				"short": {
+					"en": "Phone"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [10,
+			10],
+			"required": true
+		},
+		"patient_name": {
+			"labels": {
+				"tiny": {
+					"en": "n"
+				},
+				"description": {
+					"en": "Name of patient"
+				},
+				"short": {
+					"en": "Name"
+				}
+			},
+			"position": 3,
+			"type": "string",
+			"length": [1,
+			60],
+			"required": true
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+}]
