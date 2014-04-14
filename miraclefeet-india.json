@@ -33,7 +33,7 @@
 					"en": "n"
 				},
 				"description": {
-					"en": "Name of patient"
+					"en": "Name of Patient"
 				},
 				"short": {
 					"en": "Name"
@@ -84,7 +84,7 @@
 					"en": "n"
 				},
 				"description": {
-					"en": "Name of patient"
+					"en": "Name of Patient"
 				},
 				"short": {
 					"en": "Name"
@@ -135,7 +135,7 @@
 					"en": "n"
 				},
 				"description": {
-					"en": "Name of patient"
+					"en": "Name of Patient"
 				},
 				"short": {
 					"en": "Name"
