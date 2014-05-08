@@ -189,8 +189,8 @@
             ],
             "validations": {},
             "flags": {}
-         },
-      }
+         }
+      },
       "use_sentinel": true
    }
 ]
