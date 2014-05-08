@@ -108,6 +108,27 @@
          }
       },
       "fields": {
+         "patient_id": {
+            "labels": {
+               "tiny": {
+                  "en": "G"
+               },
+               "description": {
+                  "en": "Group"
+               },
+               "short": {
+                  "en": "Group"
+               }
+            },
+            "position": 2,
+            "type": "string",
+            "length": [
+               1,
+               8
+            ],
+            "validations": {},
+            "flags": {}
+         },
          "caregiver_name": {
             "labels": {
                "tiny": {
@@ -169,28 +190,7 @@
             "validations": {},
             "flags": {}
          },
-         "patient_id": {
-            "labels": {
-               "tiny": {
-                  "en": "G"
-               },
-               "description": {
-                  "en": "Group"
-               },
-               "short": {
-                  "en": "Group"
-               }
-            },
-            "position": 2,
-            "type": "string",
-            "length": [
-               1,
-               8
-            ],
-            "validations": {},
-            "flags": {}
-         }
-      },
+      }
       "use_sentinel": true
    }
 ]
