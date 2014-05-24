@@ -63,17 +63,28 @@
 },
 {
 	"meta": {
-		"code": "DF",
+		"code": "D",
 		"label": {
-			"en": "Delivery at Health Facility"
+			"en": "Delivery Report"
 		}
 	},
 	"fields": {
+		"delivery_code": {
+			"labels": {
+				"description": {
+					"en": "Delivery Code"
+				},
+				"short": {
+					"en": "Delivery Code"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"length": [1, 2],
+			"required": true
+		},
 		"patient_id": {
 			"labels": {
-				"tiny": {
-					"en": "id"
-				},
 				"description": {
 					"en": "Pregnancy ID"
 				},
@@ -81,7 +92,7 @@
 					"en": "Pregnancy ID"
 				}
 			},
-			"position": 0,
+			"position": 1,
 			"type": "string",
             "flags": {
                 "input_digits_only": true
@@ -89,72 +100,20 @@
 			"length": [5,
 			5],
 			"required": true
-		}
-	},
-	"public_form": true,
-	"use_sentinel": true
-},
-{
-	"meta": {
-		"code": "DS",
-		"label": {
-			"en": "Delivery With SBA"
-		}
-	},
-	"fields": {
-		"patient_id": {
+		},
+		"notes": {
 			"labels": {
-				"tiny": {
-					"en": "id"
-				},
 				"description": {
-					"en": "Pregnancy ID"
+					"en": "Notes"
 				},
 				"short": {
-					"en": "Pregnancy ID"
+					"en": "Notes"
 				}
 			},
-			"position": 0,
+			"position": 2,
 			"type": "string",
-            "flags": {
-                "input_digits_only": true
-            },
-			"length": [5,
-			5],
-			"required": true
-		}
-	},
-	"public_form": true,
-	"use_sentinel": true
-},
-{
-	"meta": {
-		"code": "DN",
-		"label": {
-			"en": "Delivery With No SBA"
-		}
-	},
-	"fields": {
-		"patient_id": {
-			"labels": {
-				"tiny": {
-					"en": "id"
-				},
-				"description": {
-					"en": "Pregnancy ID"
-				},
-				"short": {
-					"en": "Pregnancy ID"
-				}
-			},
-			"position": 0,
-			"type": "string",
-            "flags": {
-                "input_digits_only": true
-            },
-			"length": [5,
-			5],
-			"required": true
+			"length": [1, 20],
+			"required": false
 		}
 	},
 	"public_form": true,
