@@ -1,0 +1,1512 @@
+[{
+	"meta": {
+		"label": {
+			"fr": "Malades recus"
+		},
+		"code": "PSMR"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"m_recus": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Malades reçus"
+				},
+				"short": {
+					"fr": "Malades recus"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"m_2m_5y": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Malades reçus (2 mois à 5ans)"
+				},
+				"short": {
+					"fr": "Malades 2m-5ans"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"m_palu": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Malades reçus pour paludisme"
+				},
+				"short": {
+					"fr": "Malades palu"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"m_diarr": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Malades reçus pour diarrhées"
+				},
+				"short": {
+					"fr": "Malades diarrhée"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"m_pneum": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Malades reçus pour pneumonie (toux)"
+				},
+				"short": {
+					"fr": "Pneumonie (toux)"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"m_autres": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Cas reçus pour autres causes"
+				},
+				"short": {
+					"fr": "Malades autres"
+				}
+			},
+			"length": [0,
+			3]
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Cas traités"
+		},
+		"code": "PSCT"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"t_toutes": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas traités toutes causes confondues"
+				},
+				"short": {
+					"fr": "Traités toutes causes confondues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_palu": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de paludisme traités"
+				},
+				"short": {
+					"fr": "Paludisme traités"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_diarr": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de diarrhées traités"
+				},
+				"short": {
+					"fr": "Diarrhées traités"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_pneum": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de pneumonies traités"
+				},
+				"short": {
+					"fr": "Pneumonies traités"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"fptdr2m5y": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de fièvre positif au TDR chez les 2 mois à 5 ans"
+				},
+				"short": {
+					"fr": "Fièvre positif au TDR 2m-5ans"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_palu_u5y": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de paludismes traités chez les moins de 5ans"
+				},
+				"short": {
+					"fr": "Palu traités -5ans"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_u242m5y": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de fièvre chez les 2 mois à 5ans traités dans les 24h"
+				},
+				"short": {
+					"fr": "Fièvre traités -24h (2m-5ans)"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"t_24482m5y": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de fièvre chez les 2 mois à 5ans traités entre 24 et 48h"
+				},
+				"short": {
+					"fr": "Fièvre traités 24-48h (2m-5ans)"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"fptdradult": {
+			"position": 11,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de fièvre positif au TDR chez les adultes"
+				},
+				"short": {
+					"fr": "Fièvre adultes, positif au TDR"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"ktdr_eff": {
+			"position": 12,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de kits de TDR effectués"
+				},
+				"short": {
+					"fr": "Effectués, kits de TDR"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"ktdr_inv": {
+			"position": 13,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de kits de TDR invalides"
+				},
+				"short": {
+					"fr": "Invalides, kits de TDR"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"deces": {
+			"position": 14,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nb cas décès enfants 2mois à 5ans ds le village toutes causes confondues"
+				},
+				"short": {
+					"fr": "Décès enfants 2m-5ans toutes causes"
+				}
+			},
+			"length": [0,
+			3]
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Référés par relais"
+		},
+		"code": "PSRR"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"palu_ref": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de paludisme référés au CSI"
+				},
+				"short": {
+					"fr": "Palu référés au CSI"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"diarr_ref": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de diarrhées référées au CSI"
+				},
+				"short": {
+					"fr": "Diarrhées référées au CSI"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"pneum_ref": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas de pneumonies référées au CSI"
+				},
+				"short": {
+					"fr": "Pneumonies référées au CSI"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"autre_ref": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas référés pour d’autres causes"
+				},
+				"short": {
+					"fr": "Cas référés autres causes"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"cont_ref": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de cas contre référés par le CSI"
+				},
+				"short": {
+					"fr": "Cas contre référés par le CSI"
+				}
+			},
+			"length": [0,
+			3]
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Gestion intrants"
+		},
+		"code": "PSGI"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"mrk1_r": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de MRK1 reçues le mois dernier"
+				},
+				"short": {
+					"fr": "MRK1 recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk2_r": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de MRK2 reçues le mois dernier"
+				},
+				"short": {
+					"fr": "MRK2 recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk3_r": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de MRK3 reçues le mois dernier"
+				},
+				"short": {
+					"fr": "MRK3 recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk4_r": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de MRK4 reçues le mois dernier"
+				},
+				"short": {
+					"fr": "MRK4 recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"amox_r": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de blister d’Amoxicilline reçues le mois dernier"
+				},
+				"short": {
+					"fr": "Blister Amox recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"srozinc_r": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de kits de SRO/zinc reçus le mois dernier"
+				},
+				"short": {
+					"fr": "Kits SRO/zinc recus"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"ktdr_r": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de kits de TDR reçus le mois dernier"
+				},
+				"short": {
+					"fr": "Kits TDR recus"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"gant_r": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de paires de gants reçues le mois dernier"
+				},
+				"short": {
+					"fr": "Gants, paires recues"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk1_db": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 1 distribuées le mois dernier"
+				},
+				"short": {
+					"fr": "MRK1 distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk2_db": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 2 distribuées le mois dernier"
+				},
+				"short": {
+					"fr": "MRK2 distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk3_db": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 3 distribuées le mois dernier"
+				},
+				"short": {
+					"fr": "MRK3 distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk4_db": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 4 distribuées le mois dernier"
+				},
+				"short": {
+					"fr": "MRK4 distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"amox_db": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses d’Amoxicilline distribués le mois dernier"
+				},
+				"short": {
+					"fr": "Blister Amox distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"srozinc_d": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses de kits Orasel/zinc distribués le mois dernier"
+				},
+				"short": {
+					"fr": "Kits SRO/zinc distribuées"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"ktdr_db": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de Kits des TDR utilisés le mois dernier"
+				},
+				"short": {
+					"fr": "Kits TDR utilisés"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"gant_db": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de paires de gants utilisés le mois dernier"
+				},
+				"short": {
+					"fr": "Gants, paires utilisés"
+				}
+			},
+			"length": [0,
+			3]
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Disponibilité intrants"
+		},
+		"code": "PSDP"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"mrk1_dp": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 1 disponible"
+				},
+				"short": {
+					"fr": "MRK1 disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk2_dp": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 2 disponible"
+				},
+				"short": {
+					"fr": "MRK2 disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk3_dp": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 3 disponible"
+				},
+				"short": {
+					"fr": "MRK3 disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk4_dp": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses MRK 4 disponible"
+				},
+				"short": {
+					"fr": "MRK4 disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"amox_dp": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses d’Amoxicilline disponible"
+				},
+				"short": {
+					"fr": "Blister Amox disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"srozinc_dp": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de doses de kits Orasel/zinc disponible"
+				},
+				"short": {
+					"fr": "Kits SRO/zinc disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"ktdr_dp": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de Kits des TDR disponible"
+				},
+				"short": {
+					"fr": "Kits TDR disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"gant_dp": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Nombre de paires de gants disponible"
+				},
+				"short": {
+					"fr": "Gants, paires disponible"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"mrk1_rp": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "MRK1, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "MRK1, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"mrk2_rp": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "MRK2, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "MRK2, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"mrk3_rp": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "MRK3, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "MRK3, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"mrk4_rp": {
+			"position": 6,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "MRK4, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "MRK4, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"tdr_rp": {
+			"position": 7,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "TDR, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "TDR, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"gants_rp": {
+			"position": 8,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Gants, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "Gants, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"amox_rp": {
+			"position": 9,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Amox, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "Amox, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		},
+		"srozinc_rp": {
+			"position": 10,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "SRO/Zinc, Rupture 3jrs et plus?"
+				},
+				"short": {
+					"fr": "SRO/Zn, Rupture 3jrs et plus?"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "Oui"
+			}],
+			[2,
+			{
+				"fr": "Non"
+			}]]
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"label": {
+			"fr": "Couts"
+		},
+		"code": "PSRC"
+	},
+	"fields": {
+		"year": {
+			"position": 1,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Année du rapport"
+				},
+				"short": {
+					"fr": "Année du rapport"
+				}
+			},
+			"length": [1,
+			1],
+			"list": [[1,
+			{
+				"fr": "2014"
+			}],
+			[2,
+			{
+				"fr": "2015"
+			}],
+			[3,
+			{
+				"fr": "2016"
+			}],
+			[4,
+			{
+				"fr": "2017"
+			}]]
+		},
+		"month": {
+			"position": 2,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Mois du rapport"
+				},
+				"short": {
+					"fr": "Mois du rapport"
+				}
+			},
+			"length": [1,
+			2],
+			"validations": {
+				"is_numeric_month": true
+			},
+			"list": [[1,
+			{
+				"fr": "Janvier"
+			}],
+			[2,
+			{
+				"fr": "Février"
+			}],
+			[3,
+			{
+				"fr": "Mars"
+			}],
+			[4,
+			{
+				"fr": "Avril"
+			}],
+			[5,
+			{
+				"fr": "Mai"
+			}],
+			[6,
+			{
+				"fr": "Juin"
+			}],
+			[7,
+			{
+				"fr": "Juillet"
+			}],
+			[8,
+			{
+				"fr": "Aout"
+			}],
+			[9,
+			{
+				"fr": "Septembre"
+			}],
+			[10,
+			{
+				"fr": "Octobre"
+			}],
+			[11,
+			{
+				"fr": "Novembre"
+			}],
+			[12,
+			{
+				"fr": "Décembre"
+			}]]
+		},
+		"rec_mrk3": {
+			"position": 3,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Somme perçue pour le recouvrement des coûts des MRK3"
+				},
+				"short": {
+					"fr": "MRK3 somme percue"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"rec_mrk4": {
+			"position": 4,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Somme perçue pour le recouvrement des coûts de MRK4"
+				},
+				"short": {
+					"fr": "MRK4 somme percue"
+				}
+			},
+			"length": [0,
+			3]
+		},
+		"rec_tdr": {
+			"position": 5,
+			"type": "integer",
+			"labels": {
+				"description": {
+					"fr": "Somme perçue pour le recouvrement de coûts de TDR"
+				},
+				"short": {
+					"fr": "TDR somme percue"
+				}
+			},
+			"length": [0,
+			3]
+		}
+	},
+	"use_sentinel": true
+}]
