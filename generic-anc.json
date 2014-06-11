@@ -2,17 +2,17 @@
 	"meta": {
 		"code": "R",
 		"label": {
-			"en": "Register Pregnancy"
+			"en": "Pregnancy Registration"
 		}
 	},
 	"fields": {
 		"patient_name": {
 			"labels": {
 				"tiny": {
-					"en": "n"
+					"en": "N"
 				},
 				"description": {
-					"en": "Name of patient"
+					"en": "Patient Name"
 				},
 				"short": {
 					"en": "Name"
@@ -23,6 +23,32 @@
 			"length": [1,
 			30],
 			"required": true
+		},
+		"last_menstrual_period": {
+			"labels": {
+				"tiny": {
+					"en": "LMP"
+				},
+				"description": {
+					"en": "Weeks since last menstrual period"
+				},
+				"short": {
+					"en": "Weeks since LMP"
+				}
+			},
+			"position": 1,
+			"type": "integer",
+			"length": [1,
+			2],
+			"range": [0,
+			40],
+			"required": false,
+			"validations": {
+				
+			},
+			"flags": {
+				
+			}
 		}
 	},
 	"public_form": true,
@@ -45,14 +71,14 @@
 					"en": "Pregnancy ID"
 				},
 				"short": {
-					"en": "Pregnancy ID"
+					"en": "ID"
 				}
 			},
 			"position": 0,
 			"type": "string",
-            "flags": {
-                "input_digits_only": true
-            },
+			"flags": {
+				"input_digits_only": true
+			},
 			"length": [5,
 			5],
 			"required": true
@@ -80,7 +106,8 @@
 			},
 			"position": 0,
 			"type": "string",
-			"length": [1, 2],
+			"length": [1,
+			2],
 			"required": true
 		},
 		"patient_id": {
@@ -89,14 +116,14 @@
 					"en": "Pregnancy ID"
 				},
 				"short": {
-					"en": "Pregnancy ID"
+					"en": "ID"
 				}
 			},
 			"position": 1,
 			"type": "string",
-            "flags": {
-                "input_digits_only": true
-            },
+			"flags": {
+				"input_digits_only": true
+			},
 			"length": [5,
 			5],
 			"required": true
@@ -112,10 +139,136 @@
 			},
 			"position": 2,
 			"type": "string",
-			"length": [1, 20],
+			"length": [1,
+			20],
 			"required": false
 		}
 	},
 	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "F",
+		"label": {
+			"en": "Flag Pregnancy"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"description": {
+					"en": "Pregnancy ID"
+				},
+				"short": {
+					"en": "ID"
+				}
+			},
+			"position": 0,
+			"type": "string",
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"required": true
+		},
+		"notes": {
+			"labels": {
+				"description": {
+					"en": "Notes"
+				},
+				"short": {
+					"en": "Notes"
+				}
+			},
+			"position": 1,
+			"type": "string",
+			"length": [1,
+			100],
+			"required": false
+		}
+	},
+	"public_form": true,
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "STOP",
+		"label": {
+			"en": "Disable Notifications"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "ID"
+				},
+				"description": {
+					"en": "Patient ID"
+				},
+				"short": {
+					"en": "ID"
+				}
+			},
+			"position": 0,
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"type": "string"
+		},
+		"reason": {
+			"labels": {
+				"tiny": {
+					"en": "r",
+					"sw": "r"
+				},
+				"description": {
+					"en": "Reason"
+				},
+				"short": {
+					"en": "Reason"
+				}
+			},
+			"position": 1,
+			"length": [3,
+			100],
+			"type": "string"
+		}
+	},
+	"use_sentinel": true
+},
+{
+	"meta": {
+		"code": "START",
+		"label": {
+			"en": "Enable Notifications"
+		}
+	},
+	"fields": {
+		"patient_id": {
+			"labels": {
+				"tiny": {
+					"en": "ID"
+				},
+				"description": {
+					"en": "Patient ID"
+				},
+				"short": {
+					"en": "ID"
+				}
+			},
+			"position": 0,
+			"flags": {
+				"input_digits_only": true
+			},
+			"length": [5,
+			5],
+			"type": "string"
+		}
+	},
 	"use_sentinel": true
 }]
